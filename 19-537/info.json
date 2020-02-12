@@ -1,0 +1,24 @@
+{
+    "abstract": "Feature screening is a powerful tool in processing high-dimensional data. When the sample size N and the number of features p are both large, the implementation of classic screening methods can be numerically challenging. In this paper, we propose a distributed screening framework for big data setup. In the spirit of 'divide-and-conquer', the proposed framework expresses a correlation measure as a function of several component parameters, each of which can be distributively estimated using a natural U-statistic from data segments. With the component estimates aggregated, we obtain a final correlation estimate that can be readily used for screening features. This framework enables distributed storage and parallel computing and thus is computationally attractive. Due to the unbiased distributive estimation of the component parameters, the final aggregated estimate achieves a high accuracy that  is insensitive to the number of data segments m. Under mild conditions, we show that the aggregated correlation estimator is as efficient as the centralized estimator in terms of the probability convergence bound and the mean squared error rate; the corresponding screening procedure enjoys sure screening property for a wide range of correlation measures. The promising performances of the new method are supported by extensive numerical examples.",
+    "authors": [
+        "Xingxiang Li",
+        "Runze Li",
+        "Zhiming Xia",
+        "Chen Xu"
+    ],
+    "emails": [
+        "xli396@uottawa.ca",
+        "rzli@psu.edu",
+        "statxzm@nwu.edu.cn",
+        "cx3@uottawa.ca"
+    ],
+    "id": "19-537",
+    "issue": 24,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Distributed Feature Screening via Componentwise Debiasing",
+    "volume": 21,
+    "year": 2020
+}

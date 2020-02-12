@@ -1,0 +1,22 @@
+{
+    "abstract": "In statistical learning framework with regressions, interactions are the contributions to the response variable from the products of the explanatory variables. In high-dimensional problems, detecting interactions is challenging due to  combinatorial complexity and limited data information. We consider detecting interactions by exploring their connections with the principal Hessian matrix. Specifically, we propose a one-step synthetic approach for estimating the principal Hessian matrix by a penalized M-estimator. An alternating direction method of multipliers (ADMM) is proposed to efficiently solve the encountered regularized optimization problem. Based on the sparse estimator, we  detect the interactions by identifying its nonzero components. Our method directly targets at the interactions, and it requires no structural assumption on the hierarchy of the interactions effects.  We show that our estimator is theoretically valid, computationally efficient, and practically useful for detecting the interactions in a broad spectrum of scenarios.",
+    "authors": [
+        "Cheng Yong Tang",
+        "Ethan X. Fang",
+        "Yuexiao Dong"
+    ],
+    "emails": [
+        "yongtang@temple.edu",
+        "xxf13@psu.edu",
+        "ydong@temple.edu"
+    ],
+    "id": "19-071",
+    "issue": 19,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "High-Dimensional Interactions Detection with Sparse Principal Hessian Matrix",
+    "volume": 21,
+    "year": 2020
+}

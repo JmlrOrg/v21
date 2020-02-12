@@ -1,0 +1,22 @@
+{
+    "abstract": "Latent space models are effective tools for statistical modeling and visualization of network data. Due to their close connection to generalized linear models, it is also natural to incorporate covariate information in them. The current paper presents two universal fitting algorithms for networks with edge covariates: one based on nuclear norm penalization and the other based on projected gradient descent. Both algorithms are motivated by maximizing the likelihood function for an existing class of inner-product models, and we establish their statistical rates of convergence for these models. In addition, the theory informs us that both methods work simultaneously for a wide range of different latent space models that allow latent positions to affect edge formation in flexible ways, such as distance models. Furthermore, the effectiveness of the methods is demonstrated on a number of real world network data sets for different statistical tasks, including community detection with and without edge covariates, and network assisted learning.",
+    "authors": [
+        "Zhuang Ma",
+        "Zongming Ma",
+        "Hongsong Yuan"
+    ],
+    "emails": [
+        "kop.mazhuang@gmail.com",
+        "zongming@wharton.upenn.edu",
+        "yuan.hongsong@shufe.edu.cn"
+    ],
+    "id": "17-470",
+    "issue": 4,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Universal Latent Space Model Fitting for Large Networks with Edge Covariates",
+    "volume": 21,
+    "year": 2020
+}

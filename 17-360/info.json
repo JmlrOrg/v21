@@ -1,0 +1,20 @@
+{
+    "abstract": "Data-driven analysis has been increasingly used in various decision making processes. With more sources, including reviews, news, and pictures, can now be used for data analysis, the authenticity of data sources is in doubt. While previous literature attempted to detect fake data piece by piece, in the current work, we try to capture the fake data sender's strategic behavior to detect the fake data source. Specifically, we model the tension between a data receiver who makes data-driven decisions and a fake data sender who benefits from misleading the receiver. We propose a potentially infinite horizon continuous time game-theoretic model with asymmetric information to capture the fact that the receiver does not initially know the existence of fake data and learns about it during the course of the game. We use point processes to model the data traffic, where each piece of data can occur at any discrete moment in a continuous time flow. We fully solve the model and employ numerical examples to illustrate the players' strategies and payoffs for insights. Specifically, our results show that maintaining some suspicion about the data sources and understanding that the sender can be strategic are very helpful to the data receiver. In addition, based on our model, we propose a methodology of detecting fake data that is complementary to the previous studies on this topic, which suggested various approaches on analyzing the data piece by piece. We show that after analyzing each piece of data, understanding a source by looking at the its whole history of pushing data can be helpful.",
+    "authors": [
+        "Xiaofan Li",
+        "Andrew B. Whinston"
+    ],
+    "emails": [
+        "li.x@utexas.edu",
+        "abw@uts.cc.utexas.edu"
+    ],
+    "id": "17-360",
+    "issue": 3,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "A Model of Fake Data in Data-driven Analysis",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "We study derivative-free methods for policy optimization over the class of linear policies. We focus on characterizing the convergence rate of these methods when applied to linear-quadratic systems, and study various settings of driving noise and reward feedback.  Our main theoretical result provides an explicit bound on the sample or evaluation complexity: we show that these methods are guaranteed to converge to within any pre-specified tolerance of the optimal policy with a number of zero-order evaluations that is an explicit polynomial of the error tolerance, dimension, and curvature properties of the problem.  Our analysis reveals some interesting differences between the settings of additive driving noise and random initialization, as well as the settings of one-point and two-point reward feedback. Our theory is corroborated by simulations of derivative-free methods in application to these systems. Along the way, we derive convergence rates for stochastic zero-order optimization algorithms when applied to a certain class of non-convex problems.",
+    "authors": [
+        "Dhruv Malik",
+        "Ashwin Pananjady",
+        "Kush Bhatia",
+        "Koulik Khamaru",
+        "Peter L. Bartlett",
+        "Martin J. Wainwright"
+    ],
+    "emails": [
+        "dhruvm@andrew.cmu.edu",
+        "ashwinpm@berkeley.edu",
+        "kush@cs.berkeley.edu",
+        "koulik@berkeley.edu",
+        "bartlett@cs.berkeley.edu",
+        "wainwrig@berkeley.edu"
+    ],
+    "id": "19-198",
+    "issue": 21,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Derivative-Free Methods for Policy Optimization: Guarantees for Linear Quadratic Systems",
+    "volume": 21,
+    "year": 2020
+}

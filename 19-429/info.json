@@ -1,0 +1,48 @@
+{
+    "abstract": "We present GluonCV and GluonNLP, the deep learning toolkits for computer vision and natural language processing based on Apache MXNet (incubating). These toolkits provide state-of-the-art pre-trained models, training scripts, and training logs, to facilitate rapid prototyping and promote reproducible research. We also provide modular APIs with flexible building blocks to enable efficient customization. Leveraging the MXNet ecosystem, the deep learning models in GluonCV and GluonNLP can be deployed onto a variety of platforms with different programming languages. The Apache 2.0 license has been adopted by GluonCV and GluonNLP to allow for software distribution, modification, and usage.",
+    "authors": [
+        "Jian Guo",
+        "He He",
+        "Tong He",
+        "Leonard Lausen",
+        "Mu Li",
+        "Haibin Lin",
+        "Xingjian Shi",
+        "Chenguang Wang",
+        "Junyuan Xie",
+        "Sheng Zha",
+        "Aston Zhang",
+        "Hang Zhang",
+        "Zhi Zhang",
+        "Zhongyue Zhang",
+        "Shuai Zheng",
+        "Yi Zhu"
+    ],
+    "emails": [
+        "gjian@umich.edu",
+        "hehea@amazon.com",
+        "htong@amazon.com",
+        "lausen@amazon.com",
+        "mli@amazon.com",
+        "haibilin@amazon.com",
+        "xjshi@amazon.com",
+        "chgwang@amazon.com",
+        "eric.jy.xie@gmail.com",
+        "zhasheng@amazon.com",
+        "astonz@amazon.com",
+        "hzaws@amazon.com",
+        "zhiz@amazon.com",
+        "zhongyue@amazon.com",
+        "shzheng@amazon.com",
+        "yzaws@amazon.com"
+    ],
+    "id": "19-429",
+    "issue": 23,
+    "pages": [
+        1,
+        7
+    ],
+    "title": "GluonCV and GluonNLP: Deep Learning in Computer Vision and Natural Language Processing",
+    "volume": 21,
+    "year": 2020
+}

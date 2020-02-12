@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper considers online convex optimization over a complicated constraint set, which typically consists of multiple functional constraints and a set constraint.  The conventional online projection algorithm (Zinkevich, 2003) can be difficult to implement due to the potentially high computation complexity of the projection operation. In this paper, we relax the functional constraints by allowing them to be violated at each round but still requiring them to be satisfied in the long term. This type of relaxed online convex optimization (with long term constraints) was first considered in Mahdavi et al. (2012). That prior work proposes an algorithm to achieve $O(\\sqrt{T})$ regret and $O(T^{3/4})$ constraint violations for general problems and another algorithm to achieve an $O(T^{2/3})$ bound for both regret and constraint violations when the constraint set can be described by a finite number of linear constraints.  A recent extension in Jenatton et al. (2016) can achieve $O(T^{\\max\\{\\theta,1-\\theta\\}})$ regret and $O(T^{1-\\theta/2})$ constraint violations where $\\theta\\in (0,1)$. The current paper proposes a new simple algorithm that yields improved performance in comparison to prior works. The new algorithm achieves an $O(\\sqrt{T})$ regret bound with $O(1)$ constraint violations.",
+    "authors": [
+        "Hao Yu",
+        "Michael J. Neely"
+    ],
+    "emails": [
+        "eeyuhao@gmail.com",
+        "mjneely@usc.edu"
+    ],
+    "id": "16-494",
+    "issue": 1,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "A Low Complexity Algorithm with O(√T) Regret and O(1) Constraint Violations for Online Convex Optimization with Long Term Constraints",
+    "volume": 21,
+    "year": 2020
+}

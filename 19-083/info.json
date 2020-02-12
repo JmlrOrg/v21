@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the least-squares regression problem over a Hilbert space, covering nonparametric regression over a reproducing kernel Hilbert space as a special case.  We first investigate regularized algorithms adapted to a projection operator on a closed subspace of the Hilbert space. We prove convergence results with respect to variants of norms, under a capacity assumption on the hypothesis space and a regularity condition on the target function.  As a result, we obtain optimal rates for regularized algorithms with randomized sketches, provided that the sketch dimension is proportional to the effective dimension up to a logarithmic factor. As a byproduct, we obtain similar results for Nystr\\\"{o}m regularized algorithms.  Our results provide optimal, distribution-dependent rates that do not have any saturation effect for sketched/Nystr\\\"{o}m regularized algorithms, considering both the attainable and non-attainable cases, in the well-conditioned regimes. We then study stochastic gradient methods with projection over the subspace, allowing multi-pass over the data and minibatches, and we derive similar optimal statistical convergence results.",
+    "authors": [
+        "Junhong Lin",
+        "Volkan Cevher"
+    ],
+    "emails": [
+        "junhong@zju.edu.cn",
+        "volkan.cevher@epfl.ch"
+    ],
+    "id": "19-083",
+    "issue": 20,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Convergences of Regularized Algorithms and Stochastic Gradient Methods with Random Projections",
+    "volume": 21,
+    "year": 2020
+}

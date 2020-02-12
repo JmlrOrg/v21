@@ -1,0 +1,18 @@
+{
+    "abstract": "We study the connections between spectral clustering and the problems of maximum margin clustering, and estimation of the components of level sets of a density function. Specifically, we obtain bounds on the eigenvectors of graph Laplacian matrices in terms of the between cluster separation, and within cluster connectivity. These bounds ensure that the spectral clustering solution converges to the maximum margin clustering solution as the scaling parameter is reduced towards zero. The sensitivity of maximum margin clustering solutions to outlying points is well known, but can be mitigated by first removing such outliers, and applying maximum margin clustering to the remaining points. If outliers are identified using an estimate of the underlying probability density, then the remaining points may be seen as an estimate of a level set of this density function. We show that such an approach can be used to consistently estimate the components of the level sets of a density function under very mild assumptions.",
+    "authors": [
+        "David P. Hofmeyr"
+    ],
+    "emails": [
+        "dhofmeyr@sun.ac.za"
+    ],
+    "id": "18-850",
+    "issue": 18,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Connecting Spectral Clustering to Maximum Margins and Level Sets",
+    "volume": 21,
+    "year": 2020
+}

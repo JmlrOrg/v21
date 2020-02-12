@@ -1,0 +1,30 @@
+{
+    "abstract": "Graph learning from data is a canonical problem that has received substantial attention in the literature. Learning a structured graph is essential for interpretability and identification of the relationships among data. In general, learning a graph with a specific structure is an NP-hard combinatorial problem and thus designing a general tractable algorithm is challenging. Some useful structured graphs include connected, sparse, multi-component, bipartite, and regular graphs. In this paper, we introduce a unified framework for structured graph learning that combines Gaussian graphical model and spectral graph theory. We propose to convert combinatorial structural constraints into spectral constraints on graph matrices and develop an optimization framework based on block majorization-minimization to solve structured graph learning problem. The proposed algorithms are provably convergent and practically amenable for a number of graph based applications such as data clustering. Extensive numerical experiments with both synthetic and real data sets illustrate the effectiveness of the proposed algorithms. An open source R package containing the code for all the experiments is available at https://CRAN.R-project.org/package=spectralGraphTopology.",
+    "authors": [
+        "Sandeep Kumar",
+        "Jiaxi Ying",
+        "José Vinícius de M. Cardoso",
+        "Daniel P. Palomar"
+    ],
+    "emails": [
+        "eesandeep@ust.hk",
+        "jx.ying@connect.ust.hk",
+        "jvdmc@connect.ust.hk",
+        "palomar@ust.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://CRAN.R-project.org/package=spectralGraphTopology"
+        ]
+    ],
+    "id": "19-276",
+    "issue": 22,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "A Unified Framework for Structured Graph Learning via Spectral Constraints",
+    "volume": 21,
+    "year": 2020
+}

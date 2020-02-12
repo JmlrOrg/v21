@@ -1,0 +1,30 @@
+{
+    "abstract": "DESlib is an open-source python library providing the implementation of several dynamic selection techniques. The library is divided into three modules: (i) dcs, containing the implementation of dynamic classifier selection methods (DCS); (ii) des, containing the implementation of dynamic ensemble selection methods (DES); (iii) static, with the implementation of static ensemble techniques. The library is fully documented (documentation available online on Read the Docs), has a high test coverage (codecov.io) and is part of the scikit-learn-contrib supported projects. Documentation, code and examples can be found on its GitHub page: https://github.com/scikit-learn-contrib/DESlib.",
+    "authors": [
+        "Rafael M. O. Cruz",
+        "Luiz G. Hafemann",
+        "Robert Sabourin",
+        "George D. C. Cavalcanti"
+    ],
+    "emails": [
+        "rafaelmenelau@gmail.com",
+        "luiz.gh@gmail.com",
+        "robert.sabourin@etsmtl.ca",
+        "gdcc@cin.ufpe.br"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/scikit-learn-contrib/DESlib"
+        ]
+    ],
+    "id": "18-144",
+    "issue": 8,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "DESlib: A Dynamic ensemble selection library in Python",
+    "volume": 21,
+    "year": 2020
+}

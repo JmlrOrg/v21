@@ -1,0 +1,26 @@
+{
+    "abstract": "Recurrent Neural Networks have been widely used to process sequence data, but have long been criticized for their biological implausibility and training difficulties related to vanishing and exploding gradients. This paper presents a novel algorithm for training recurrent networks, target propagation through time (TPTT), that outperforms standard backpropagation through time (BPTT) on four out of the five problems used for testing. The proposed algorithm is initially tested and compared to BPTT on four synthetic time lag tasks, and its performance is also measured using the sequential MNIST data set. In addition, as TPTT uses target propagation, it allows for discrete nonlinearities and could potentially mitigate the credit assignment problem in more complex recurrent architectures.",
+    "authors": [
+        "Nikolay Manchev",
+        "Michael Spratling"
+    ],
+    "emails": [
+        "nikolay.manchev@kcl.ac.uk",
+        "michael.spratling@kcl.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nmanchev/tptt"
+        ]
+    ],
+    "id": "18-141",
+    "issue": 7,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Target Propagation in Recurrent Neural Networks",
+    "volume": 21,
+    "year": 2020
+}

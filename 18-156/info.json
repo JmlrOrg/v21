@@ -1,0 +1,22 @@
+{
+    "abstract": "Mahalanobis distance is a classical tool in multivariate analysis. We suggest here an extension of this concept to the case of functional data. More precisely, the proposed definition concerns those statistical problems where the sample data are real functions defined on a compact interval of the real line. The obvious difficulty for such a functional extension is the non-invertibility of the covariance operator in infinite-dimensional cases. Unlike other recent proposals, our definition is suggested and motivated in terms of the Reproducing Kernel Hilbert Space (RKHS) associated with the stochastic process that generates the data. The proposed distance is a true metric; it depends on a unique real smoothing parameter which is fully motivated in RKHS terms. Moreover, it shares some properties of its finite dimensional counterpart: it is invariant under isometries, it can be consistently estimated from the data and its sampling distribution is known under Gaussian models. An empirical study for two statistical applications, outliers detection and binary classification, is included. The results are quite competitive when compared to other recent proposals in the literature.",
+    "authors": [
+        "Jos\u00e9 R. Berrendero",
+        "Beatriz Bueno-Larraz",
+        "Antonio Cuevas"
+    ],
+    "emails": [
+        "joser.berrendero@uam.es",
+        "beatriz.bueno@uam.es",
+        "antonio.cuevas@uam.es"
+    ],
+    "id": "18-156",
+    "issue": 9,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "On Mahalanobis Distance in Functional Settings",
+    "volume": 21,
+    "year": 2020
+}

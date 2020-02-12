@@ -1,0 +1,36 @@
+{
+    "abstract": "A common divide-and-conquer approach for Bayesian computation with big data is to partition the data, perform local inference for each piece separately, and combine the results to obtain a global posterior approximation. While being conceptually and computationally appealing, this method involves the problematic need to also split the prior for the local inferences; these weakened priors may not provide enough regularization for each separate computation, thus eliminating one of the key advantages of Bayesian methods. To resolve this dilemma while still retaining the generalizability of the underlying local inference method, we apply the idea of expectation propagation (EP) as a framework for distributed Bayesian inference. The central idea is to iteratively update approximations to the local likelihoods given the state of the other approximations and the prior. The present paper has two roles: we review the steps that are needed to keep EP algorithms numerically stable, and we suggest a general approach, inspired by EP, for approaching data partitioning problems in a way that achieves the computational benefits of parallelism while allowing each local update to make use of relevant information from the other sites. In addition, we demonstrate how the method can be applied in a hierarchical context to make use of partitioning of both data and parameters. The paper describes a general algorithmic framework, rather than a specific algorithm, and presents an example implementation for it.",
+    "authors": [
+        "Aki Vehtari",
+        "Andrew Gelman",
+        "Tuomas Sivula",
+        "Pasi Jyl\u00e4nki",
+        "Dustin Tran",
+        "Swupnil Sahai",
+        "Paul Blomstedt",
+        "John P. Cunningham",
+        "David Schiminovich",
+        "Christian P. Robert"
+    ],
+    "emails": [
+        "aki.vehtari@aalto.fi",
+        "gelman@stat.columbia.edu",
+        "tuomas.sivula@aalto.fi",
+        "pasi.jylanki@gmail.com",
+        "dustinviettran@gmail.com",
+        "swupnil@stat.columbia.edu",
+        "paul.blomstedt@aalto.fi",
+        "jpc2181@columbia.edu",
+        "ds@astro.columbia.edu",
+        "xian@ceremade.dauphine.fr"
+    ],
+    "id": "18-817",
+    "issue": 17,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Expectation Propagation as a Way of Life: A Framework for Bayesian Inference on Partitioned Data",
+    "volume": 21,
+    "year": 2020
+}

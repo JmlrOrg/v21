@@ -1,0 +1,22 @@
+{
+    "abstract": "Sliced inverse regression is an effective paradigm that achieves the goal of dimension reduction through replacing  high dimensional covariates with a small number of linear combinations. It does not impose  parametric assumptions on the dependence structure. More importantly, such a reduction of dimension  is sufficient in that it  does  not cause  loss of  information. In this paper, we adapt the stationary sliced inverse regression to cope with the rapidly  changing environments. We propose to implement sliced inverse regression in an online fashion. This online  learner consists of two steps. In the first step we construct an online estimate for the  kernel matrix; in the second step we propose two online algorithms, one is motivated by the perturbation method and the other is originated from the gradient descent optimization, to perform   online singular value decomposition. The  theoretical properties of this   online learner are established. We demonstrate the numerical performance of  this  online learner  through simulations and  real world applications. All numerical studies confirm that this  online learner  performs as well as the batch learner.",
+    "authors": [
+        "Zhanrui Cai",
+        "Runze Li",
+        "Liping Zhu"
+    ],
+    "emails": [
+        "zxc55@psu.edu",
+        "rzli@psu.edu",
+        "zhu.liping@ruc.edu.cn"
+    ],
+    "id": "18-567",
+    "issue": 10,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Online Sufficient Dimension Reduction Through Sliced Inverse Regression",
+    "volume": 21,
+    "year": 2020
+}

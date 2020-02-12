@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the misclassification error for community detection in general heterogeneous stochastic block models (SBM) with noisy or partial label information. We establish a connection between the misclassification rate and the notion of minimum energy on the local neighborhood of the SBM. We develop an optimally weighted message passing algorithm to reconstruct labels for SBM based on the minimum energy flow and the eigenvectors of a certain Markov transition matrix. The general SBM considered in this paper allows for unequal-size communities, degree heterogeneity, and different connection probabilities among blocks. We focus on how to optimally weigh the message passing to improve misclassification.",
+    "authors": [
+        "T. Tony Cai",
+        "Tengyuan Liang",
+        "Alexander Rakhlin"
+    ],
+    "emails": [
+        "tcai@wharton.upenn.edu",
+        "tengyuan.liang@chicagobooth.edu",
+        "rakhlin@mit.edu"
+    ],
+    "id": "18-573",
+    "issue": 11,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Weighted Message Passing and Minimum Energy Flow for Heterogeneous Stochastic Block Models with Side Information",
+    "volume": 21,
+    "year": 2020
+}

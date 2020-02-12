@@ -1,0 +1,22 @@
+{
+    "abstract": "One of the common tasks in unsupervised learning is dimensionality reduction, where the goal is to find meaningful low-dimensional structures hidden in high-dimensional data.  Sometimes referred to as manifold learning, this problem is closely related to the problem of localization, which aims at embedding a weighted graph into a low-dimensional Euclidean space.  Several methods have been proposed for localization, and also manifold learning. Nonetheless, the robustness property of most of them is little understood. In this paper, we obtain perturbation bounds for classical scaling and trilateration, which are then applied to derive performance bounds for Isomap, Landmark Isomap, and Maximum Variance Unfolding.  A new perturbation bound for procrustes analysis plays a key role.",
+    "authors": [
+        "Ery Arias-Castro",
+        "Adel Javanmard",
+        "Bruno Pelletier"
+    ],
+    "emails": [
+        "eariasca@ucsd.edu",
+        "ajavanma@usc.edu",
+        "bruno.pelletier@math.cnrs.fr"
+    ],
+    "id": "18-720",
+    "issue": 15,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Perturbation Bounds for Procrustes, Classical Scaling, and Trilateration, with Applications to Manifold Learning",
+    "volume": 21,
+    "year": 2020
+}
