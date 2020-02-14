@@ -2,13 +2,13 @@
     "abstract": "In this paper, we extend the  methodology developed for Support Vector Machines (SVM) using the $\\ell_2$-norm  ($\\ell_2$-SVM)  to the more general case of  $\\ell_p$-norms with $p>1$ ($\\ell_p$-SVM).  We derive second order cone formulations for the resulting dual and primal problems.  The concept of kernel function, widely applied in $\\ell_2$-SVM,  is extended to the more general case of $\\ell_p$-norms with $p>1$ by defining a new operator called multidimensional kernel. This object gives rise to reformulations of dual problems, in a transformed space of the original data, where the dependence on the original data always appear as homogeneous polynomials. We adapt known solution algorithms to efficiently solve the primal and dual resulting problems and some computational experiments on real-world datasets are presented showing rather good behavior in terms of the accuracy of $\\ell_p$-SVM with $p>1$.",
     "authors": [
         "Victor Blanco",
-        "Antonio M. Rodriguez-Chia",
-        "Justo Puerto"
+        "Justo Puerto",
+        "Antonio M. Rodriguez-Chia"
     ],
     "emails": [
         "vblanco@ugr.es",
-        "antonio.rodriguezchia@uca.es",
-        "puerto@us.es"
+        "puerto@us.es",
+        "antonio.rodriguezchia@uca.es"
     ],
     "id": "18-601",
     "issue": 14,

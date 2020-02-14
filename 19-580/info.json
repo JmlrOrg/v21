@@ -1,10 +1,10 @@
 {
     "abstract": "We study the identity testing problem in the context of spin systems or undirected graphical models, where it takes the following form: given the parameter specification of the model $M$ and a sampling oracle for the distribution $\\mu_{M^*}$ of an unknown model $M^*$, can we efficiently determine if the two models $M$ and $M^*$ are the same? We consider identity testing for both soft-constraint and hard-constraint systems. In particular, we prove hardness results in two prototypical cases, the Ising model and proper colorings, and explore whether identity testing is any easier than structure learning. For the ferromagnetic (attractive) Ising model, Daskalakis et al. (2018) presented a polynomial-time algorithm for identity testing. We prove hardness results in the antiferromagnetic (repulsive) setting in the same regime of parameters where structure learning is known to require a super-polynomial number of samples. Specifically, for $n$-vertex graphs of maximum degree $d$, we prove that if $|\\beta| d = \\omega(\\log{n})$ (where $\\beta$ is the inverse temperature parameter), then there is no polynomial running time identity testing algorithm unless $RP=NP$. In the hard-constraint setting, we present hardness results for identity testing for proper colorings. Our results are based on the presumed hardness of #BIS, the problem of (approximately) counting independent sets in bipartite graphs.",
     "authors": [
-        "Ivona Bez\u00e1kov\u00e1",
+        "Ivona Bez{{\\'a}}kov{{\\'a}}",
         "Antonio Blanca",
         "Zongchen Chen",
-        "Daniel \u0160tefankovi\u010d",
+        "Daniel {\\v{S}}tefankovi{\\v{c}}",
         "Eric Vigoda"
     ],
     "emails": [
