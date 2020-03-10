@@ -1,0 +1,26 @@
+{
+    "abstract": "We present a probabilistic framework for studying adversarial attacks on discrete data. Based on this framework, we derive a perturbation-based method, Greedy Attack, and a scalable learning-based method, Gumbel Attack, that illustrate various tradeoffs in the design of attacks. We demonstrate the effectiveness of these methods using both quantitative metrics and human evaluation on various state-of-the-art models for text classification, including a word-based CNN, a character-based CNN and an LSTM. As an example of our results, we show that the accuracy of character-based convolutional networks drops to the level of random selection by modifying only five characters through Greedy Attack.",
+    "authors": [
+        "Puyudi Yang",
+        "Jianbo Chen",
+        "Cho-Jui Hsieh",
+        "Jane-Ling Wang",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "pydyang@ucdavis.edu",
+        "jianbochen@berkeley.edu",
+        "chohsieh@cs.ucla.edu",
+        "janelwang@ucdavis.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "19-569",
+    "issue": 43,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Greedy Attack and Gumbel Attack: Generating Adversarial Examples for Discrete Data",
+    "volume": 21,
+    "year": 2020
+}

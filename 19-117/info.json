@@ -1,0 +1,30 @@
+{
+    "abstract": "Great attention has been paid to Big Data in recent years. Such data hold promise for scientific discoveries but also pose challenges to analyses. One potential challenge is noise accumulation. In this paper, we explore noise accumulation in high dimensional two-group classification. First, we revisit a previous assessment of noise accumulation with principal component analyses, which yields a different threshold for discriminative ability than originally identified. Then we extend our scope to its impact on classifiers developed with three common machine learning approaches---random forest, support vector machine, and boosted classification trees. We simulate four scenarios with differing amounts of signal strength to evaluate each method. After determining noise accumulation may affect the performance of these classifiers, we assess factors that impact it. We conduct simulations by varying sample size, signal strength, signal strength proportional to the number predictors, and signal magnitude with random forest classifiers. These simulations suggest that noise accumulation affects the discriminative ability of high-dimensional classifiers developed using common machine learning methods, which can be modified by sample size, signal strength, and signal magnitude. We developed the measure total signal index (TSI) to track the trends of total signal and noise accumulation.",
+    "authors": [
+        "Miriam R. Elman",
+        "Jessica Minnier",
+        "Xiaohui Chang",
+        "Dongseok Choi"
+    ],
+    "emails": [
+        "elmanm@ohsu.edu",
+        "minnier@ohsu.edu",
+        "xiaohui.chang@oregonstate.edu",
+        "choid@ohsu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sink-or-swim/NoiseAccumulation"
+        ]
+    ],
+    "id": "19-117",
+    "issue": 36,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Noise Accumulation in High Dimensional Classification and Total Signal Index",
+    "volume": 21,
+    "year": 2020
+}

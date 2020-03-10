@@ -1,0 +1,32 @@
+{
+    "abstract": "Tensor Train decomposition is used across many branches of machine learning. We present T3F\u2014a library for Tensor Train decomposition based on TensorFlow. T3F supports GPU execution, batch processing, automatic differentiation, and versatile functionality for the Riemannian optimization framework, which takes into account the underlying manifold structure to construct efficient optimization methods. The library makes it easier to implement machine learning papers that rely on the Tensor Train decomposition. T3F includes documentation, examples and 94% test coverage.",
+    "authors": [
+        "Alexander Novikov",
+        "Pavel Izmailov",
+        "Valentin Khrulkov",
+        "Michael Figurnov",
+        "Ivan Oseledets"
+    ],
+    "emails": [
+        "sasha.v.novikov@gmail.com",
+        "pi49@cornell.edu",
+        "valentin.khrulkov@skolkovotech.ru",
+        "michael@figurnov.ru",
+        "i.oseledets@skoltech.ru"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Bihaqo/t3f"
+        ]
+    ],
+    "id": "18-008",
+    "issue": 30,
+    "pages": [
+        1,
+        7
+    ],
+    "title": "Tensor Train Decomposition on TensorFlow (T3F)",
+    "volume": 21,
+    "year": 2020
+}

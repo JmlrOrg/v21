@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper develops deterministic upper and lower bounds on the influence measure in a network, more precisely, the expected number of nodes that a seed set can influence in the independent cascade model. In particular, our bounds exploit r-nonbacktracking walks and Fortuin-Kasteleyn-Ginibre (FKG) type inequalities, and are computed by message passing algorithms. Further, we provide parameterized versions of the bounds that control the trade-off between efficiency and accuracy. Finally, the tightness of the bounds is illustrated on various network models.",
+    "authors": [
+        "Emmanuel Abbe",
+        "Sanjeev Kulkarni",
+        "Eun Jee Lee"
+    ],
+    "emails": [
+        "eabbe@princeton.edu",
+        "kulkarni@princeton.edu",
+        "ejlee.mail@gmail.com"
+    ],
+    "id": "18-112",
+    "issue": 31,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Generalized Nonbacktracking Bounds on the Influence",
+    "volume": 21,
+    "year": 2020
+}

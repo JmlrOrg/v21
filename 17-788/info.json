@@ -1,0 +1,22 @@
+{
+    "abstract": "Sufficient dimension reduction (SDR) is a very useful concept for exploratory analysis and data visualization in regression, especially when the number of covariates is large. Many SDR methods have been proposed for regression with a continuous response, where the central subspace (CS) is the target of estimation. Various conditions, such as the linearity condition and the constant covariance condition, are imposed so that these methods can estimate at least a portion of the CS. In this paper we study SDR for regression and discriminant analysis with categorical response. Motivated by the exploratory analysis and data visualization aspects of SDR,  we propose a new geometric framework to reformulate the SDR problem in terms of manifold optimization and introduce a new concept called Maximum Separation Subspace (MASES). The MASES naturally preserves the ``sufficiency'' in SDR without imposing additional conditions on the predictor distribution, and directly inspires a semi-parametric estimator. Numerical studies show MASES exhibits superior performance as compared with competing SDR methods in specific settings.",
+    "authors": [
+        "Xin Zhang",
+        "Qing Mai",
+        "Hui Zou"
+    ],
+    "emails": [
+        "henry@stat.fsu.edu",
+        "mai@stat.fsu.edu",
+        "zouxx019@umn.edu"
+    ],
+    "id": "17-788",
+    "issue": 29,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "The Maximum Separation Subspace in Sufficient Dimension Reduction with Categorical Response",
+    "volume": 21,
+    "year": 2020
+}

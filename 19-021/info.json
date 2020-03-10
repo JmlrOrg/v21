@@ -1,0 +1,28 @@
+{
+    "abstract": "Over the past decades, numerous loss functions have been been proposed for a variety of supervised learning tasks, including regression, classification, ranking, and more generally structured prediction. Understanding the core principles and theoretical properties underpinning these losses is key to choose the right loss for the right problem, as well as to create new losses which combine their strengths. In this paper, we introduce Fenchel-Young losses, a generic way to construct a convex loss function for a regularized prediction function. We provide an in-depth study of their properties in a very broad setting, covering all the aforementioned supervised learning tasks, and revealing new connections between sparsity, generalized entropies, and separation margins. We show that Fenchel-Young losses unify many well-known loss functions and allow to create useful new ones easily. Finally, we derive efficient predictive and training algorithms, making Fenchel-Young losses appealing both in theory and practice.",
+    "authors": [
+        "Mathieu Blondel",
+        "Andr\u00e9 F.T. Martins",
+        "Vlad Niculae"
+    ],
+    "emails": [
+        "mathieu@mblondel.org",
+        "andre.t.martins@gmail.com",
+        "vlad@vene.ro"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mblondel/fenchel-young-losses"
+        ]
+    ],
+    "id": "19-021",
+    "issue": 35,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Learning with Fenchel-Young losses",
+    "volume": 21,
+    "year": 2020
+}

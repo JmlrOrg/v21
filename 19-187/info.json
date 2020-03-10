@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper presents a new open source Python framework for causal discovery from observational data and domain background knowledge, aimed at causal graph and causal mechanism modeling. The cdt package implements an end-to-end approach, recovering the direct dependencies (the skeleton of the causal graph) and the causal relationships between variables. It includes algorithms from the `Bnlearn' and `Pcalg' packages, together with algorithms for pairwise causal discovery such as ANM.",
+    "authors": [
+        "Diviyan Kalainathan",
+        "Olivier Goudet",
+        "Ritik Dutta"
+    ],
+    "emails": [
+        "diviyan@fentech.ai",
+        "olivier.goudet@univ-angers.fr",
+        "dutta.ritik@iitgn.ac.in"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/FenTechSolutions/CausalDiscoveryToolbox"
+        ]
+    ],
+    "id": "19-187",
+    "issue": 37,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "Causal Discovery Toolbox: Uncovering causal relationships in Python",
+    "volume": 21,
+    "year": 2020
+}

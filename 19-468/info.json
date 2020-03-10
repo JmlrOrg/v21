@@ -1,0 +1,28 @@
+{
+    "abstract": "The success of Deep Learning and its potential use in many safety-critical applicationshas motivated research on formal verification of Neural Network (NN) models. In thiscontext, verification involves proving or disproving that an NN model satisfies certaininput-output properties. Despite the reputation of learned NN models as black boxes,and the theoretical hardness of proving useful properties about them, researchers havebeen successful in verifying some classes of models by exploiting their piecewise linearstructure and taking insights from formal methods such as Satisifiability Modulo Theory.However, these methods are still far from scaling to realistic neural networks. To facilitateprogress on this crucial area, we exploit the Mixed Integer Linear Programming (MIP) formulation of verification to propose a family of algorithms based on Branch-and-Bound (BaB). We show that our family contains previous verification methods as special cases.With the help of the BaB framework, we make three key contributions. Firstly, we identifynew methods that combine the strengths of multiple existing approaches, accomplishingsignificant performance improvements over previous state of the art. Secondly, we introducean effective branching strategy on ReLU non-linearities. This branching strategy allows usto efficiently and successfully deal with high input dimensional problems with convolutionalnetwork architecture, on which previous methods fail frequently.  Finally, we proposecomprehensive test data sets and benchmarks which includes a collection of previouslyreleased testcases. We use the data sets to conduct a thorough experimental comparison ofexisting and new algorithms and to provide an inclusive analysis of the factors impactingthe hardness of verification problems.",
+    "authors": [
+        "Rudy Bunel",
+        "Jingyue Lu",
+        "Ilker Turkaslan",
+        "Philip H.S. Torr",
+        "Pushmeet Kohli",
+        "M. Pawan Kumar"
+    ],
+    "emails": [
+        "rudy@robots.ox.ac.uk",
+        "jingyue.lu@spc.ox.ac.uk",
+        "ilker.turkaslan@lmh.ox.ac.uk",
+        "philip.torr@eng.ox.ac.uk",
+        "pushmeet@google.com",
+        "pawan@robots.ox.ac.uk"
+    ],
+    "id": "19-468",
+    "issue": 42,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Branch and Bound for Piecewise Linear Neural Network Verification",
+    "volume": 21,
+    "year": 2020
+}

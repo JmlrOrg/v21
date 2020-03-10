@@ -1,0 +1,20 @@
+{
+    "abstract": "The accuracy and complexity of kernel learning algorithms is determined by the set of kernels over which it is able to optimize. An ideal set of kernels should: admit a linear parameterization (tractability); be dense in the set of all kernels (accuracy); and every member should be universal so that the hypothesis space is infinite-dimensional (scalability). Currently, there is no class of kernel that meets all three criteria - e.g. Gaussians are not tractable or accurate; polynomials are not scalable. We propose a new class that meet all three criteria - the Tessellated Kernel (TK) class. Specifically, the TK class: admits a linear parameterization using positive matrices; is dense in all kernels; and every element in the class is universal. This implies that the use of TK kernels for learning the kernel can obviate the need for selecting candidate kernels in algorithms such as SimpleMKL and parameters such as the bandwidth.  Numerical testing on soft margin Support Vector Machine (SVM) problems show that algorithms using TK kernels outperform other kernel learning algorithms and neural networks. Furthermore, our results show that when the ratio of the number of training data to features is high, the improvement of TK over MKL increases significantly.",
+    "authors": [
+        "Brendon K. Colbert",
+        "Matthew M. Peet"
+    ],
+    "emails": [
+        "brendon.colbert@asu.edu",
+        "mpeet@asu.edu"
+    ],
+    "id": "19-594",
+    "issue": 45,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "A Convex Parametrization of a New Class of Universal Kernel Functions",
+    "volume": 21,
+    "year": 2020
+}

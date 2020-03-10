@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper considers a Bayesian approach to graph-based semi-supervised learning. We show that if the graph parameters are suitably scaled, the graph-posteriors converge to a continuum limit as the size of the unlabeled data set grows. This consistency result has profound algorithmic implications: we prove that when consistency holds, carefully designed Markov chain Monte Carlo algorithms have a uniform spectral gap, independent of the number of unlabeled inputs. Numerical experiments illustrate and complement the theory.",
+    "authors": [
+        "Nicolas Garcia Trillos",
+        "Zachary Kaplan",
+        "Thabo Samakhoana",
+        "Daniel Sanz-Alonso"
+    ],
+    "emails": [
+        "garciatrillo@wisc.edu",
+        "zachary.abraham.kaplan@gmail.com",
+        "thabo_samakhoana@alumni.brown.edu",
+        "sanzalonso@uchicago.edu"
+    ],
+    "id": "17-698",
+    "issue": 28,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "On the consistency of graph-based Bayesian semi-supervised learning and the scalability of sampling algorithms",
+    "volume": 21,
+    "year": 2020
+}

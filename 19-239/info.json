@@ -1,0 +1,24 @@
+{
+    "abstract": "High dimensional data often contain multiple facets, and several clustering patterns can co-exist under different variable subspaces, also known as the views. While multi-view clustering algorithms were proposed, the uncertainty quantification remains difficult --- a particular challenge is in the high complexity of estimating the cluster assignment probability under each view, and sharing information among views. In this article, we propose an approximate Bayes approach --- treating the similarity matrices generated over the views as rough first-stage estimates for the co-assignment probabilities; in its Kullback-Leibler neighborhood, we obtain a refined low-rank matrix, formed by the pairwise product of simplex coordinates. Interestingly, each simplex coordinate directly encodes the cluster assignment uncertainty. For multi-view clustering, we let each view draw a  parameterization from a few candidates, leading to dimension reduction. With high model flexibility, the estimation can be efficiently carried out as a continuous optimization problem, hence enjoys gradient-based computation. The theory establishes the connection of this model to a random partition distribution under multiple views. Compared to single-view clustering approaches, substantially more interpretable results are obtained when clustering brains from a human traumatic brain injury study, using high-dimensional gene expression data.",
+    "authors": [
+        "Leo L. Duan"
+    ],
+    "emails": [
+        "li.duan@ufl.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/leoduan/LatentSimplexPosition"
+        ]
+    ],
+    "id": "19-239",
+    "issue": 38,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Latent Simplex Position Model: High Dimensional Multi-view Clustering with Uncertainty Quantification",
+    "volume": 21,
+    "year": 2020
+}

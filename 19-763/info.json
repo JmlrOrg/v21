@@ -1,0 +1,26 @@
+{
+    "abstract": "pyts is an open-source Python package for time series classification. This versatile toolbox provides implementations of many algorithms published in the literature, preprocessing functionalities, and data set loading utilities. pyts relies on the standard scientific Python packages numpy, scipy, scikit-learn, joblib, and numba, and is distributed under the BSD-3-Clause license. Documentation contains installation instructions, a detailed user guide, a full API description, and concrete self-contained examples.",
+    "authors": [
+        "Johann Faouzi",
+        "Hicham Janati"
+    ],
+    "emails": [
+        "johann.faouzi@icm-institute.org",
+        "hicham.janati@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/johannfaouzi/pyts"
+        ]
+    ],
+    "id": "19-763",
+    "issue": 46,
+    "pages": [
+        1,
+        6
+    ],
+    "title": "pyts: A Python Package for Time Series Classification",
+    "volume": 21,
+    "year": 2020
+}

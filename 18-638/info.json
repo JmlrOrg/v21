@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose graph-dependent implicit regularisation strategies for synchronised distributed stochastic subgradient descent (Distributed SGD) for convex problems in multi-agent learning. Under the standard assumptions of convexity, Lipschitz continuity, and smoothness, we establish statistical learning rates that retain, up to logarithmic terms, single-machine serial statistical guarantees through implicit regularisation (step size tuning and early stopping) with appropriate dependence on the graph topology. Our approach avoids the need for explicit regularisation in  decentralised learning problems, such as adding constraints to the empirical risk minimisation rule. Particularly for distributed methods, the use of implicit regularisation allows the algorithm to remain simple, without projections or dual methods. To prove our results, we establish graph-independent generalisation bounds for Distributed SGD that match the single-machine serial SGD setting (using algorithmic stability), and we establish graph-dependent optimisation bounds that are of independent interest. We present numerical experiments to show that the qualitative nature of the upper bounds we derive can be representative of real behaviours.",
+    "authors": [
+        "Dominic Richards",
+        "Patrick Rebeschini"
+    ],
+    "emails": [
+        "dominic.richards@spc.ox.ac.uk",
+        "patrick.rebeschini@stats.ox.ac.uk"
+    ],
+    "id": "18-638",
+    "issue": 34,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Graph-Dependent Implicit Regularisation for Distributed Stochastic Subgradient Descent",
+    "volume": 21,
+    "year": 2020
+}

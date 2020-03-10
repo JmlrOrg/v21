@@ -1,0 +1,22 @@
+{
+    "abstract": "In many applications, observed data are influenced by some combination of latent causes. For example, suppose sensors are placed inside a building to record responses such as temperature, humidity, power consumption and noise levels. These random, observed responses are typically affected by many unobserved, latent factors (or features) within the building such as the number of individuals, the turning on and off of electrical devices, power surges, etc. These latent factors are usually present for a contiguous period of time before disappearing; further, multiple factors could be present at a time. \r\n\r\nThis paper develops new probabilistic methodology and inference methods for random object generation influenced by latent features exhibiting temporal persistence. Every datum is associated with subsets of a potentially infinite number of hidden, persistent features that account for temporal dynamics in an observation. The ensuing class of dynamic models constructed by adapting the Indian Buffet Process \u2014 a probability measure on the space of random, unbounded binary matrices \u2014 finds use in a variety of applications arising in operations, signal processing, biomedicine, marketing, image analysis, etc. Illustrations using synthetic and real data are provided.",
+    "authors": [
+        "Sinead A. Williamson",
+        "Michael Minyi Zhang",
+        "Paul Damien"
+    ],
+    "emails": [
+        "sinead.williamson@mccombs.utexas.edu",
+        "mz8@princeton.edu",
+        "paul.damien@mccombs.utexas.edu"
+    ],
+    "id": "16-639",
+    "issue": 27,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "A New Class of Time Dependent Latent Factor Models with Applications",
+    "volume": 21,
+    "year": 2020
+}

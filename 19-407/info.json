@@ -1,0 +1,26 @@
+{
+    "abstract": "Given a response $Y$ and a vector $X = (X^1, \\dots, X^d)$ of $d$ predictors, we investigate the problem of inferring direct causes of $Y$ among the vector $X$. Models for $Y$ that use all of its causal covariates as predictors enjoy the property of being invariant across different environments or interventional settings. Given data from such environments, this property has been exploited for causal discovery. Here, we extend this inference principle to situations in which some (discrete-valued) direct causes of $ Y $ are unobserved. Such cases naturally give rise to switching regression models. We provide sufficient conditions for the existence, consistency and asymptotic normality of the MLE in linear switching regression models with Gaussian noise, and construct a test for the equality of such models. These results allow us to prove that the proposed causal discovery method obtains asymptotic false discovery control under mild conditions. We provide an algorithm, make available code, and test our method on simulated data. It is robust against model violations and outperforms state-of-the-art approaches. We further apply our method to a real data set, where we show that it does not only output causal predictors, but also a process-based clustering of data points, which could be of additional interest to practitioners.",
+    "authors": [
+        "Rune Christiansen",
+        "Jonas Peters"
+    ],
+    "emails": [
+        "krunechristiansen@math.ku.dk",
+        "jonas.peters@math.ku.dk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/runesen/icph"
+        ]
+    ],
+    "id": "19-407",
+    "issue": 41,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Switching Regression Models and Causal Inference in the Presence of Discrete Latent Variables",
+    "volume": 21,
+    "year": 2020
+}
