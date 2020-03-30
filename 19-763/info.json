@@ -22,5 +22,6 @@
     ],
     "title": "pyts: A Python Package for Time Series Classification",
     "volume": 21,
-    "year": 2020
+    "year": 2020,
+    "special_issue": "MLOSS"
 }
