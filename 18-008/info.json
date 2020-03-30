@@ -28,5 +28,6 @@
     ],
     "title": "Tensor Train Decomposition on TensorFlow (T3F)",
     "volume": 21,
-    "year": 2020
+    "year": 2020,
+    "special_issue": "MLOSS"
 }
