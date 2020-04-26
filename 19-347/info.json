@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the problem of clustering and completing a set of tensors with missing data that are drawn from a union of low-rank tensor spaces. In the clustering problem, given a partially sampled tensor data that is composed of a number of subtensors, each chosen from one of a certain number of unknown tensor spaces, we need to group the subtensors that belong to the same tensor space. We provide a geometrical analysis on the sampling pattern and subsequently derive the sampling rate that guarantees the correct clustering under some assumptions with high probability. Moreover, we investigate the fundamental conditions for finite/unique completability for the union of tensor spaces completion problem. Both deterministic and probabilistic conditions on the sampling pattern to ensure finite/unique completability are obtained. For both the clustering and completion problems, our tensor analysis provides significantly better bound than the bound given by the matrix analysis applied to any unfolding of the tensor data.",
+    "authors": [
+        "Morteza Ashraphijuo",
+        "Xiaodong Wang"
+    ],
+    "emails": [
+        "ma3429@columbia.edu",
+        "xw2008@columbia.edu"
+    ],
+    "id": "19-347",
+    "issue": 69,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Union of Low-Rank Tensor Spaces: Clustering and Completion",
+    "volume": 21,
+    "year": 2020
+}

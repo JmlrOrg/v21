@@ -1,0 +1,20 @@
+{
+    "abstract": "Regularized least-squares (kernel-ridge / Gaussian process) regression is a fundamental algorithm of statistics and machine learning. Because generic algorithms for the exact solution have cubic complexity in the number of datapoints, large datasets require to resort to approximations. In this work, the computation of the least-squares prediction is itself treated as a probabilistic inference problem. We propose a structured Gaussian regression model on the kernel function that uses projections of the kernel matrix to obtain a low-rank approximation of the kernel and the matrix. A central result is an enhanced way to use the method of conjugate gradients for the specific setting of least-squares regression as encountered in machine learning.",
+    "authors": [
+        "Simon Bartels",
+        "Philipp Hennig"
+    ],
+    "emails": [
+        "sbartels@tue.mpg.de",
+        "ph@tue.mpg.de"
+    ],
+    "id": "18-473",
+    "issue": 55,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Conjugate Gradients for Kernel Machines",
+    "volume": 21,
+    "year": 2020
+}

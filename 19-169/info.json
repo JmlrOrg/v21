@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the problem of globally recovering a dictionary from a set of signals via $\\ell_1$-minimization. We assume that the signals are generated as i.i.d. random linear combinations of the $K$ atoms from a complete reference dictionary $D^*\\in \\mathbb R^{K\\times K}$, where the linear combination coefficients are from either a Bernoulli type model or exact sparse model. First, we obtain a necessary and sufficient norm condition for the reference dictionary $D^*$ to be a sharp local minimum of the expected $\\ell_1$ objective function. Our result substantially extends that of Wu and Yu (2015) and allows the combination coefficient to be non-negative. Secondly, we obtain an explicit bound on the region within which the objective value of the reference dictionary is minimal. Thirdly, we show that the reference dictionary is the unique sharp local minimum, thus establishing the first known global property of $\\ell_1$-minimization dictionary learning. Motivated by the theoretical results, we introduce a perturbation based test to determine whether a dictionary is a sharp local minimum of the objective function. In addition, we also propose a new dictionary learning algorithm based on Block Coordinate Descent, called DL-BCD, which is guaranteed to decrease the obective function monotonically. Simulation studies show that DL-BCD has competitive performance in terms of recovery rate compared to other state-of-the-art dictionary learning algorithms when the reference dictionary is generated from random Gaussian matrices.",
+    "authors": [
+        "Yu Wang",
+        "Siqi Wu",
+        "Bin Yu"
+    ],
+    "emails": [
+        "wang.yu@berkeley.edu",
+        "siqi@stat.berkeley.edu",
+        "binyu@berkeley.edu"
+    ],
+    "id": "19-169",
+    "issue": 63,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Unique Sharp Local Minimum in L1-minimization Complete Dictionary Learning",
+    "volume": 21,
+    "year": 2020
+}

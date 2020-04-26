@@ -1,0 +1,20 @@
+{
+    "abstract": "Derivatives play an important role in bandwidth selection methods (e.g., plug-ins), data analysis and bias-corrected confidence intervals. Therefore, obtaining accurate derivative information is crucial. Although many derivative estimation methods exist, the majority require a fixed design assumption. In this paper, we propose an effective and fully data-driven framework to estimate the first and second order derivative in random design. We establish the asymptotic properties of the proposed derivative estimator, and also propose a fast selection method for the tuning parameters. The performance and flexibility of the method is illustrated via an extensive simulation study.",
+    "authors": [
+        "Yu Liu",
+        "Kris De Brabanter"
+    ],
+    "emails": [
+        "yuliu@iastate.edu",
+        "kbrabant@iastate.edu"
+    ],
+    "id": "19-246",
+    "issue": 65,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Smoothed Nonparametric Derivative Estimation using Weighted Difference Quotients",
+    "volume": 21,
+    "year": 2020
+}

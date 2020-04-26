@@ -1,0 +1,22 @@
+{
+    "abstract": "The horseshoe prior is frequently employed in Bayesian analysis of high-dimensional models, and has been shown to achieve minimax optimal risk properties when the truth is sparse. While optimization-based algorithms for the extremely popular Lasso and elastic net procedures can scale to dimension in the hundreds of thousands, algorithms for the horseshoe that use Markov chain Monte Carlo (MCMC) for computation are limited to problems an order of magnitude smaller. This is due to high computational cost per step and growth of the variance of time-averaging estimators as a function of dimension. We propose two new MCMC algorithms for computation in these models that have significantly improved performance compared to existing alternatives. One of the algorithms also approximates an expensive matrix product to give orders of magnitude speedup in high-dimensional applications. We prove guarantees for the accuracy of the approximate algorithm, and show that gradually decreasing the approximation error as the chain extends results in an exact algorithm. The scalability of the algorithm is illustrated in simulations with problem size as large as $N=5,000$ observations and $p=50,000$ predictors, and an application to a genome-wide association study with $N=2,267$ and $p=98,385$. The empirical results also show that the new algorithm yields estimates with lower mean squared error, intervals with better coverage, and elucidates features of the posterior that were often missed by previous algorithms in high dimensions, including bimodality of posterior marginals indicating uncertainty about which covariates belong in the model.",
+    "authors": [
+        "James Johndrow",
+        "Paulo Orenstein",
+        "Anirban Bhattacharya"
+    ],
+    "emails": [
+        "johndrow@wharton.upenn.edu",
+        "pauloo@stanford.edu",
+        "anirbanb@stat.tamu.edu"
+    ],
+    "id": "19-536",
+    "issue": 73,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Scalable Approximate MCMC Algorithms for the Horseshoe Prior",
+    "volume": 21,
+    "year": 2020
+}

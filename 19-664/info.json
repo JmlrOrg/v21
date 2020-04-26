@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper considers a new identifiability condition for additive noise models (ANMs) in which each variable is determined by an arbitrary Borel measurable function of its parents plus an independent error. It has been shown that ANMs are fully recoverable under some identifiability conditions, such as when all error variances are equal. However, this identifiable condition could be restrictive, and hence, this paper focuses on a relaxed identifiability condition that involves not only error variances, but also the influence of parents. This new class of identifiable ANMs does not put any constraints on the form of dependencies, or distributions of errors, and allows different error variances. It further provides a statistically consistent and computationally feasible structure learning algorithm for the identifiable ANMs based on the new identifiability condition. The proposed algorithm assumes that all relevant variables are observed, while it does not assume faithfulness or a sparse graph. Demonstrated through extensive simulated and real multivariate data is that the proposed algorithm successfully recovers directed acyclic graphs.",
+    "authors": [
+        "Gunwoong Park"
+    ],
+    "emails": [
+        "GW.PARK23@GMAIL.COM"
+    ],
+    "id": "19-664",
+    "issue": 75,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Identifiability of Additive Noise Models Using Conditional Variances",
+    "volume": 21,
+    "year": 2020
+}

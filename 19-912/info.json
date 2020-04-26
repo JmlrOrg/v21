@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider a setting where multiple players sequentially choose among a common set of actions (arms). Motivated by an application to cognitive radio networks, we assume that players incur a loss upon colliding, and that communication between players is not possible. Existing approaches assume that the system is stationary. Yet this assumption is often violated in practice, e.g., due to signal strength fluctuations. In this work, we design the first multi-player Bandit algorithm that provably works in arbitrarily changing environments, where the losses of the arms may even be chosen by an adversary. This resolves an open problem posed by Rosenski et al. (2016).",
+    "authors": [
+        "Pragnya Alatur",
+        "Kfir Y. Levy",
+        "Andreas Krause"
+    ],
+    "emails": [
+        "pragnya.alatur@gmail.com",
+        "kfirylevy@technion.ac.il",
+        "krausea@ethz.ch"
+    ],
+    "id": "19-912",
+    "issue": 77,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Multi-Player Bandits: The Adversarial Case",
+    "volume": 21,
+    "year": 2020
+}

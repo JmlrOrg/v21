@@ -1,0 +1,30 @@
+{
+    "abstract": "Co-training is a well-known semi-supervised learning approach which trains classifiers on two or more different views and exchanges pseudo labels of unlabeled instances in an iterative way. During the co-training process, pseudo labels of unlabeled instances are very likely to be false especially in the initial training, while the standard co-training algorithm adopts a 'draw without replacement' strategy and does not remove these wrongly labeled instances from training stages. Besides, most of the traditional co-training approaches are implemented for two-view cases, and their extensions in multi-view scenarios are not intuitive. These issues not only degenerate their performance as well as available application range but also hamper their fundamental theory. Moreover, there is no optimization model to explain the objective a co-training process manages to optimize. To address these issues, in this study we design a unified self-paced multi-view co-training (SPamCo) framework which draws unlabeled instances with replacement. Two specified co-regularization terms are formulated to develop different strategies for selecting pseudo-labeled instances during training. Both forms share the same optimization strategy which is consistent with the iteration process in co-training and can be naturally extended to multi-view scenarios. A distributed optimization strategy is also introduced to train the classifier of each view in parallel to further improve the efficiency of the algorithm. Furthermore, the SPamCo algorithm is proved to be PAC learnable, supporting its theoretical soundness. Experiments conducted on synthetic, text categorization, person re-identification, image recognition and object detection data sets substantiate the superiority of the proposed method.",
+    "authors": [
+        "Fan Ma",
+        "Deyu Meng",
+        "Xuanyi Dong",
+        "Yi Yang"
+    ],
+    "emails": [
+        "fan.ma@student.uts.edu.au",
+        "dymeng@mail.xjtu.edu.cn",
+        "xuanyi.dxy@gmail.com",
+        "Yi.Yang@uts.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Flowerfan/SPamCo"
+        ]
+    ],
+    "id": "18-794",
+    "issue": 57,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Self-paced Multi-view Co-training",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the standard model of distributed optimization of a  sum of functions $F(\\mathbf z) = \\sum_{i=1}^n f_i(\\mathbf z)$, where node $i$ in a network holds the function $f_i(\\mathbf z)$. We allow for a harsh network model characterized by asynchronous updates, message delays, unpredictable message losses, and directed communication among nodes.  In this setting, we analyze a modification of the Gradient-Push method for distributed optimization, assuming that (i) node $i$ is capable of generating gradients of its function $f_i(\\mathbf z)$ corrupted by zero-mean bounded-support additive noise at each step, (ii) $F(\\mathbf z)$ is strongly convex, and (iii) each $f_i(\\mathbf z)$ has Lipschitz gradients. We show that our proposed  method asymptotically performs  as well as the best bounds on centralized  gradient descent that takes steps in the direction of the  sum of the noisy gradients of all the functions $f_1(\\mathbf z), \\ldots, f_n(\\mathbf z)$ at each step.",
+    "authors": [
+        "Artin Spiridonoff",
+        "Alex Olshevsky",
+        "Ioannis Ch. Paschalidis"
+    ],
+    "emails": [
+        "artin@bu.edu",
+        "alexols@bu.edu",
+        "yannisp@bu.edu"
+    ],
+    "id": "18-813",
+    "issue": 58,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Robust Asynchronous Stochastic Gradient-Push: Asymptotically Optimal and Network-Independent Performance for Strongly Convex Functions",
+    "volume": 21,
+    "year": 2020
+}

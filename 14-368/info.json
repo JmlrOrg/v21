@@ -1,0 +1,22 @@
+{
+    "abstract": "We present a theoretical analysis framework for relational ensemble models. We show that ensembles of collective classifiers can improve predictions for graph data by reducing errors due to variance in both learning and inference. In addition, we propose a relational ensemble framework that combines a relational ensemble learning approach with a relational ensemble inference approach for collective classification. The proposed ensemble techniques are applicable for both single and multiple graph settings. Experiments on both synthetic and real-world data demonstrate the effectiveness of the proposed framework. Finally, our experimental results support the theoretical analysis and confirm that ensemble algorithms that explicitly focus on both learning and inference processes and aim at reducing errors associated with both, are the best performers.",
+    "authors": [
+        "Hoda Eldardiry",
+        "Jennifer Neville",
+        "Ryan A. Rossi"
+    ],
+    "emails": [
+        "hdardiry@vt.edu",
+        "neville@cs.purdue.edu",
+        "rrossi@adobe.com"
+    ],
+    "id": "14-368",
+    "issue": 49,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Ensemble Learning for Relational Data",
+    "volume": 21,
+    "year": 2020
+}

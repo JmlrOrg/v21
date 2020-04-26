@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the skill rating problem for multiplayer games, that is how to infer player skills from game outcomes in multiplayer games. We formulate the problem as a minimization problem $\\arg \\min_{s} s^T \\Delta s$ where $\\Delta$ is a positive semidefinite matrix and $s$ a real-valued function, of which some entries are the skill values to be inferred and other entries are constrained by the game outcomes. We leverage graph-based semi-supervised learning (SSL) algorithms for this problem. We apply our algorithms on several data sets of multiplayer games and obtain very promising results compared to Elo Duelling (see Elo, 1978) and TrueSkill (see Herbrich et al., 2006).. As we leverage graph-based SSL algorithms and because games can be seen as relations between sets of players, we then generalize the approach. For this aim, we introduce a new finite model, called hypernode graph, defined to be a set of weighted binary relations between sets of nodes. We define Laplacians of hypernode graphs. Then, we show that the skill rating problem for multiplayer games can be formulated as $\\arg \\min_{s} s^T \\Delta s$ where $\\Delta$ is the Laplacian of a hypernode graph constructed from a set of games.  From a fundamental perspective, we show that hypernode graph Laplacians are symmetric positive semidefinite matrices with constant functions in their null space. We show that problems on hypernode graphs can not be solved with graph constructions and graph kernels. We relate hypernode graphs to signed graphs showing that positive relations between groups can lead to negative relations between individuals.",
+    "authors": [
+        "Thomas Ricatte",
+        "R\u00e9mi Gilleron",
+        "Marc Tommasi"
+    ],
+    "emails": [
+        "thomas@ricatte.fr",
+        "remi.gilleron@univ-lille.fr",
+        "marc.tommasi@univ-lille.fr"
+    ],
+    "id": "13-561",
+    "issue": 48,
+    "pages": [
+        1,
+        18
+    ],
+    "title": "Skill Rating for Multiplayer Games. Introducing Hypernode Graphs and their Spectral Theory",
+    "volume": 21,
+    "year": 2020
+}

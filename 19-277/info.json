@@ -1,0 +1,26 @@
+{
+    "abstract": "In many areas, practitioners need to analyze large data sets that challenge conventional single-machine computing. To scale up data analysis, distributed and parallel computing approaches are increasingly needed. Here we study a fundamental and highly important problem in this area: How to do ridge regression in a distributed computing environment? Ridge regression is an extremely popular method for supervised learning, and has several optimality properties, thus it is important to study. We study one-shot methods that construct weighted combinations of ridge regression estimators computed on each machine. By analyzing the mean squared error in a high-dimensional random-effects model where each predictor has a small effect, we discover several new phenomena. Infinite-worker limit: The distributed estimator works well for very large numbers of machines, a phenomenon we call 'infinite-worker limit'. Optimal weights: The optimal weights for combining local estimators sum to more than unity, due to the downward bias of ridge. Thus, all averaging methods are suboptimal. We also propose a new Weighted ONe-shot DistributEd Ridge regression algorithm (WONDER). We test WONDER in simulation studies and using the Million Song Dataset as an example. There it can save at least 100x in computation time, while nearly preserving test accuracy.",
+    "authors": [
+        "Edgar Dobriban",
+        "Yue Sheng"
+    ],
+    "emails": [
+        "dobriban@wharton.upenn.edu",
+        "yuesheng@sas.upenn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dobriban/dist_ridge"
+        ]
+    ],
+    "id": "19-277",
+    "issue": 66,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "WONDER: Weighted One-shot Distributed Ridge Regression in High Dimensions",
+    "volume": 21,
+    "year": 2020
+}

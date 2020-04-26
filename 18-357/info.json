@@ -1,0 +1,24 @@
+{
+    "abstract": "Motivated by modern applications in which one constructs graphical models based on a very large number of features, this paper introduces a new class of cluster-based graphical models, in which variable clustering is applied as an initial step for reducing the dimension of the feature space. We employ model assisted clustering, in which the clusters contain features that are similar to the same unobserved latent variable. Two different cluster-based Gaussian graphical models are considered: the latent variable graph, corresponding to the graphical model associated with the unobserved latent variables, and the cluster-average graph, corresponding to the vector of features averaged over clusters. Our study reveals that likelihood based inference for the latent graph, not analyzed previously,  is analytically intractable. Our main contribution is the development and analysis of  alternative estimation and inference strategies, for  the precision matrix of an unobservable latent vector Z. We replace the likelihood of the data by an appropriate class of empirical risk functions, that can be specialized  to the latent graphical model and to the simpler, but under-analyzed, cluster-average graphical model. The estimators thus derived can be used  for inference on the graph structure, for instance  on edge strength or pattern recovery. Inference is based on the asymptotic limits of the entry-wise estimates of the precision matrices associated with the conditional independence  graphs under consideration. While taking the uncertainty induced by the clustering step into account, we establish  Berry-Esseen central limit theorems for the proposed estimators. It is noteworthy that, although the clusters are estimated adaptively from the data, the central limit theorems regarding the entries of the estimated graphs  are proved under the same conditions one would use if the clusters were known in advance.  As an illustration  of the usage of  these newly developed inferential tools, we show that they can be reliably used for recovery of the sparsity pattern of the graphs we study, under FDR control, which is verified via simulation studies and an fMRI data analysis. These experimental results confirm the theoretically established difference between the two graph structures. Furthermore, the data analysis suggests that the  latent variable graph, corresponding to  the unobserved cluster centers, can help provide more insight into the understanding of the brain connectivity networks relative to the simpler, average-based, graph.",
+    "authors": [
+        "Carson Eisenach",
+        "Florentina Bunea",
+        "Yang Ning",
+        "Claudiu Dinicu"
+    ],
+    "emails": [
+        "eisenach@princeton.edu",
+        "fb238@cornell.edu",
+        "yn265@cornell.edu",
+        "cd535@cornell.edu"
+    ],
+    "id": "18-357",
+    "issue": 53,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "High-Dimensional Inference for Cluster-Based Graphical Models",
+    "volume": 21,
+    "year": 2020
+}

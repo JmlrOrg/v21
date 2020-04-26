@@ -1,0 +1,34 @@
+{
+    "abstract": "Anomaly detection is not an easy problem since distribution of anomalous samples is unknown a priori. We explore a novel method that gives a trade-off possibility between one-class and two-class approaches, and leads to a better performance on anomaly detection problems with small or non-representative anomalous samples. The method is evaluated using several data sets and compared to a set of conventional one-class and two-class approaches.",
+    "authors": [
+        "Maxim Borisyak",
+        "Artem Ryzhikov",
+        "Andrey Ustyuzhanin",
+        "Denis Derkach",
+        "Fedor Ratnikov",
+        "Olga Mineeva"
+    ],
+    "emails": [
+        "mborisyak@hse.ru",
+        "aryzhikov@hse.ru",
+        "austyuzhanin@hse.ru",
+        "dderkach@hse.ru",
+        "fratnikov@hse.ru",
+        "omineeva@ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://gitlab.com/lambda-hse/ope"
+        ]
+    ],
+    "id": "19-514",
+    "issue": 72,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "(1 + epsilon)-class Classification: an Anomaly Detection Method for Highly Imbalanced or Incomplete Data Sets",
+    "volume": 21,
+    "year": 2020
+}

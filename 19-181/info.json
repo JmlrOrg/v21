@@ -1,0 +1,20 @@
+{
+    "abstract": "A new strategy for probabilistic graphical modeling is developed that draws parallels to community detection analysis. The method jointly estimates an undirected graph and homogeneous communities of nodes. The structure of the communities is taken into account when estimating the graph and at the same time, the structure of the graph is accounted for when estimating communities of nodes. The procedure uses a joint group graphical lasso approach with community detection-based grouping, such that some groups of edges co-occur in the estimated graph. The grouping structure is unknown and is estimated based on community detection algorithms. Theoretical derivations regarding graph convergence and sparsistency, as well as accuracy of community recovery are included, while the method's empirical performance is illustrated in an fMRI context, as well as with simulated examples.",
+    "authors": [
+        "Eugen Pircalabelu",
+        "Gerda Claeskens"
+    ],
+    "emails": [
+        "eugen.pircalabelu@uclouvain.be",
+        "gerda.claeskens@kuleuven.be"
+    ],
+    "id": "19-181",
+    "issue": 64,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Community-Based Group Graphical Lasso",
+    "volume": 21,
+    "year": 2020
+}

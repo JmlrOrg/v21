@@ -1,0 +1,35 @@
+{
+    "abstract": "The problem of accurately measuring the similarity between graphs is at the core of many applications in a variety of disciplines. Graph kernels have recently emerged as a promising approach to this problem. There are now many kernels, each focusing on different structural aspects of graphs. Here, we present GraKeL, a library that unifies several graph kernels into a common framework. The library is written in Python and adheres to the scikit-learn interface. It is simple to use and can be naturally combined with scikit-learn's modules to build a complete machine learning pipeline for tasks such as graph classification and clustering. The code is BSD licensed and is available at: https://github.com/ysig/GraKeL.",
+    "authors": [
+        "Giannis Siglidis",
+        "Giannis Nikolentzos",
+        "Stratis Limnios",
+        "Christos Giatsidis",
+        "Konstantinos Skianis",
+        "Michalis Vazirgiannis"
+    ],
+    "emails": [
+        "yiannis.siglidis@lip6.fr",
+        "nikolentzos@lix.polytechnique.fr",
+        "stratis.limnios@polytechnique.edu",
+        "giatsidis@lix.polytechnique.fr",
+        "kskianis@lix.polytechnique.fr",
+        "mvazirg@lix.polytechnique.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ysig/GraKeL"
+        ]
+    ],
+    "id": "18-370",
+    "issue": 54,
+    "pages": [
+        1,
+        5
+    ],
+    "special_issue": "MLOSS",
+    "title": "GraKeL: A Graph Kernel Library in Python",
+    "volume": 21,
+    "year": 2020
+}
