@@ -1,0 +1,30 @@
+{
+    "abstract": "In short-term portfolio optimization (SPO), some financial characteristics like the expected return and the true covariance might be dynamic. Then there are only a small window size $w$ of observations that are sufficiently close to the current moment and reliable to make estimations. $w$ is usually much smaller than the number of assets $d$, which leads to a typical undersampled problem. Worse still, the asset price relatives are not likely subject to any proper distributions. These facts violate the statistical assumptions of the traditional covariance estimates and invalidate their statistical efficiency and consistency in risk measurement. In this paper, we propose to reconsider the function of covariance estimates in the perspective of operators, and establish a rank-one covariance estimate in the principal rank-one tangent space at the observation matrix. Moreover, we propose a loss control scheme with this estimate, which effectively catches the instantaneous risk structure and avoids extreme losses. We conduct extensive experiments on $7$ real-world benchmark daily or monthly data sets with stocks, funds and portfolios from diverse regional markets to show that the proposed method achieves state-of-the-art performance in comprehensive downside risk metrics and gains good investing incomes as well. It offers a novel perspective of rank-related approaches for undersampled estimations in SPO.",
+    "authors": [
+        "Zhao-Rong Lai",
+        "Liming Tan",
+        "Xiaotian Wu",
+        "Liangda Fang"
+    ],
+    "emails": [
+        "laizhr@jnu.edu.cn",
+        "tanliming@stu2014.jnu.edu.cn",
+        "wxiaotian@jnu.edu.cn",
+        "fangld@jnu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/laizhr/SPOLC"
+        ]
+    ],
+    "id": "19-959",
+    "issue": 97,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Loss Control with Rank-one Covariance Estimate for Short-term Portfolio Optimization",
+    "volume": 21,
+    "year": 2020
+}

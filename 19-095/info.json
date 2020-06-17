@@ -1,0 +1,35 @@
+{
+    "abstract": "Gradient Boosting Decision Trees (GBDTs) and Random Forests (RFs) have been used in many real-world applications. They are often a standard recipe for building state-of-the-art solutions to machine learning and data mining problems. However, training and prediction are very expensive computationally for large and high dimensional problems. This article presents an efficient and open source software toolkit called ThunderGBM which exploits the high-performance Graphics Processing Units (GPUs) for GBDTs and RFs. ThunderGBM supports classification, regression and ranking, and can run on single or multiple GPUs of a machine. Our experimental results show that ThunderGBM outperforms the existing libraries while producing similar models, and can handle high dimensional problems where existing GPU-based libraries fail. Documentation, examples, and more details about ThunderGBM are available at https://github.com/xtra-computing/thundergbm.",
+    "authors": [
+        "Zeyi Wen",
+        "Hanfeng Liu",
+        "Jiashuai Shi",
+        "Qinbin Li",
+        "Bingsheng He",
+        "Jian Chen"
+    ],
+    "emails": [
+        "zeyi.wen@uwa.edu.au",
+        "kurt.liuhf@gmail.com",
+        "shijiashuai@gmail.com",
+        "qinbin@comp.nus.edu.sg",
+        "hebs@comp.nus.edu.sg",
+        "ellachen@scut.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xtra-computing/thundergbm"
+        ]
+    ],
+    "id": "19-095",
+    "issue": 108,
+    "pages": [
+        1,
+        5
+    ],
+    "special_issue": "MLOSS",
+    "title": "ThunderGBM: Fast GBDTs and Random Forests on GPUs",
+    "volume": 21,
+    "year": 2020
+}

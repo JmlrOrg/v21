@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a general algorithmic framework for Bayesian model selection. A spike-and-slab Laplacian prior is introduced to model the underlying structural assumption. Using the notion of effective resistance, we derive an EM-type algorithm with closed-form iterations to efficiently explore possible candidates for Bayesian model selection. The deterministic nature of the proposed algorithm makes it more scalable to large-scale and high-dimensional data sets compared with existing stochastic search algorithms. When applied to sparse linear regression, our framework recovers the EMVS algorithm by Ro\u010dkov\u00e1 and George (2014) as a special case. We also discuss extensions of our framework using tools from graph algebra to incorporate complex Bayesian models such as biclustering and submatrix localization. Extensive simulation studies and real data applications are conducted to demonstrate the superior performance of our methods over its frequentist competitors such as $\\ell_0$ or $\\ell_1$ penalization.",
+    "authors": [
+        "Youngseok Kim",
+        "Chao Gao"
+    ],
+    "emails": [
+        "youngseok@uchicago.edu",
+        "chaogao@galton.uchicago.edu"
+    ],
+    "id": "19-123",
+    "issue": 109,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Bayesian Model Selection with Graph Structured Sparsity",
+    "volume": 21,
+    "year": 2020
+}

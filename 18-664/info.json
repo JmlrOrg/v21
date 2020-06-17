@@ -1,0 +1,44 @@
+{
+    "abstract": "Decision forests, including Random Forests and Gradient Boosting Trees, have recently demonstrated state-of-the-art performance in a variety of machine learning settings. Decision forests are typically ensembles of axis-aligned decision trees; that is, trees that split only along feature dimensions. In contrast, many recent extensions to decision forests  are based on axis-oblique splits. Unfortunately, these extensions forfeit one or more of the favorable properties of decision forests based on axis-aligned splits, such as robustness to many noise dimensions, interpretability, or computational efficiency. We introduce yet another decision forest, called ``Sparse Projection Oblique Randomer Forests'' (SPORF). SPORF trees recursively split along very sparse random projections. Our method significantly improves accuracy over existing state-of-the-art algorithms on a standard benchmark suite for classification with $>100$ problems of varying dimension, sample size, and number of classes. To illustrate how SPORF addresses the limitations of both axis-aligned and existing oblique decision forest methods, we conduct extensive simulated experiments. SPORF typically yields improved performance over existing decision forest methods, while mitigating  computational efficiency and scalability and maintaining interpretability. Very sparse random projections can be incorporated into gradient boosted trees to obtain potentially similar gains.",
+    "authors": [
+        "Tyler M. Tomita",
+        "James Browne",
+        "Cencheng Shen",
+        "Jaewon Chung",
+        "Jesse L. Patsolic",
+        "Benjamin Falk",
+        "Carey E. Priebe",
+        "Jason Yim",
+        "Randal Burns",
+        "Mauro Maggioni",
+        "Joshua T. Vogelstein"
+    ],
+    "emails": [
+        "ttomita@jhu.edu",
+        "james.browne@jhu.edu",
+        "shenc@udel.edu",
+        "j1c@jhu.edu",
+        "jpatsolic@jhu.edu",
+        "falk.ben@jhu.edu",
+        "cep@jhu.edu",
+        "jasonkyuyim@google.com",
+        "randal@cs.jhu.edu",
+        "mauro@math.jhu.edu",
+        "jovo@jhu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/neurodata/SPORF"
+        ]
+    ],
+    "id": "18-664",
+    "issue": 104,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Sparse Projection Oblique Randomer Forests",
+    "volume": 21,
+    "year": 2020
+}

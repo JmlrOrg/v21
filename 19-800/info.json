@@ -1,0 +1,30 @@
+{
+    "abstract": "Testing the hypothesis of parallelism is a fundamental statistical problem arising from many applied sciences.  In this paper, we develop a nonparametric parallelism test for inferring whether the trends are parallel in treatment and control groups.  In particular, the proposed nonparametric parallelism test is a Wald type test based on a smoothing spline ANOVA (SSANOVA) model which can characterize the complex patterns of the data. We derive that the asymptotic null distribution of the test statistic is a Chi-square distribution, unveiling a new version of Wilks phenomenon. Notably, we establish the minimax sharp lower bound of the distinguishable rate for the nonparametric parallelism test by using the information theory, and further prove that the proposed test is minimax optimal. Simulation studies are conducted to investigate the empirical performance of the proposed test. DNA methylation and neuroimaging studies are presented to illustrate potential applications of the test. The software is available at https://github.com/BioAlgs/Parallelism.",
+    "authors": [
+        "Xin Xing",
+        "Meimei Liu",
+        "Ping Ma",
+        "Wenxuan Zhong"
+    ],
+    "emails": [
+        "xinxing@vt.edu",
+        "meimeiliu@vt.edu",
+        "pingma@uga.edu",
+        "wenxuan@uga.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/BioAlgs/Parallelism"
+        ]
+    ],
+    "id": "19-800",
+    "issue": 94,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Minimax Nonparametric Parallelism Test",
+    "volume": 21,
+    "year": 2020
+}

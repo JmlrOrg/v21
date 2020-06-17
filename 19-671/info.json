@@ -1,0 +1,30 @@
+{
+    "abstract": "Deep generative models have been praised for their ability to learn smooth latent representations of images, text, and audio, which can then be used to generate new, plausible data. Motivated by these success stories, there has been a surge of interest in developing deep generative models for automated molecule design. However, these models face several difficulties due to the unique characteristics of molecular graphs\u2014their underlying structure is not Euclidean or grid-like, they remain isomorphic under permutation of the nodes\u2019 labels, and they come with a different number of nodes and edges. In this paper, we first propose a novel variational autoencoder for molecular graphs, whose encoder and decoder are specially designed to account for the above properties by means of several technical innovations. Moreover, in contrast with the state of the art, our decoder is able to provide the spatial coordinates of the atoms of the molecules it generates. Then, we develop a gradient-based algorithm to optimize the decoder of our model so that it learns to generate molecules that maximize the value of certain property of interest and, given any arbitrary molecule, it is able to optimize the spatial configuration of its atoms for greater stability. Experiments reveal that our variational autoencoder can discover plausible, diverse and novel molecules more effectively than several state of the art models. Moreover, for several properties of interest, our optimized decoder is able to identify molecules with property values 121% higher than those identified by several state of the art methods based on Bayesian optimization and reinforcement learning.",
+    "authors": [
+        "Bidisha Samanta",
+        "Abir De",
+        "Gourhari Jana",
+        "Vicenc Gomez",
+        "Pratim Chattaraj",
+        "Niloy Ganguly",
+        "Manuel Gomez-Rodriguez"
+    ],
+    "emails": [
+        "bidisha@iitkgp.ac.in",
+        "abir@cse.iitb.ac.in",
+        "gour2015hari@iitkgp.ac.in",
+        "vicen.gomez@upf.edu",
+        "pkc@chem.iitkgp.ac.in",
+        "niloy@cse.iitkgp.ac.in",
+        "manuelgr@mpi-sws.org"
+    ],
+    "id": "19-671",
+    "issue": 114,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "NEVAE: A Deep Generative Model for Molecular Graphs",
+    "volume": 21,
+    "year": 2020
+}

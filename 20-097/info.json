@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose and analyze a novel theoretical and algorithmic framework for structured prediction. While so far the term has referred to discrete output spaces, here we consider more general settings, such as manifolds or spaces of probability measures. We define structured prediction as a problem where the output space lacks a vectorial structure. We identify and study a large class of loss functions that implicitly defines a suitable geometry on the problem. The latter is the key to develop an algorithmic framework amenable to a sharp statistical analysis and yielding efficient computations. When dealing with output spaces with infinite cardinality, a suitable implicit formulation of the estimator is shown to be crucial.",
+    "authors": [
+        "Carlo Ciliberto",
+        "Lorenzo Rosasco",
+        "Alessandro Rudi"
+    ],
+    "emails": [
+        "c.ciliberto@imperial.ac.uk",
+        "lrosasco@mit.edu",
+        "alessandro.rudi@inria.fr"
+    ],
+    "id": "20-097",
+    "issue": 98,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "A General Framework for Consistent Structured Prediction with Implicit Loss Embeddings",
+    "volume": 21,
+    "year": 2020
+}

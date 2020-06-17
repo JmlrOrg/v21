@@ -1,0 +1,35 @@
+{
+    "abstract": "Automated recommendation of machine learning algorithms is receiving a large deal of attention, not only because they can recommend the most suitable algorithms for a new task, but also because they can support efficient hyper-parameter tuning, leading to better machine learning solutions. The automated recommendation can be implemented using meta-learning, learning from previous learning experiences, to create a meta-model able to associate a data set to the predictive performance of machine learning algorithms. Although a large number of publications report the use of meta-learning, reproduction and comparison of meta-learning experiments is a difficult task.  The literature lacks extensive and comprehensive public tools that enable the reproducible investigation of the different meta-learning approaches. An alternative to deal with this difficulty is to develop a meta-feature extractor package with the main characterization measures, following uniform guidelines that facilitate the use and inclusion of new meta-features.  In this paper, we propose two Meta-Feature Extractor (MFE) packages, written in both Python and R, to fill this lack. The packages follow recent frameworks for meta-feature extraction, aiming to facilitate the reproducibility of meta-learning experiments.",
+    "authors": [
+        "Edesio Alcoba\u00e7a",
+        "Felipe Siqueira",
+        "Adriano Rivolli",
+        "Lu\u00eds P. F. Garcia",
+        "Jefferson T. Oliva",
+        "Andr\u00e9 C. P. L. F. de Carvalho"
+    ],
+    "emails": [
+        "edesio@usp.br",
+        "felipe.siqueira@usp.br",
+        "rivolli@utfpr.edu.br",
+        "luis.garcia@unb.br",
+        "jeffersonoliva@utfpr.edu.br",
+        "andre@icmc.usp.br"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ealcobaca/pymfe"
+        ]
+    ],
+    "id": "19-348",
+    "issue": 111,
+    "pages": [
+        1,
+        5
+    ],
+    "special_issue": "MLOSS",
+    "title": "MFE: Towards reproducible meta-feature extraction",
+    "volume": 21,
+    "year": 2020
+}

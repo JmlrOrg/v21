@@ -1,0 +1,30 @@
+{
+    "abstract": "Standard approaches for Bayesian inference focus solely on approximating the posterior distribution. Typically, this approximation is, in turn, used to calculate expectations for one or more target functions\u2014a computational pipeline that is inefficient when the target function(s) are known upfront. We address this inefficiency by introducing a framework for target\u2013aware Bayesian inference (TABI) that estimates these expectations directly. While conventional Monte Carlo estimators have a fundamental limit on the error they can achieve for a given sample size, our TABI framework is able to breach this limit; it can theoretically produce arbitrarily accurate estimators using only three samples, while we show empirically that it can also breach this limit in practice. We utilize our TABI framework by combining it with adaptive importance sampling approaches and show both theoretically and empirically that the resulting estimators are capable of converging faster than the standard $\\mathcal{O}(1/N)$ Monte Carlo rate, potentially producing rates as fast as $\\mathcal{O}(1/N^2)$. We further combine our TABI framework with amortized inference methods, to produce a method for amortizing the cost of calculating expectations. Finally, we show how TABI can be used to convert any marginal likelihood estimator into a target aware inference scheme and demonstrate the substantial benefits this can yield.",
+    "authors": [
+        "Tom Rainforth",
+        "Adam Golinski",
+        "Frank Wood",
+        "Sheheryar Zaidi"
+    ],
+    "emails": [
+        "rainforth@stats.ox.ac.uk",
+        "adamg@robots.ox.ac.uk",
+        "fwood@cs.ubc.ca",
+        "sheheryar.zaidi@some.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "http://github.com/twgr/tabi"
+        ]
+    ],
+    "id": "19-102",
+    "issue": 88,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Target\u2013Aware Bayesian Inference: How to Beat Optimal Conventional Estimators",
+    "volume": 21,
+    "year": 2020
+}

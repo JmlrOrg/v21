@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper considers hidden Markov models where the observations are given as the sum of a latent state which lies in a general state space and some independent noise with unknown distribution. It is shown that these fully nonparametric translation models are identifiable with respect to both the distribution of the latent variables and the distribution of the noise, under mostly a light tail assumption on the latent variables. Two nonparametric estimation methods are proposed and we prove that the corresponding estimators are consistent for the weak convergence topology. These results are illustrated with numerical experiments.",
+    "authors": [
+        "Elisabeth Gassiat",
+        "Sylvain Le Corff",
+        "Luc Leh\u00e9ricy"
+    ],
+    "emails": [
+        "elisabeth.gassiat@universite-paris-saclay.fr",
+        "sylvain.le_corff@telecom-sudparis.eu",
+        "luc.lehericy@math.u-psud.fr"
+    ],
+    "id": "19-802",
+    "issue": 115,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Identifiability and Consistent Estimation of Nonparametric Translation Hidden Markov Models with General State Space",
+    "volume": 21,
+    "year": 2020
+}

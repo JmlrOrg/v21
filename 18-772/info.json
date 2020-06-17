@@ -1,0 +1,30 @@
+{
+    "abstract": "An accurate model of a patient\u2019s individual survival distribution can help determine the appropriate treatment for terminal patients. Unfortunately, risk scores (for example from Cox Proportional Hazard models) do not provide survival probabilities, single-time probability models (for instance the Gail model, predicting 5 year probability) only provide for a single time point, and standard Kaplan-Meier survival curves provide only population averages for a large class of patients, meaning they are not specific to individual patients. This motivates an alternative class of tools that can learn a model that provides an individual survival distribution for each subject, which gives survival probabilities across all times, such as extensions to the Cox model, Accelerated Failure Time, an extension to Random Survival Forests, and Multi-Task Logistic Regression. This paper first motivates such 'individual survival distribution' (ISD) models, and explains how they differ from standard models. It then discusses ways to evaluate such models \u2014 namely Concordance, 1-Calibration, Integrated Brier score, and versions of L1-loss \u2014 then motivates and defines a novel approach, 'D-Calibration', which determines whether a model's probability estimates are meaningful. We also discuss how these measures differ, and use them to evaluate several ISD prediction tools over a range of survival data sets. We also provide a code base for all of these survival models and evaluation measures, at https://github.com/haiderstats/ISDEvaluation.",
+    "authors": [
+        "Humza Haider",
+        "Bret Hoehn",
+        "Sarah Davis",
+        "Russell Greiner"
+    ],
+    "emails": [
+        "hshaider@ualberta.ca",
+        "bhoehn@ualberta.ca",
+        "sdavis1@ualberta.ca",
+        "rgreiner@ualberta.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/haiderstats/ISDEvaluation"
+        ]
+    ],
+    "id": "18-772",
+    "issue": 85,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Effective Ways to Build and Evaluate Individual Survival Distributions",
+    "volume": 21,
+    "year": 2020
+}

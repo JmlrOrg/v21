@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the convergence rate of the optimal quantization for a probability measure sequence $(\\mu_{n})_{n\\in\\mathbb{N}^{*}}$ on $\\mathbb{R}^{d}$ converging in the Wasserstein distance in two aspects: the first one is the convergence rate of optimal quantizer $x^{(n)}\\in(\\mathbb{R}^{d})^{K}$ of $\\mu_{n}$ at level $K$; the other one is the convergence rate of the distortion function valued at $x^{(n)}$, called the ``performance'' of $x^{(n)}$. Moreover, we also study the mean performance of the optimal quantization for the empirical measure of a distribution $\\mu$ with finite second moment but possibly unbounded support. As an application, we show an upper bound with a convergence rate  $\\mathcal{O}(\\frac{\\log n}{\\sqrt{n}})$ of the mean performance for the empirical measure of the multidimensional normal distribution $\\mathcal{N}(m, \\Sigma)$ and of distributions with hyper-exponential tails.  This extends the results from Biau et al. (2008) obtained for compactly supported distribution. We also derive an upper bound which is sharper in the quantization level $K$ but suboptimal in $n$ by applying results in Fournier and Guillin (2015).",
+    "authors": [
+        "Yating Liu",
+        "Gilles Pag\u00e8s"
+    ],
+    "emails": [
+        "liu@ceremade.dauphine.fr",
+        "gilles.pages@sorbonne-universite.fr"
+    ],
+    "id": "18-804",
+    "issue": 86,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Convergence Rate of Optimal Quantization and Application to the Clustering Performance of the Empirical Measure",
+    "volume": 21,
+    "year": 2020
+}
