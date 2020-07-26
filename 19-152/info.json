@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper we adopt the familiar sparse, high-dimensional linear regression model and focus on the important but often overlooked task of prediction.  In particular, we consider a new empirical Bayes framework that incorporates data in the prior in two ways: one is to center the prior for the non-zero regression coefficients and the other is to provide some additional regularization.  We show that, in certain settings, the asymptotic concentration of the proposed empirical Bayes posterior predictive distribution is very fast, and we establish a Bernstein--von Mises theorem which ensures that the derived empirical Bayes prediction intervals achieve the targeted frequentist coverage probability.  The empirical prior has a convenient conjugate form, so posterior computations are relatively simple and fast.  Finally, our numerical results demonstrate the proposed method's strong finite-sample performance in terms of prediction accuracy, uncertainty quantification, and computation time compared to existing Bayesian methods.",
+    "authors": [
+        "Ryan Martin",
+        "Yiqi Tang"
+    ],
+    "emails": [
+        "rgmarti3@ncsu.edu",
+        "ytang22@ncsu.edu"
+    ],
+    "id": "19-152",
+    "issue": 130,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Empirical Priors for Prediction in Sparse High-dimensional Linear Regression",
+    "volume": 21,
+    "year": 2020
+}

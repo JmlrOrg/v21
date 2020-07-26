@@ -1,0 +1,22 @@
+{
+    "abstract": "We prove the convergence to minima and estimates on the rate of convergence for the stochastic gradient descent method in the case of not necessarily locally convex nor contracting objective functions.  In particular, the analysis relies on a quantitative use of mini-batches to control the loss of iterates to non-attracted regions.  The applicability of the results to simple objective functions arising in machine learning is shown.",
+    "authors": [
+        "Benjamin Fehrman",
+        "Benjamin Gess",
+        "Arnulf Jentzen"
+    ],
+    "emails": [
+        "fehrman@maths.ox.ac.uk",
+        "benjamin.gess@mis.mpg.de",
+        "arnulf.jentzen@sam.math.ethz.ch"
+    ],
+    "id": "19-636",
+    "issue": 136,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Convergence Rates for the Stochastic Gradient Descent Method for Non-Convex Objective Functions",
+    "volume": 21,
+    "year": 2020
+}

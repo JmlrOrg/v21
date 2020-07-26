@@ -1,0 +1,28 @@
+{
+    "abstract": "Gaussian processes are distributions over functions that are versatile and mathematically convenient priors in Bayesian modelling. However, their use is often impeded for data with large numbers of observations, $N$, due to the cubic (in $N$) cost of matrix operations used in exact inference. Many solutions have been proposed that rely on $M \\ll N$ inducing variables to form an approximation at a cost of $\\mathcal{O}\\left(NM^2\\right)$. While the computational cost appears linear in $N$, the true complexity depends on how $M$ must scale with $N$ to ensure a certain quality of the approximation. In this work, we investigate upper and lower bounds on how $M$ needs to grow with $N$ to ensure high quality approximations. We show that we can make the KL-divergence between the approximate model and the exact posterior arbitrarily small for a Gaussian-noise regression model with $M \\ll N$. Specifically, for the popular squared exponential kernel and $D$-dimensional Gaussian distributed covariates, $M = \\mathcal{O}((\\log N)^D)$ suffice and a method with an overall computational cost of $\\mathcal{O}\\left(N(\\log N)^{2D}(\\log \\log N)^2\\right)$ can be used to perform inference.",
+    "authors": [
+        "David R. Burt",
+        "Carl Edward Rasmussen",
+        "Mark van der Wilk"
+    ],
+    "emails": [
+        "drb62@cam.ac.uk",
+        "cer54@cam.ac.uk",
+        "m.vdwilk@imperial.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/markvdw/RobustGP"
+        ]
+    ],
+    "id": "19-1015",
+    "issue": 130,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Convergence of Sparse Variational Inference in Gaussian Processes Regression",
+    "volume": 21,
+    "year": 2020
+}

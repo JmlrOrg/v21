@@ -1,0 +1,28 @@
+{
+    "abstract": "We present a framework for compactly summarizing many recent results in efficient and/or biologically plausible online training of recurrent neural networks (RNN). The framework organizes algorithms according to several criteria: (a) past vs. future facing, (b) tensor structure, (c) stochastic vs. deterministic, and (d) closed form vs. numerical. These axes reveal latent conceptual connections among several recent advances in online learning. Furthermore, we provide novel mathematical intuitions for their degree of success. Testing these algorithms on two parametric task families shows that performances cluster according to our criteria. Although a similar clustering is also observed for pairwise gradient alignment, alignment with exact methods does not explain ultimate performance. This suggests the need for better comparison metrics.",
+    "authors": [
+        "Owen Marschall",
+        "Kyunghyun Cho",
+        "Cristina Savin"
+    ],
+    "emails": [
+        "oem214@nyu.edu",
+        "kyunghyun.cho@nyu.edu",
+        "csavin@nyu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/omarschall/vanilla-rtrl/tree/release"
+        ]
+    ],
+    "id": "19-562",
+    "issue": 135,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A Unified Framework of Online Learning Algorithms for Training Recurrent Neural Networks",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We study contextual bandit learning with an abstract policy class and continuous action space. We obtain two qualitatively different regret bounds: one competes with a smoothed version of the policy class under no continuity assumptions, while the other requires standard Lipschitz assumptions. Both bounds exhibit data-dependent ``zooming'' behavior and, with no tuning, yield improved guarantees for benign problems. We also study adapting to unknown smoothness parameters, establishing a price-of-adaptivity and deriving optimal adaptive algorithms that require no additional information.",
+    "authors": [
+        "Akshay Krishnamurthy",
+        "John Langford",
+        "Aleksandrs Slivkins",
+        "Chicheng Zhang"
+    ],
+    "emails": [
+        "akshaykr@microsoft.com",
+        "jcl@microsoft.com",
+        "slivkins@microsoft.com",
+        "chichengz@cs.arizona.edu"
+    ],
+    "id": "19-650",
+    "issue": 137,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Contextual Bandits with Continuous Actions: Smoothing, Zooming, and Adapting",
+    "volume": 21,
+    "year": 2020
+}

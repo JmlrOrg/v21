@@ -1,0 +1,22 @@
+{
+    "abstract": "Closed surfaces provide a useful model for $3$-d shapes, with the data typically consisting of a cloud of points in $\\mathbb{R}^3$. The existing literature on closed surface modeling focuses on frequentist point estimation methods that join surface patches along the edges, with surface patches created via B\u00e9zier surfaces or tensor products of B-splines. However, the resulting surfaces are not smooth along the edges and the geometric constraints required to join the surface patches lead to computational drawbacks. In this article, we develop a Bayesian model for closed surfaces based on tensor products of a cyclic basis resulting in infinitely smooth surface realizations. We impose sparsity on the control points through a double-shrinkage prior. Theoretical properties of the support of our proposed prior are studied and it is shown that the posterior achieves the optimal rate of convergence under reasonable assumptions on the prior. The proposed approach is illustrated with some examples.",
+    "authors": [
+        "Olivier Binette",
+        "Debdeep Pati",
+        "David B. Dunson"
+    ],
+    "emails": [
+        "olivier.binette@duke.edu",
+        "debdeep@stat.tamu.edu",
+        "dunson@stat.duke.edu"
+    ],
+    "id": "13-233",
+    "issue": 119,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Bayesian Closed Surface Fitting Through Tensor Products",
+    "volume": 21,
+    "year": 2020
+}

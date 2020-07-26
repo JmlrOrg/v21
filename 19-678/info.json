@@ -1,0 +1,33 @@
+{
+    "abstract": "metric-learn is an open source Python package implementing supervised and weakly-supervised distance metric learning algorithms. As part of scikit-learn-contrib, it provides a unified interface compatible with scikit-learn which allows to easily perform cross-validation, model selection, and pipelining with other machine learning estimators. metric-learn is thoroughly tested and available on PyPi under the MIT license.",
+    "authors": [
+        "William de Vazelhes",
+        "CJ Carey",
+        "Yuan Tang",
+        "Nathalie Vauquier",
+        "Aur\u00e9lien Bellet"
+    ],
+    "emails": [
+        "wdevazelhes@gmail.com",
+        "perimosocordiae@gmail.com",
+        "terrytangyuan@gmail.com",
+        "nathalie.vauquier@inria.fr",
+        "aurelien.bellet@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/scikit-learn-contrib/metric-learn"
+        ]
+    ],
+    "id": "19-678",
+    "issue": 138,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "metric-learn: Metric Learning Algorithms in Python",
+    "volume": 21,
+    "year": 2020
+}

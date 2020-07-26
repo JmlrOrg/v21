@@ -1,0 +1,20 @@
+{
+    "abstract": "First-order optimization algorithms play a major role in large scale machine learning. A new class of methods, called adaptive algorithms, was recently introduced to adjust iteratively the learning rate for each coordinate. Despite great practical success in deep learning, their behavior and performance on more general loss functions are not well understood. In this paper, we derive a non-autonomous system of differential equations, which is the continuous-time limit of adaptive optimization methods. We study the convergence of its trajectories and give conditions under which the differential system, underlying all adaptive algorithms, is suitable for optimization. We discuss convergence to a critical point in the non-convex case and give conditions for the dynamics to avoid saddle points and local maxima. For convex loss function, we introduce a suitable Lyapunov functional which allows us to study its rate of convergence. Several other properties of both the continuous and discrete systems are briefly discussed. The differential system studied in the paper is general enough to encompass many other classical algorithms (such as Heavy Ball and Nesterov's accelerated method) and allow us to recover several known results for these algorithms.",
+    "authors": [
+        "Andre Belotto da Silva",
+        "Maxime Gazeau"
+    ],
+    "emails": [
+        "andre-ricardo.belotto-da-silva@univ-amu.fr",
+        "maxime.gazeau@borealisai.com"
+    ],
+    "id": "18-808",
+    "issue": 129,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "A General System of Differential Equations to Model First-Order Adaptive Algorithms",
+    "volume": 21,
+    "year": 2020
+}

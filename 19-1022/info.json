@@ -1,0 +1,24 @@
+{
+    "abstract": "Stochastic convex optimization problems with expectation constraints (SOECs) are encountered in statistics and machine learning, business, and engineering. The SOEC objective and constraints contain expectations defined with respect to complex distributions or large data sets, leading to high computational complexity when solved by the algorithms that use exact functions and their gradients. Recent stochastic first order methods exhibit low computational complexity when handling SOECs but guarantee near-feasibility and near-optimality only at convergence. These methods may thus return highly infeasible solutions when heuristically terminated, as is often the case, due to theoretical convergence criteria being highly conservative. This issue limits the use of first order methods in several applications where the SOEC constraints encode implementation requirements. We design a stochastic feasible level set method (SFLS) for SOECs that has low complexity and emphasizes feasibility before convergence. Specifically, our level-set method solves a root-finding problem by calling a novel first order oracle that computes a stochastic upper bound on the level-set function by extending mirror descent and online validation techniques. We establish that SFLS maintains a high-probability feasible solution at each root-finding iteration and exhibits favorable complexity compared to state-of-the-art deterministic feasible level set and stochastic subgradient methods. Numerical experiments on three diverse applications highlight how SFLS finds feasible solutions with small optimality gaps with lower complexity than the former approaches.",
+    "authors": [
+        "Qihang Lin",
+        "Selvaprabu Nadarajah",
+        "Negar Soheili",
+        "Tianbao Yang"
+    ],
+    "emails": [
+        "qihang-lin@uiowa.edu",
+        "selvan@uic.edu",
+        "nazad@uic.edu",
+        "tianbao-yang@uiowa.edu"
+    ],
+    "id": "19-1022",
+    "issue": 130,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "A Data Efficient and Feasible Level Set Method for Stochastic Convex Optimization with Expectation Constraints",
+    "volume": 21,
+    "year": 2020
+}
