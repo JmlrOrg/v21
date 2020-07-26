@@ -2,25 +2,25 @@
     "abstract": "As artificial intelligence algorithms make further inroads in high-stakes societal applications, there are increasing calls from multiple stakeholders for these algorithms to explain their outputs.  To make matters more challenging, different personas of consumers of explanations have different requirements for explanations. Toward addressing these needs, we introduce AI Explainability 360, an open-source Python toolkit featuring ten diverse and state-of-the-art explainability methods and two evaluation metrics. Equally important, we provide a taxonomy to help entities requiring explanations to navigate the space of interpretation and explanation methods, not only those in the toolkit but also in the broader literature on explainability. For data scientists and other users of the toolkit, we have implemented an extensible software architecture that organizes methods according to their place in the AI modeling pipeline.  The toolkit is not only the software, but also guidance material, tutorials, and an interactive web demo to introduce AI explainability to different audiences. Together, our toolkit and taxonomy can help identify gaps where more explainability methods are needed and provide a platform to incorporate them as they are developed.",
     "authors": [
         "Vijay Arya",
-        " Rachel K. E. Bellamy",
-        " Pin-Yu Chen",
-        " Amit Dhurandhar",
-        " Michael Hind",
-        " Samuel C. Hoffman",
-        " Stephanie Houde",
-        " Q. Vera Liao",
-        " Ronny Luss",
-        " Aleksandra Mojsilovi\u0107",
-        " Sami Mourad",
-        " Pablo Pedemonte",
-        " Ramya Raghavendra",
-        " John T. Richards",
-        " Prasanna Sattigeri",
-        " Karthikeyan Shanmugam",
-        " Moninder Singh",
-        " Kush R. Varshney",
-        " Dennis Wei",
-        " Yunfeng Zhang"
+        "Rachel K. E. Bellamy",
+        "Pin-Yu Chen",
+        "Amit Dhurandhar",
+        "Michael Hind",
+        "Samuel C. Hoffman",
+        "Stephanie Houde",
+        "Q. Vera Liao",
+        "Ronny Luss",
+        "Aleksandra Mojsilović",
+        "Sami Mourad",
+        "Pablo Pedemonte",
+        "Ramya Raghavendra",
+        "John T. Richards",
+        "Prasanna Sattigeri",
+        "Karthikeyan Shanmugam",
+        "Moninder Singh",
+        "Kush R. Varshney",
+        "Dennis Wei",
+        "Yunfeng Zhang"
     ],
     "emails": [
         "vijay.arya@in.ibm.com",
@@ -43,6 +43,12 @@
         "krvarshn@us.ibm.com",
         "dwei@us.ibm.com",
         "zhangyun@us.ibm.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "http://aix360.mybluemix.net"
+        ]
     ],
     "id": "19-1035",
     "issue": 130,
