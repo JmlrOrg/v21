@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the problem of estimation and testing in logistic regression with class-conditional noise in the observed labels, which has an important implication in the Positive-Unlabeled (PU) learning setting. With the key observation that the label noise problem belongs to a special sub-class of generalized linear models (GLM), we discuss convex and non-convex approaches that address this problem. A non-convex approach based on the maximum likelihood estimation produces an estimator with several optimal properties, but a convex approach has an obvious advantage in optimization. We demonstrate that in the low-dimensional setting, both estimators are consistent and asymptotically normal, where the asymptotic variance of the non-convex estimator is smaller than the convex counterpart. We also quantify the efficiency gap which provides insight into when the two methods are comparable. In the high-dimensional setting, we show that both estimation procedures achieve $\\ell_2$-consistency at the minimax optimal $\\sqrt{s\\log p/n}$ rates under mild conditions. Finally, we propose an inference procedure using a de-biasing approach. We validate our theoretical findings through simulations and a real-data example.",
+    "authors": [
+        "Hyebin Song",
+        "Ran Dai",
+        "Garvesh Raskutti",
+        "Rina Foygel Barber"
+    ],
+    "emails": [
+        "hps5320@psu.edu",
+        "ran.dai@unmc.edu",
+        "raskutti@stat.wisc.edu",
+        "rina@uchicago.edu"
+    ],
+    "id": "19-833",
+    "issue": 168,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Convex and Non-Convex Approaches for Statistical Inference with Class-Conditional Noisy Labels",
+    "volume": 21,
+    "year": 2020
+}

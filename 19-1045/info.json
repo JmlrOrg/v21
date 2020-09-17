@@ -1,0 +1,20 @@
+{
+    "abstract": "This work investigates the prediction performance of the kriging predictors. We derive some error bounds for the prediction error in terms of non-asymptotic probability under the uniform metric and $L_p$ metrics when the spectral densities of both the true and the imposed correlation functions decay algebraically. The Matern family is a prominent class of correlation functions of this kind. Our analysis shows that, when the smoothness of the imposed correlation function exceeds that of the true correlation function, the prediction error becomes more sensitive to the space-filling property of the design points. In particular, the kriging predictor can still reach the optimal rate of convergence, if the experimental design scheme is quasi-uniform. Lower bounds of the kriging prediction error are also derived under the uniform metric and $L_p$ metrics. An accurate characterization of this error is obtained, when an oversmoothed correlation function and a space-filling design is used.",
+    "authors": [
+        "Rui Tuo",
+        "Wenjia Wang"
+    ],
+    "emails": [
+        "ruituo@tamu.edu",
+        "1992wangwenjia@gmail.com"
+    ],
+    "id": "19-1045",
+    "issue": 156,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Kriging Prediction with Isotropic Matern Correlations: Robustness and Experimental Designs",
+    "volume": 21,
+    "year": 2020
+}

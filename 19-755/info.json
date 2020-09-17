@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper considers the fundamental problem of learning a complete (orthogonal) dictionary from samples of sparsely generated signals. Most existing methods solve the dictionary (and sparse representations) based on heuristic algorithms, usually without theoretical guarantees for either optimality or complexity. The recent $\\ell^1$-minimization based methods do provide such guarantees but the associated algorithms recover the dictionary one column at a time. In this work, we propose a new formulation that maximizes the $\\ell^4$-norm over the orthogonal group, to learn the entire dictionary. We prove that under a random data model, with nearly minimum sample complexity, the global optima of the $\\ell^4$-norm are very close to signed permutations of the ground truth. Inspired by this observation, we give a conceptually simple and yet effective algorithm based on matching, stretching, and projection (MSP). The algorithm provably converges locally and cost per iteration is merely an SVD. In addition to strong theoretical guarantees, experiments show that the new algorithm is significantly more efficient and effective than existing methods, including KSVD and $\\ell^1$-based methods. Preliminary experimental results on mixed real imagery data clearly demonstrate advantages of so learned dictionary over classic PCA bases.",
+    "authors": [
+        "Yuexiang Zhai",
+        "Zitong Yang",
+        "Zhenyu Liao",
+        "John Wright",
+        "Yi Ma"
+    ],
+    "emails": [
+        "ysz@berkeley.edu",
+        "zitong@berkeley.edu",
+        "liaozhenyu2004@gmail.com",
+        "jw2966@columbia.edu",
+        "yima@eecs.berkeley.edu"
+    ],
+    "id": "19-755",
+    "issue": 165,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Complete Dictionary Learning via L4-Norm Maximization over the Orthogonal Group",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Many optimization problems can be cast into the maximum satisfiability (MAX-SAT) form, and many solvers have been developed for tackling such problems. To evaluate a MAXSAT solver, it is convenient to generate hard MAX-SAT instances with known solutions. Here, we propose a method of generating weighted MAX-2-SAT instances inspired by the frustrated-loop algorithm used by the quantum annealing community. We extend the algorithm for instances of general bipartite couplings, with the associated optimization problem being the minimization of the restricted Boltzmann machine (RBM) energy over the nodal values, which is useful for effectively pre-training the RBM. The hardness of the generated instances can be tuned through a central parameter known as the frustration index. Two versions of the algorithm are presented: the random- and structured-loop algorithms. For the random-loop algorithm, we provide a thorough theoretical and empirical analysis on its mathematical properties from the perspective of frustration, and observe empirically a double phase transition behavior in the hardness scaling behavior driven by the frustration index. For the structured-loop algorithm, we show that it offers an improvement in hardness over the random-loop algorithm in the regime of high loop density, with the variation of hardness tunable through the concentration of frustrated weights.",
+    "authors": [
+        "Yan Ru Pei",
+        "Haik Manukian",
+        "Massimiliano Di Ventra"
+    ],
+    "emails": [
+        "yrpei@ucsd.edu",
+        "hmanukia@ucsd.edu",
+        "diventra@physics.ucsd.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PeaBrane/Ising-Simulation"
+        ]
+    ],
+    "id": "19-368",
+    "issue": 159,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Generating Weighted MAX-2-SAT Instances with Frustrated Loops: an RBM Case Study",
+    "volume": 21,
+    "year": 2020
+}

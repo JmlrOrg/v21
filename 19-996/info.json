@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper presents a unified framework for supervised learning and inference procedures using the divide-and-conquer approach for high-dimensional correlated outcomes. We propose a general class of estimators that can be implemented in a fully distributed and parallelized computational scheme. Modeling, computational and theoretical challenges related to high-dimensional correlated outcomes are overcome by dividing data at both outcome and subject levels, estimating the parameter of interest from blocks of data using a broad class of supervised learning procedures, and combining block estimators in a closed-form meta-estimator asymptotically equivalent to estimates obtained by Hansen (1982)'s generalized method of moments (GMM) that does not require the entire data to be reloaded on a common server. We provide rigorous theoretical justifications for the use of distributed estimators with correlated outcomes by studying the asymptotic behaviour of the combined estimator with fixed and diverging number of data divisions. Simulations illustrate the finite sample performance of the proposed method, and we provide an R package for ease of implementation.",
+    "authors": [
+        "Emily C. Hector",
+        "Peter X.-K. Song"
+    ],
+    "emails": [
+        "ehector@ncsu.edu",
+        "pxsong@umich.edu"
+    ],
+    "id": "19-996",
+    "issue": 173,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Doubly Distributed Supervised Learning and Inference with High-Dimensional Correlated Outcomes",
+    "volume": 21,
+    "year": 2020
+}

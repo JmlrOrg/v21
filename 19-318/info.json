@@ -1,0 +1,20 @@
+{
+    "abstract": "Structure learning of Bayesian networks has always been a challenging problem. Nowadays, massive-size networks with thousands or more of nodes but fewer samples frequently appear in many areas. We develop a divide-and-conquer framework, called partition-estimation-fusion (PEF), for structure learning of such big networks. The proposed method first partitions nodes into clusters, then learns a subgraph on each cluster of nodes, and finally fuses all learned subgraphs into one Bayesian network. The PEF method is designed in a flexible way so that any structure learning method may be used in the second step to learn a subgraph structure as either a DAG or a CPDAG. In the clustering step, we adapt hierarchical clustering to automatically choose a proper number of clusters. In the fusion step, we propose a novel hybrid method that sequentially adds edges between subgraphs. Extensive numerical experiments demonstrate the competitive performance of our PEF method, in terms of both speed and accuracy compared to existing methods. Our method can improve the accuracy of structure learning by 20% or more, while reducing running time up to two orders-of-magnitude.",
+    "authors": [
+        "Jiaying Gu",
+        "Qing Zhou"
+    ],
+    "emails": [
+        "gujy.lola@gmail.com",
+        "zhou@stat.ucla.edu"
+    ],
+    "id": "19-318",
+    "issue": 158,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Learning Big Gaussian Bayesian Networks: Partition, Estimation and Fusion",
+    "volume": 21,
+    "year": 2020
+}

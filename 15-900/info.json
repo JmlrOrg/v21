@@ -1,0 +1,24 @@
+{
+    "abstract": "Graph-based semi-supervised learning is the problem of propagating labels from a small number of labelled data points to a larger set of unlabelled data.  This paper is concerned with the consistency of optimization-based techniques for such problems, in the limit where the labels have small noise and the underlying unlabelled data is well clustered.  We study graph-based probit for binary classification,  and a natural generalization of this method to multi-class classification using one-hot encoding.  The resulting objective function to be optimized comprises the sum of a quadratic form defined through a rational function of the graph Laplacian, involving only the unlabelled data, and a fidelity term involving only the labelled data.  The consistency analysis sheds light on the choice of the rational function defining the optimization.",
+    "authors": [
+        "Franca Hoffmann",
+        "Bamdad Hosseini",
+        "Zhi Ren",
+        "Andrew M Stuart"
+    ],
+    "emails": [
+        "fkoh@caltech.edu",
+        "bamdadh@caltech.edu",
+        "zren@mit.edu",
+        "astuart@caltech.edu"
+    ],
+    "id": "15-900",
+    "issue": 145,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Consistency of Semi-Supervised Learning Algorithms onGraphs:  Probit and One-Hot Methods",
+    "volume": 21,
+    "year": 2020
+}

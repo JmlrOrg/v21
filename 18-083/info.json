@@ -1,0 +1,26 @@
+{
+    "abstract": "In observational studies, it is important to evaluate not only the total effect but also the direct and indirect effects of a treatment variable on a response variable. In terms of local structural learning of causal networks, we try to find all possible pairs of total and direct causal effects, which can further be used to calculate indirect causal effects. An intuitive global learning approach is first to find an essential graph over all variables representing all Markov equivalent causal networks, and then enumerate all equivalent networks and estimate a pair of the total and direct effects for each of them. However, it could be inefficient to learn an essential graph and enumerate equivalent networks when the true causal graph is large. In this paper, we propose a local learning approach instead. In the local learning approach, we first learn locally a chain component containing the treatment. Then, if necessary, we learn locally a chain component containing the response. Next, we locally enumerate all possible pairs of the treatment's parents and the response's parents. Finally based on these pairs, we find all possible pairs of total and direct effects of the treatment on the response.",
+    "authors": [
+        "Yue Liu",
+        "Zhuangyan Fang",
+        "Yangbo He",
+        "Zhi Geng",
+        "Chunchen Liu"
+    ],
+    "emails": [
+        "ly199125@pku.edu.cn",
+        "fangzy_math@pku.edu.cn",
+        "heyb@pku.edu.cn",
+        "zhigeng@pku.edu.cn",
+        "chencang.lcc@alibaba-inc.com"
+    ],
+    "id": "18-083",
+    "issue": 148,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Local Causal Network Learning for Finding Pairs of Total and Direct Effects",
+    "volume": 21,
+    "year": 2020
+}

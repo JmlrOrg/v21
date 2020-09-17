@@ -1,0 +1,28 @@
+{
+    "abstract": "We derive and present explicit algorithms to facilitate streamlined computing for variational inference for models containing higher level random effects. Existing literature is such that streamlined variational inference is restricted to mean field variational Bayes algorithms for two-level random effects models. Here we provide the following extensions: (1) explicit Gaussian response mean field variational Bayes algorithms for three-level models, (2) explicit algorithms for the alternative variational message passing approach in the case of two-level and three-level models, and (3) an explanation of how arbitrarily high levels of nesting can be handled based on the recently published matrix algebraic results of the authors. A pay-off from (2) is simple extension to non-Gaussian response models. In summary, we remove barriers for streamlining variational inference algorithms based on either the mean field variational Bayes approach or the variational message passing approach when higher level random effects are present.",
+    "authors": [
+        "Tui H. Nolan",
+        "Marianne Menictas",
+        "Matt P. Wand"
+    ],
+    "emails": [
+        "tui.nolan@uts.edu.au",
+        "mmenictas@gmail.com",
+        "matt.wand@uts.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "http://matt-wand.utsacademics.info/NolanMenictasWandCode.zip"
+        ]
+    ],
+    "id": "19-222",
+    "issue": 157,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Streamlined Variational Inference with Higher Level Random Effects",
+    "volume": 21,
+    "year": 2020
+}

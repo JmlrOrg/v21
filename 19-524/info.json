@@ -1,0 +1,28 @@
+{
+    "abstract": "Many methods for machine learning rely on approximate inference from intractable probability distributions. Variational inference approximates such distributions by tractable models that can be subsequently used for approximate inference. Learning sufficiently accurate approximations requires a rich model family and careful exploration of the relevant modes of the target distribution. We propose a method for learning accurate GMM approximations of intractable probability distributions based on insights from policy search by using information-geometric trust regions for principled exploration. For efficient improvement of the GMM approximation, we derive a lower bound on the corresponding optimization objective enabling us to update the components independently. Our use of the lower bound ensures convergence to a stationary point of the original objective. The number of components is adapted online by adding new components in promising regions and by deleting components with negligible weight. We demonstrate on several domains that we can learn approximations of complex, multimodal distributions with a quality that is unmet by previous variational inference methods, and that the GMM approximation can be used for drawing samples that are on par with samples created by state-of-the-art MCMC samplers while requiring up to three orders of magnitude less computational resources.",
+    "authors": [
+        "Oleg Arenz",
+        "Mingjun Zhong",
+        "Gerhard Neumann"
+    ],
+    "emails": [
+        "oleg@robot-learning.de",
+        "mingjun.zhong@abdn.ac.uk",
+        "geri@robot-learning.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/OlegArenz/VIPS"
+        ]
+    ],
+    "id": "19-524",
+    "issue": 163,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Trust-Region Variational Inference with Gaussian Mixture Models",
+    "volume": 21,
+    "year": 2020
+}

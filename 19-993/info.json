@@ -1,0 +1,26 @@
+{
+    "abstract": "Operator-theoretic analysis of nonlinear dynamical systems has attracted much attention in a variety of engineering and scientific fields, endowed with practical estimation methods using data such as dynamic mode decomposition. In this paper, we address a lifted representation of nonlinear dynamical systems with random noise based on transfer operators, and develop a novel Krylov subspace method for estimating the operators using finite data, with consideration of the unboundedness of operators. For this purpose, we first consider Perron-Frobenius operators with kernel-mean embeddings for such systems. We then extend the Arnoldi method, which is the most classical type of Kryov subspace methods, so that it can be applied to the current case. Meanwhile, the Arnoldi method requires the assumption that the operator is bounded, which is not necessarily satisfied for transfer operators on nonlinear systems. We accordingly develop the shift-invert Arnoldi method for Perron-Frobenius operators to avoid this problem. Also, we describe an approach of evaluating predictive accuracy by estimated operators on the basis of the maximum mean discrepancy, which is applicable, for example, to anomaly detection in complex systems. The empirical performance of our methods is investigated using synthetic and real-world healthcare data.",
+    "authors": [
+        "Yuka Hashimoto",
+        "Isao Ishikawa",
+        "Masahiro Ikeda",
+        "Yoichi Matsuo",
+        "Yoshinobu Kawahara"
+    ],
+    "emails": [
+        "yuka.hashimoto.rw@hco.ntt.co.jp",
+        "ishikawa.isao.zx@ehime-u.ac.jp",
+        "masahiro.ikeda@riken.jp",
+        "yoichi.matsuo.ex@hco.ntt.co.jp",
+        "kawahara@imi.kyushu-u.ac.jp"
+    ],
+    "id": "19-993",
+    "issue": 172,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Krylov Subspace Method for Nonlinear Dynamical Systems with Random Noise",
+    "volume": 21,
+    "year": 2020
+}

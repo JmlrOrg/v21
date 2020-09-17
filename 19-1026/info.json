@@ -1,0 +1,20 @@
+{
+    "abstract": "The method of covariate adjustment is often used for estimation of total treatment effects from observational studies. Restricting attention to causal linear models, a recent article (Henckel et al., 2019) derived two novel graphical criteria: one to compare the asymptotic variance of linear regression treatment effect estimators that control for certain distinct adjustment sets and another to identify the optimal adjustment set that yields the least squares estimator with the smallest asymptotic variance. In this paper we show that the same graphical criteria can be used in non-parametric causal graphical models when treatment effects are estimated using non-parametrically adjusted estimators of the interventional means. We also provide a new graphical criterion for determining the optimal adjustment set among the minimal adjustment sets and another novel graphical criterion for comparing  time dependent adjustment sets. We show that uniformly optimal time dependent adjustment sets do not always exist. For point interventions, we provide a sound and complete graphical criterion for determining when a non-parametric optimally adjusted estimator of an interventional mean, or of a contrast of interventional means, is semiparametric efficient under the non-parametric causal graphical model. In addition, when the criterion is not met, we provide a sound algorithm that checks for possible simplifications of the efficient influence function of the parameter. Finally, we find an interesting connection between identification and efficient covariate adjustment estimation. Specifically, we show that if there exists an identifying formula for an interventional mean that depends only on treatment, outcome and mediators, then the non-parametric optimally adjusted estimator can never be globally efficient under the causal graphical model.",
+    "authors": [
+        "Andrea Rotnitzky",
+        "Ezequiel Smucler"
+    ],
+    "emails": [
+        "arotnitzky@utdt.edu",
+        "esmucler@utdt.edu"
+    ],
+    "id": "19-1026",
+    "issue": 156,
+    "pages": [
+        1,
+        86
+    ],
+    "title": "Efficient Adjustment Sets for Population Average Causal Treatment Effect Estimation in Graphical Models",
+    "volume": 21,
+    "year": 2020
+}

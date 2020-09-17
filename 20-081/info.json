@@ -1,0 +1,34 @@
+{
+    "abstract": "In many real-world settings, a team of agents must coordinate its behaviour while acting in a decentralised fashion. At the same time, it is often possible to train the agents in a centralised fashion where global state information is available and communication constraints are lifted. Learning joint action-values conditioned on extra state information is an attractive way to exploit centralised learning, but the best strategy for then extracting decentralised policies is unclear. Our solution is QMIX, a novel value-based method that can train decentralised policies in a centralised end-to-end fashion.  QMIX employs a mixing network that estimates joint action-values as a monotonic combination of per-agent values. We structurally enforce that the joint-action value is monotonic in the per-agent values, through the use of non-negative weights in the mixing network, which  guarantees consistency between the centralised and decentralised policies. To evaluate the performance of QMIX, we propose the StarCraft Multi-Agent Challenge (SMAC) as a new benchmark for deep multi-agent reinforcement learning. We evaluate QMIX on a challenging set of SMAC scenarios and show that it significantly outperforms existing multi-agent reinforcement learning methods.",
+    "authors": [
+        "Tabish Rashid",
+        "Mikayel Samvelyan",
+        "Christian Schroeder de Witt",
+        "Gregory Farquhar",
+        "Jakob Foerster",
+        "Shimon Whiteson"
+    ],
+    "emails": [
+        "tabish.rashid@cs.ox.ac.uk",
+        "mikayel@samvelyan.com",
+        "cs@robots.ox.ac.uk",
+        "gregory.farquhar@cs.ox.ac.uk",
+        "jnf@fb.com",
+        "shimon.whiteson@cs.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/oxwhirl/pymarl"
+        ]
+    ],
+    "id": "20-081",
+    "issue": 178,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+    "volume": 21,
+    "year": 2020
+}
