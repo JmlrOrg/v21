@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider reinforcement learning (RL) in continuous time with continuous feature and action spaces. We motivate and devise an exploratory formulation for the feature dynamics that captures  learning under exploration, with the resulting optimization problem being a revitalization of the classical relaxed stochastic control. We then study the problem of achieving the best trade-off between exploration and exploitation by considering an entropy-regularized  reward function. We carry out a complete analysis of the problem in the linear--quadratic (LQ) setting and deduce that the optimal feedback control distribution for balancing exploitation and exploration is Gaussian. This in turn interprets the widely adopted Gaussian exploration in RL, beyond its simplicity for sampling. Moreover, the exploitation and exploration are captured respectively  by the mean and variance of the Gaussian distribution. We characterize the cost of exploration, which, for the LQ case, is shown to be proportional to the entropy regularization weight and inversely proportional to the discount rate. Finally, as the weight of exploration decays to zero, we prove the convergence of the solution of the entropy-regularized  LQ problem to the one of the classical LQ problem.",
+    "authors": [
+        "Haoran Wang",
+        "Thaleia Zariphopoulou",
+        "Xun Yu Zhou"
+    ],
+    "emails": [
+        "hrwang2718@gmail.com",
+        "zariphop@math.utexas.edu",
+        "xz2574@columbia.edu"
+    ],
+    "id": "19-144",
+    "issue": 198,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Reinforcement Learning in Continuous Time and Space: A Stochastic Control Approach",
+    "volume": 21,
+    "year": 2020
+}

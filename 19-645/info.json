@@ -1,0 +1,22 @@
+{
+    "abstract": "A tacit assumption in linear regression is that (response, predictor)-pairs correspond  to identical observational units. A series of recent works have studied scenarios in which this assumption is violated under terms such as ``Unlabeled Sensing and ``Regression with Unknown Permutation''. In this paper, we study the setup of multiple response variables and a notion of mismatches that generalizes permutations in order to allow for missing matches as well as for one-to-many matches. A two-stage method is proposed under the assumption that most pairs are correctly matched. In the first stage, the regression parameter is estimated by handling mismatches as contaminations, and subsequently the generalized permutation is estimated by a basic variant of matching. The approach is both computationally convenient and equipped with favorable statistical guarantees. Specifically, it is shown that the conditions for permutation recovery become considerably less stringent as the number of responses $m$ per observation increase. Particularly, for $m = \\Omega(\\log n)$, the required signal-to-noise ratio no longer depends on the sample size $n$. Numerical results on synthetic and real data are presented to support the main findings of our analysis.",
+    "authors": [
+        "Martin Slawski",
+        "Emanuel Ben-David",
+        "Ping Li"
+    ],
+    "emails": [
+        "mslawsk3@gmu.edu",
+        "emanuel.ben.david@census.gov",
+        "liping11@baidu.com"
+    ],
+    "id": "19-645",
+    "issue": 204,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Two-Stage Approach to Multivariate Linear Regression with Sparsely Mismatched Data",
+    "volume": 21,
+    "year": 2020
+}

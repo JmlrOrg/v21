@@ -1,0 +1,25 @@
+{
+    "abstract": "scikit-survival is an open-source Python package for time-to-event analysis fully compatible with scikit-learn. It provides implementations of many popular machine learning techniques for time-to-event analysis, including penalized Cox model, Random Survival Forest, and Survival Support Vector Machine. In addition, the library includes tools to evaluate model performance on censored time-to-event data. The documentation contains installation instructions, interactive notebooks, and a full description of the API. scikit-survival is distributed under the GPL-3 license with the source code and detailed instructions available at https://github.com/sebp/scikit-survival",
+    "authors": [
+        "Sebastian P\u00f6lsterl"
+    ],
+    "emails": [
+        "sebastian.poelsterl@med.uni-muenchen.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sebp/scikit-survival"
+        ]
+    ],
+    "id": "20-729",
+    "issue": 212,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "scikit-survival: A Library for Time-to-Event Analysis Built on Top of scikit-learn",
+    "volume": 21,
+    "year": 2020
+}

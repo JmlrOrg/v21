@@ -1,0 +1,18 @@
+{
+    "abstract": "The challenge in controlling stochastic systems in which low-probability events can set the system on catastrophic trajectories is to develop a robust ability to respond to such events without significantly compromising the optimality of the baseline control policy. This paper presents CelluDose, a stochastic simulation-trained deep reinforcement learning adaptive feedback control prototype for automated precision drug dosing targeting stochastic and heterogeneous cell proliferation. Drug resistance can emerge from random and variable mutations in targeted cell populations; in the absence of an appropriate dosing policy, emergent resistant subpopulations can proliferate and lead to treatment failure. Dynamic feedback dosage control holds promise in combatting this phenomenon, but the application of traditional control approaches to such systems is fraught with challenges due to the complexity of cell dynamics, uncertainty in model parameters, and the need in medical applications for a robust controller that can be trusted to properly handle unexpected outcomes. Here, training on a sample biological scenario identified single-drug and combination therapy policies that exhibit a $100\\%$ success rate at suppressing cell proliferation and responding to diverse system perturbations while establishing low-dose no-event baselines. These policies were found to be highly robust to variations in a key model parameter subject to significant uncertainty and unpredictable dynamical changes.",
+    "authors": [
+        "Dalit Engelhardt"
+    ],
+    "emails": [
+        "dengelhardt@ds.dfci.harvard.edu"
+    ],
+    "id": "19-546",
+    "issue": 203,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Dynamic Control of Stochastic Evolution: A Deep Reinforcement Learning Approach to Adaptively Targeting Emergent Drug Resistance",
+    "volume": 21,
+    "year": 2020
+}

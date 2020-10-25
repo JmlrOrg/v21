@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper is concerned with the quadratic regression problem, where the goal is to find the unknown state (numerical parameters) of a system modeled by a set of equations that are quadratic in the state. We focus on the setting when a subset of equations of fixed cardinality is subject to errors of arbitrary magnitudes (potentially adversarial). We develop two methods to address this problem, which are both based on conic optimization and are able to accept any available prior knowledge on the solution as an input. We derive sufficient conditions for guaranteeing the correct recovery of the unknown state for each method and show that one method provides a better accuracy while the other one scales better to large-scale systems. The obtained conditions consist in bounds on the number of bad measurements each method can tolerate without producing a nonzero estimation error. In the case when no prior knowledge is available, we develop an iterative-based conic optimization technique. It is proved that the proposed methods allow up to half of the total number of measurements to be grossly erroneous.The efficacy of the developed methods is demonstrated in different case studies, including data analytics for a European power grid.",
+    "authors": [
+        "Igor Molybog",
+        "Ramtin Madani",
+        "Javad Lavaei"
+    ],
+    "emails": [
+        "igormolybog@berkeley.edu",
+        "ramtin.madani@uta.edu",
+        "lavaei@berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/igormolybog/Conic-Optimization-for-Quadratic-Regression-Under-Sparse-Noise"
+        ]
+    ],
+    "id": "18-881",
+    "issue": 195,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Conic Optimization for Quadratic Regression Under Sparse Noise",
+    "volume": 21,
+    "year": 2020
+}

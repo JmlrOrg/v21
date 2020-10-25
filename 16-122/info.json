@@ -1,0 +1,22 @@
+{
+    "abstract": "A new support vector machine (SVM) variant, called CS++-SVM, is presented combining multiclass classification and anomaly detection in a single-step process to create a trained machine that can simultaneously classify test data belonging to classes represented in the training set and label as anomalous test data belonging to classes not represented in the training set. A theoretical analysis of the properties of the new method, showing how it combines properties inherited both from the conic-segmentation SVM (CS-SVM) and the $1$-class SVM (to which the method described reduces to in the case of unlabelled training data), is given. Finally, experimental results are presented to demonstrate the effectiveness of the algorithm for both simulated and real-world data.",
+    "authors": [
+        "Alistair Shilton",
+        "Sutharshan Rajasegarar",
+        "Marimuthu Palaniswami"
+    ],
+    "emails": [
+        "alistair.shilton@deakin.edu.au",
+        "sutharshan.rajasegarar@deakin.edu.au",
+        "palani@unimelb.edu.au"
+    ],
+    "id": "16-122",
+    "issue": 187,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Multiclass Anomaly Detector: the CS++ Support Vector Machine",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Cluster analysis is a fundamental tool for pattern discovery of complex heterogeneous data. Prevalent clustering methods mainly focus on vector or matrix-variate data and are not applicable to general-order tensors, which arise frequently in modern scientific and business applications.  Moreover, there is a gap between statistical guarantees and computational efficiency for existing tensor clustering solutions due to the nature of their non-convex formulations. In this work, we bridge this gap by developing a provable convex formulation of tensor co-clustering. Our convex co-clustering (CoCo) estimator enjoys stability guarantees and its computational and storage costs are polynomial in the size of the data. We further establish a non-asymptotic error bound for the CoCo estimator, which reveals a surprising ``blessing of dimensionality'' phenomenon that does not exist in vector or matrix-variate cluster analysis. Our theoretical findings are supported by extensive simulated studies. Finally, we apply the CoCo estimator to the cluster analysis of advertisement click tensor data from a major online company. Our clustering results provide meaningful business insights to improve advertising effectiveness.",
+    "authors": [
+        "Eric C. Chi",
+        "Brian J. Gaines",
+        "Will Wei Sun",
+        "Hua Zhou",
+        "Jian Yang"
+    ],
+    "emails": [
+        "eric_chi@ncsu.edu",
+        "brian.gaines@sas.com",
+        "sun244@purdue.edu",
+        "huazhou@ucla.edu",
+        "jianyang@oath.com"
+    ],
+    "id": "18-155",
+    "issue": 188,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Provable Convex Co-clustering of Tensors",
+    "volume": 21,
+    "year": 2020
+}

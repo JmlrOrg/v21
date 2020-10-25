@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper investigates the asymptotic behaviors of gradient descent algorithms (particularly accelerated gradient descent and stochastic gradient descent) in the context of stochastic optimization arising in statistics and machine learning, where objective functions are estimated from available data.  We show that these algorithms can be computationally modeled by continuous-time ordinary or stochastic differential equations. We establish gradient flow central limit theorems to describe the limiting dynamic behaviors of these computational algorithms and the large-sample performances of the related statistical procedures, as the number of algorithm iterations and data size both go to infinity, where the gradient flow central limit theorems are governed by some linear ordinary or stochastic differential equations, like time-dependent Ornstein-Uhlenbeck processes.  We illustrate that our study can provide a novel unified framework for a joint computational and statistical asymptotic analysis, where the computational asymptotic analysis studies the dynamic behaviors of these algorithms with time (or the number of iterations in the algorithms), the statistical asymptotic analysis investigates the large-sample behaviors of the statistical procedures (like estimators and classifiers) that are computed by applying the algorithms; in fact, the statistical procedures are equal to the limits of the random sequences generated from these iterative algorithms, as the  number of iterations goes to infinity. The joint analysis results based on the obtained gradient flow central limit theorems lead to the identification of  four factors---learning rate, batch size, gradient covariance, and Hessian---to derive new theories regarding the local minima  found by stochastic gradient descent for solving non-convex optimization problems.",
+    "authors": [
+        "Yazhen Wang",
+        "Shang Wu"
+    ],
+    "emails": [
+        "yzwang@stat.wisc.edu",
+        "shangwu@fudan.edu.cn"
+    ],
+    "id": "19-245",
+    "issue": 199,
+    "pages": [
+        1,
+        103
+    ],
+    "title": "Asymptotic Analysis via Stochastic Differential Equations of Gradient Descent Algorithms in Statistical and Computational Paradigms",
+    "volume": 21,
+    "year": 2020
+}

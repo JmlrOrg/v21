@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we study the Empirical Risk Minimization (ERM) problem in the non-interactive Local Differential Privacy (LDP) model. Previous research on this problem (Smith et al., 2017) indicates that the sample complexity, to achieve error $\\alpha$, needs to be exponentially depending on the dimensionality $p$ for general loss functions. In this paper, we make two attempts to resolve this issue by investigating conditions on the loss functions that allow us to remove such a limit. In our first attempt, we show that if the loss function is $(\\infty, T)$-smooth, by using the Bernstein polynomial approximation we can avoid the exponential dependency in the term of $\\alpha$. We then propose player-efficient algorithms with $1$-bit communication complexity and $O(1)$ computation cost for each player. The error bound of these algorithms is asymptotically the same as the original one. With some additional assumptions, we also give an algorithm which is more efficient for the server. In our second attempt,  we show that for any $1$-Lipschitz generalized linear convex loss function, there is an $(\\epsilon, \\delta)$-LDP algorithm whose sample complexity for achieving error $\\alpha$ is only linear in the dimensionality $p$. Our results use a polynomial of inner product approximation technique. Finally, motivated by the idea of using polynomial approximation and based on different types of polynomial approximations, we propose (efficient) non-interactive locally differentially private algorithms for learning the set of k-way marginal queries and the set of smooth queries.",
+    "authors": [
+        "Di Wang",
+        "Marco Gaboardi",
+        "Adam Smith",
+        "Jinhui Xu"
+    ],
+    "emails": [
+        "dwang45@buffalo.edu",
+        "gaboardi@bu.edu",
+        "ads22@bu.edu",
+        "jinhui@buffalo.edu"
+    ],
+    "id": "19-253",
+    "issue": 200,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Empirical Risk Minimization in the Non-interactive Local Model of Differential Privacy",
+    "volume": 21,
+    "year": 2020
+}

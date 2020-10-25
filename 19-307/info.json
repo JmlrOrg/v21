@@ -1,0 +1,22 @@
+{
+    "abstract": "Decision trees are flexible models that are well suited for many statistical regression problems. In the Bayesian framework for regression trees, Markov Chain Monte Carlo (MCMC) search algorithms are required to generate samples of tree models according to their posterior probabilities. The critical component of such MCMC algorithms is to construct \"good\" Metropolis-Hastings steps to update the tree topology. Such algorithms frequently suffer from poor mixing and local mode stickiness; therefore, the algorithms are slow to converge. Hitherto, authors have primarily used discrete-time birth/death mechanisms for Bayesian (sums of) regression tree models to explore the tree-model space. These algorithms are efficient, in terms of computation and convergence, only if the rejection rate is low which is not always the case. We overcome this issue by developing a novel search algorithm which is based on a continuous-time birth-death Markov process. The search algorithm explores the tree-model space by jumping between parameter spaces corresponding to different tree structures. The jumps occur in continuous time corresponding to the birth-death events which are modeled as independent Poisson processes. In the proposed algorithm, the moves between models are always accepted which can dramatically improve the convergence and mixing properties of the search algorithm. We provide theoretical support of the algorithm for Bayesian regression tree models and demonstrate its performance in a simulated example.",
+    "authors": [
+        "Reza Mohammadi",
+        "Matthew Pratola",
+        "Maurits Kaptein"
+    ],
+    "emails": [
+        "a.mohammadi@uva.nl",
+        "mpratola@stat.osu.edu",
+        "m.c.kaptein@uvt.nl"
+    ],
+    "id": "19-307",
+    "issue": 201,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Continuous-Time Birth-Death MCMC for Bayesian Regression Tree Models",
+    "volume": 21,
+    "year": 2020
+}

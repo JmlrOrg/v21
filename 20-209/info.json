@@ -1,0 +1,30 @@
+{
+    "abstract": "We show a hardness result for random smoothing to achieve certified adversarial robustness against attacks in the $\\ell_p$ ball of radius $\\epsilon$ when $p>2$. Although random smoothing has been well understood for the $\\ell_2$ case using the Gaussian distribution, much remains unknown concerning the existence of a noise distribution that works for the case of $p>2$. This has been posed as an open problem by Cohen et al. (2019) and includes many significant paradigms such as the $\\ell_\\infty$ threat model. In this work, we show that any noise distribution $\\mathcal{D}$ over $\\mathbb{R}^d$ that provides $\\ell_p$ robustness for all base classifiers with $p>2$ must satisfy $\\mathbb{E} \\eta_i^2=\\Omega(d^{1-2/p}\\epsilon^2(1-\\delta)/\\delta^2)$ for 99% of the features (pixels) of vector $\\eta\\sim\\mathcal{D}$, where $\\epsilon$ is the robust radius and $\\delta$ is the score gap between the highest-scored class and the runner-up. Therefore, for high-dimensional images with pixel values bounded in $[0,255]$, the required noise will eventually dominate the useful information in the images, leading to trivial smoothed classifiers.",
+    "authors": [
+        "Avrim Blum",
+        "Travis Dick",
+        "Naren Manoj",
+        "Hongyang Zhang"
+    ],
+    "emails": [
+        "avrim@ttic.edu",
+        "tbd@seas.upenn.edu",
+        "nsm@ttic.edu",
+        "hongyanz@ttic.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/hongyanz/TRADES-smoothing"
+        ]
+    ],
+    "id": "20-209",
+    "issue": 211,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Random Smoothing Might be Unable to Certify L\u221e Robustness for High-Dimensional Images",
+    "volume": 21,
+    "year": 2020
+}

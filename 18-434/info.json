@@ -1,0 +1,26 @@
+{
+    "abstract": "Asynchronous stochastic algorithms with various variance reduction techniques (such as SVRG, S2GD, SAGA and q-SAGA) are popular in solving large scale learning problems. Recently, Reddi et al. (2015) proposed an unified variance reduction framework (i.e., HSAG) to analyze the asynchronous stochastic gradient optimization. However, the HSAG framework cannot incorporate the S2GD technique, the analysis of the HSAG framework is limited to the SVRG and SAGA techniques on the smooth convex optimization. They did not analyze other important various variance techniques (e.g., S2GD and q-SAGA) and other important optimization problems (e.g., convex optimization with non-smooth regularization and non-convex optimization with cardinality constraint). In this paper, we bridge this gap by using an unified q-memorization framework for various variance reduction techniques (including SVRG, S2GD, SAGA, q-SAGA) to analyze asynchronous stochastic algorithms for three important optimization problems. Specifically, based on the q-memorization framework, 1) we propose an asynchronous stochastic gradient hard thresholding algorithm with q-memorization (AsySGHT-qM) for the non-convex optimization with cardinality constraint, and prove that the convergence rate of AsySGHT-qM before reaching the inherent error induced by gradient hard thresholding methods is geometric. 2) We propose an asynchronous stochastic proximal gradient algorithm (AsySPG-qM) for the convex optimization with non-smooth regularization, and prove that AsySPG-qM can achieve a linear convergence rate. 3) We propose an asynchronous stochastic gradient descent algorithm (AsySGD-qM) for the general non-convex optimization problem, and prove that AsySGD-qM can achieve a sublinear convergence rate to stationary points. The experimental results on various large-scale datasets confirm the fast convergence of our AsySGHT-qM, AsySPG-qM and AsySGD-qM through concrete realizations of SVRG and SAGA.",
+    "authors": [
+        "Bin Gu",
+        "Wenhan Xian",
+        "Zhouyuan Huo",
+        "Cheng Deng",
+        "Heng Huang"
+    ],
+    "emails": [
+        "jsgubin@gmail.com",
+        "WEX37@pitt.edu",
+        "zhhuo@google.com",
+        "chdeng.xd@gmail.com",
+        "heng.huang@pitt.edu"
+    ],
+    "id": "18-434",
+    "issue": 190,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "A Unified q-Memorization  Framework for   Asynchronous Stochastic Optimization",
+    "volume": 21,
+    "year": 2020
+}

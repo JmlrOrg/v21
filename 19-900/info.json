@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we propose a data-adaptive non-parametric kernel learning framework in margin based kernel methods. In model formulation, given an initial kernel matrix, a data-adaptive matrix with two constraints is imposed in an entry-wise scheme. Learning this data-adaptive matrix in a formulation-free strategy enlarges the margin between classes and thus improves the model flexibility. The introduced two constraints are imposed either exactly (on small data sets) or approximately (on large data sets) in our model, which provides a controllable trade-off between model flexibility and complexity with theoretical demonstration. In algorithm optimization, the objective function of our learning framework is proven to be gradient-Lipschitz continuous. Thereby, kernel and classifier/regressor learning can be efficiently optimized in a unified framework via Nesterov's acceleration. For the scalability issue, we study a decomposition-based approach to our model in the large sample case. The effectiveness of this approximation is illustrated by both empirical studies and theoretical guarantees. Experimental results on various classification and regression benchmark data sets demonstrate that our non-parametric kernel learning framework achieves good performance when compared with other representative kernel learning based algorithms.",
+    "authors": [
+        "Fanghui Liu",
+        "Xiaolin Huang",
+        "Chen Gong",
+        "Jie Yang",
+        "Li Li"
+    ],
+    "emails": [
+        "fanghui.liu@kuleuven.be",
+        "xiaolinhuang@sjtu.edu.cn",
+        "chen.gong@njust.edu.cn",
+        "jieyang@sjtu.edu.cn",
+        "li-li@tsinghua.edu.cn"
+    ],
+    "id": "19-900",
+    "issue": 208,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Learning Data-adaptive Non-parametric Kernels",
+    "volume": 21,
+    "year": 2020
+}

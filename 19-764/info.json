@@ -1,0 +1,20 @@
+{
+    "abstract": "The DANE algorithm is an approximate Newton method popularly used for communication-efficient distributed machine learning. Reasons for the interest in DANE include scalability and efficiency. Convergence of DANE, however, can be tricky; its appealing convergence rate is only rigorous for quadratic objective function, and for more general convex functions the known results are no stronger than those of the classic first-order methods. To remedy these drawbacks, we propose in this article some new alternatives of DANE which are more suitable for analysis. We first introduce a simple variant of DANE equipped with backtracking line search, for which global asymptotic convergence and sharper local non-asymptotic convergence guarantees can be proved for both quadratic and non-quadratic strongly convex functions. Then we propose a heavy-ball method to accelerate the convergence of DANE, showing that the near-tight local rate of convergence can be established for strongly convex functions, and with proper modification of the algorithm about the same result applies globally to linear prediction models. Numerical evidence is provided to confirm the theoretical and practical advantages of our methods.",
+    "authors": [
+        "Xiao-Tong Yuan",
+        "Ping Li"
+    ],
+    "emails": [
+        "xtyuan1980@gmail.com",
+        "pingli98@gmail.com"
+    ],
+    "id": "19-764",
+    "issue": 206,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "On Convergence of Distributed Approximate Newton Methods: Globalization, Sharper Bounds and Beyond",
+    "volume": 21,
+    "year": 2020
+}

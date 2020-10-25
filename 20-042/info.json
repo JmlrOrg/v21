@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a novel inherently interpretable machine learning method that bases decisions on few relevant examples that we call prototypes. Our method, ProtoAttend, can be integrated into a wide range of neural network architectures including pre-trained models. It utilizes an attention mechanism that relates the encoded representations to samples in order to determine prototypes. Protoattend yields superior results in three high impact problems without sacrificing accuracy of the original model: (1)it enables high-quality interpretability that outputs samples most relevant to the decision-making (i.e. a sample-based interpretability method); (2) it achieves state of the art confidence estimation by quantifying the mismatch across prototype labels; and (3) it obtains state of the art in distribution mismatch detection. All these can be achieved with minimal additional test time and a practically viable training time computational cost.",
+    "authors": [
+        "Sercan O. Arik",
+        "Tomas Pfister"
+    ],
+    "emails": [
+        "soarik@google.com",
+        "tpfister@google.com"
+    ],
+    "id": "20-042",
+    "issue": 210,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "ProtoAttend: Attention-Based Prototypical Learning",
+    "volume": 21,
+    "year": 2020
+}

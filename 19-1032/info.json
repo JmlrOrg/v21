@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the problem of inferring simplified topological substructures\u2014which we term backbones\u2014in metric and non-metric graphs. Intuitively, these are subgraphs with \u2018few\u2019 nodes, multifurcations, and cycles, that model the topology of the original graph well. We present a multistep procedure for inferring these backbones. First, we encode local (geometric) information of each vertex in the original graph by means of the boundary coefficient (BC) to identify \u2018core\u2019 nodes in the graph. Next, we construct a forest representation of the graph, termed an f-pine, that connects every node of the graph to a local \u2018core\u2019 node. The final backbone is then inferred from the f-pine through CLOF (Constrained Leaves Optimal subForest), a novel graph optimization problem we introduce in this paper. On a theoretical level, we show that CLOF is NP-hard for general graphs. However, we prove that CLOF can be efficiently solved for forest graphs, a surprising fact given that CLOF induces a nontrivial monotone submodular set function maximization problem on tree graphs. This result is the basis of our method for mining backbones in graphs through forest representation. We qualitatively and quantitatively confirm the applicability, effectiveness, and scalability of our method for discovering backbones in a variety of graph-structured data, such as social networks, earthquake locations scattered across the Earth, and high-dimensional cell trajectory data",
+    "authors": [
+        "Robin Vandaele",
+        "Yvan Saeys",
+        "Tijl De Bie"
+    ],
+    "emails": [
+        "Robin.Vandaele@UGent.be",
+        "yvan.saeys@irc.vib-ugent.be",
+        "Tijl.DeBie@UGent.be"
+    ],
+    "id": "19-1032",
+    "issue": 198,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Mining Topological Structure in Graphs through Forest Representations",
+    "volume": 21,
+    "year": 2020
+}

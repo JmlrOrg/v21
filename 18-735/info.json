@@ -1,0 +1,32 @@
+{
+    "abstract": "We propose a general framework of using a multi-level log-Gaussian Cox process to model repeatedly observed point processes with complex structures; such type of data has become increasingly available in various areas including medical research, social sciences, economics, and finance due to technological advances. A novel nonparametric approach is developed to efficiently and consistently estimate the covariance functions of the latent Gaussian processes at all levels. To predict the functional principal component scores, we propose a consistent estimation procedure by maximizing the conditional likelihood of super-positions of point processes. We further extend our procedure to the bivariate point process case in which potential correlations between the processes can be assessed. Asymptotic properties of the proposed estimators are investigated, and the effectiveness of our procedures is illustrated through a simulation study and an application to a stock trading dataset.",
+    "authors": [
+        "Ganggang Xu",
+        "Ming Wang",
+        "Jiangze Bian",
+        "Hui Huang",
+        "Timothy R. Burch",
+        "Sandro C. Andrade",
+        "Jingfei Zhang",
+        "Yongtao Guan"
+    ],
+    "emails": [
+        "gangxu@bus.miami.edu",
+        "mwang@bus.miami.edu",
+        "jiangzebian@uibe.edu.cn",
+        "huangh89@mail.sysu.edu.cn",
+        "tburch@bus.miami.edu",
+        "sandrade@bus.miami.edu",
+        "ezhang@bus.miami.edu",
+        "yguan@bus.miami.edu"
+    ],
+    "id": "18-735",
+    "issue": 192,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Semi-parametric Learning of Structured Temporal Point Processes",
+    "volume": 21,
+    "year": 2020
+}

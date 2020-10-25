@@ -1,0 +1,22 @@
+{
+    "abstract": "We introduce an extension of the multi-instance learning problem where examples are organized as nested bags of instances (e.g., a document could be represented as a bag of sentences, which in turn are bags of words). This framework can be useful in various scenarios, such as text and image classification, but also supervised learning over graphs. As a further advantage, multi-multi instance learning enables a particular way of interpreting predictions and the decision function. Our approach is based on a special neural network layer, called bag-layer, whose units aggregate bags of inputs of arbitrary size. We prove theoretically that the associated class of functions contains all Boolean functions over sets of sets of instances and we provide empirical evidence that functions of this kind can be actually learned on semi-synthetic datasets. We finally present experiments on text classification, on citation graphs, and social graph data, which show that our model obtains competitive results with respect to accuracy when compared to other approaches such as convolutional networks on graphs, while at the same time it supports a general approach to interpret the learnt model, as well as explain individual predictions.",
+    "authors": [
+        "Alessandro Tibo",
+        "Manfred Jaeger",
+        "Paolo Frasconi"
+    ],
+    "emails": [
+        "alessandro@cs.aau.dk",
+        "jaeger@cs.aau.dk",
+        "paolo.frasconi@unifi.it"
+    ],
+    "id": "18-811",
+    "issue": 193,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Learning and Interpreting Multi-Multi-Instance Learning Networks",
+    "volume": 21,
+    "year": 2020
+}

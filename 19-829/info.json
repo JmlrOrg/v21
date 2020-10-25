@@ -1,0 +1,26 @@
+{
+    "abstract": "Regularization methods for the Cox proportional hazards regression with high-dimensional survival data have been studied extensively in the literature. However, if the model is misspecified, this would result in misleading statistical inference and prediction. To enhance the prediction accuracy for the relative risk and the survival probability, we propose three model averaging approaches for the high-dimensional Cox proportional hazards regression. Based on the martingale residual process, we define the delete-one cross-validation (CV) process, and further propose three novel CV functionals, including the end-time CV, integrated CV, and supremum CV, to achieve more accurate prediction for the risk quantities of clinical interest. The optimal weights for candidate models, without the constraint of summing up to one, can be obtained by minimizing these functionals, respectively. The proposed model averaging approach can attain the lowest possible prediction loss asymptotically. Furthermore, we develop a greedy model averaging algorithm to overcome the computational obstacle when the dimension is high. The performances of the proposed model averaging procedures are evaluated via extensive simulation studies, demonstrating that our methods achieve superior prediction accuracy over the existing regularization methods. As an illustration, we apply the proposed methods to the mantle cell lymphoma study.",
+    "authors": [
+        "Baihua He",
+        "Yanyan Liu",
+        "Yuanshan Wu",
+        "Guosheng Yin",
+        "Xingqiu Zhao"
+    ],
+    "emails": [
+        "hebaihua@whu.edu.cn",
+        "liuyy@whu.edu.cn",
+        "wu@zuel.edud.cn",
+        "gyin@hku.hk",
+        "xingqiu.zhao@polyu.edu.hk"
+    ],
+    "id": "19-829",
+    "issue": 207,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Functional Martingale Residual Process for High-Dimensional Cox Regression with Model Averaging",
+    "volume": 21,
+    "year": 2020
+}

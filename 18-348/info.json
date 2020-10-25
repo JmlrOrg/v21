@@ -1,0 +1,26 @@
+{
+    "abstract": "Several classification methods assume that the underlying distributions follow tree-structured graphical models. Indeed, trees capture statistical dependencies between pairs of variables, which may be crucial to attaining low classification errors. In this setting, the optimal classifier is linear in the log-transformed univariate and bivariate densities that correspond to the tree edges. In practice, observed data may not be well approximated by trees. Yet, motivated by the importance of pairwise dependencies for accurate classification, here we propose to approximate the optimal decision boundary by a sparse linear combination of the univariate and bivariate log-transformed densities. Our proposed approach is semi-parametric in nature: we non-parametrically estimate the univariate and bivariate densities, remove pairs of variables that are nearly independent using the Hilbert-Schmidt independence criterion, and finally construct a linear SVM using the retained log-transformed densities. We demonstrate on synthetic and real data sets, that our classifier, named SLB (sparse log-bivariate density), is competitive with other popular classification methods.",
+    "authors": [
+        "Yaniv Tenzer",
+        "Amit Moscovich",
+        "Mary Frances Dorn",
+        "Boaz Nadler",
+        "Clifford Spiegelman"
+    ],
+    "emails": [
+        "yaniv.tenzer@weizmann.ac.il",
+        "amit@moscovich.org",
+        "mfdorn@lanl.gov",
+        "boaz.nadler@weizmann.ac.il",
+        "cliff@stat.tamu.edu"
+    ],
+    "id": "18-348",
+    "issue": 189,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Beyond Trees: Classification with Sparse Pairwise Dependencies",
+    "volume": 21,
+    "year": 2020
+}

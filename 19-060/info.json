@@ -1,0 +1,20 @@
+{
+    "abstract": "A key question in reinforcement learning is how an intelligent agent can generalize knowledge across different inputs. By generalizing across different inputs, information learned for one input can be immediately reused for improving predictions for another input. Reusing information allows an agent to compute an optimal decision-making strategy using less data. State representation is a key element of the generalization process, compressing a high-dimensional input space into a low-dimensional latent state space. This article analyzes properties of different latent state spaces, leading to new connections between model-based and model-free reinforcement learning. Successor features, which predict frequencies of future observations, form a link between model-based and model-free learning: Learning to predict future expected reward outcomes, a key characteristic of model-based agents, is equivalent to learning successor features. Learning successor features is a form of temporal difference learning and is equivalent to learning to predict a single policy's utility, which is a characteristic of model-free agents. Drawing on the connection between model-based reinforcement learning and successor features, we demonstrate that representations that are predictive of future reward outcomes generalize across variations in both transitions and rewards. This result extends previous work on successor features, which is constrained to fixed transitions and assumes re-learning of the transferred state representation.",
+    "authors": [
+        "Lucas Lehnert",
+        "Michael L. Littman"
+    ],
+    "emails": [
+        "lucas_lehnert@brown.edu",
+        "michael_littman@brown.edu"
+    ],
+    "id": "19-060",
+    "issue": 196,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Successor Features Combine Elements of Model-Free and Model-based Reinforcement Learning",
+    "volume": 21,
+    "year": 2020
+}

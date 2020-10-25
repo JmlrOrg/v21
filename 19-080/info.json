@@ -1,0 +1,22 @@
+{
+    "abstract": "Two popular approaches to dimensionality reduction are principal component analysis, which projects onto a small number of well-chosen but non-interpretable directions, and feature selection, which selects a small number of the original features. Feature selection can be abstracted as selecting the subset of columns of a matrix $X \\in \\mathbb{R}^{N \\times d}$ which minimize the approximation error, i.e., the norm of the residual after projecting $X$ onto the space spanned by the selected columns. Such a combinatorial optimization is usually impractical, and there has been interest in polynomial-cost, random subset selection algorithms that favour small values of this approximation error. We propose sampling from a projection determinantal point process, a repulsive distribution over column indices that favours diversity among the selected columns. We bound the ratio of the expected approximation error over the optimal error of PCA. These bounds improve over the state-of-the-art bounds of volume sampling when some realistic structural assumptions are satisfied for $X$. Numerical experiments suggest that our bounds are tight, and that our algorithms have comparable performance with the double phase algorithm, often considered the practical state-of-the-art.",
+    "authors": [
+        "Ayoub Belhadji",
+        "R\u00e9mi Bardenet",
+        "Pierre Chainais"
+    ],
+    "emails": [
+        "ayoub.belhadji@centralelille.fr",
+        "remi.bardenet@gmail.com",
+        "pierre.chainais@centralelille.fr"
+    ],
+    "id": "19-080",
+    "issue": 197,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "A determinantal point process for column subset selection",
+    "volume": 21,
+    "year": 2020
+}

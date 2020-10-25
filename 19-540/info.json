@@ -1,0 +1,30 @@
+{
+    "abstract": "Mapper is an unsupervised machine learning algorithm generalising the notion of clustering to obtain a geometric description of a dataset. The procedure splits the data into possibly overlapping bins which are then clustered. The output of the algorithm is a graph where nodes represent clusters and edges represent the sharing of data points between two clusters. However, several parameters must be selected before applying Mapper and the resulting graph may vary dramatically with the choice of parameters. We define an intrinsic notion of Mapper instability that measures the variability of the output as a function of the choice of parameters required to construct a Mapper output. Our results and discussion are general and apply to all Mapper-type algorithms. We derive theoretical results that provide estimates for the instability and suggest practical ways to control it. We provide also experiments to illustrate our results and in particular we demonstrate that a reliable candidate Mapper output can be identified as a local minimum of instability regarded as a function of Mapper input parameters.",
+    "authors": [
+        "Francisco Belchi",
+        "Jacek Brodzki",
+        "Matthew Burfitt",
+        "Mahesan Niranjan"
+    ],
+    "emails": [
+        "frbegu@gmail.com",
+        "j.brodzki@soton.ac.uk",
+        "m.i.burfitt@soton.ac.uk",
+        "mn@ecs.soton.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Quiff789/Mapper-instability"
+        ]
+    ],
+    "id": "19-540",
+    "issue": 202,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "A Numerical Measure of the Instability of Mapper-Type Algorithms",
+    "volume": 21,
+    "year": 2020
+}
