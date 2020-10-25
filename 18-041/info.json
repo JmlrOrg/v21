@@ -1,0 +1,20 @@
+{
+    "abstract": "We study generalization properties of distributed algorithms in the setting of nonparametric regression over a reproducing kernel Hilbert space (RKHS). We first investigate distributed stochastic gradient methods (SGM), with mini-batches and multi-passes over the data. We show that optimal generalization error bounds (up to logarithmic factor) can be retained for distributed SGM  provided that the partition level is not too large.  We then extend our results to spectral algorithms (SA), including kernel ridge regression (KRR), kernel principal component regression, and gradient methods.  Our results show that distributed SGM has a smaller theoretical computational complexity, compared with distributed KRR and classic SGM. Moreover, even for a general non-distributed SA, they provide optimal, capacity-dependent convergence rates, for the case that the regression function may not be in the RKHS in the well-conditioned regimes.",
+    "authors": [
+        "Junhong Lin",
+        "Volkan Cevher"
+    ],
+    "emails": [
+        "junhong@zju.edu.cn",
+        "volkan.cevher@epfl.ch"
+    ],
+    "id": "18-041",
+    "issue": 147,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Optimal Convergence for Distributed Learning with Stochastic Gradient Methods and Spectral Algorithms",
+    "volume": 21,
+    "year": 2020
+}

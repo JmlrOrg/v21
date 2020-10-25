@@ -1,0 +1,28 @@
+{
+    "abstract": "The gold standard for discovering causal relations is by means of experimentation. Over the last decades, alternative methods have been proposed that can infer causal relations between variables from certain statistical patterns in purely observational data. We introduce Joint Causal Inference (JCI), a novel approach to causal discovery from multiple data sets from different contexts that elegantly unifies both approaches. JCI is a causal modeling framework rather than a specific algorithm, and it can be implemented using any causal discovery algorithm that can take into account certain background knowledge. JCI can deal with different types of interventions (e.g., perfect, imperfect, stochastic, etc.) in a unified fashion, and does not require knowledge of intervention targets or types in case of interventional data. We explain how several well-known causal discovery algorithms can be seen as addressing special cases of the JCI framework, and we also propose novel implementations that extend existing causal discovery methods for purely observational data to the JCI setting. We evaluate different JCI implementations on synthetic data and on flow cytometry protein expression data and conclude that JCI implementations can considerably outperform state-of-the-art causal discovery algorithms.",
+    "authors": [
+        "Joris M. Mooij",
+        "Sara Magliacane",
+        "Tom Claassen"
+    ],
+    "emails": [
+        "j.m.mooij@uva.nl",
+        "sara.magliacane@ibm.com",
+        "tomc@cs.ru.nl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/caus-am/jci/releases/tag/v1.0"
+        ]
+    ],
+    "id": "17-123",
+    "issue": 99,
+    "pages": [
+        1,
+        108
+    ],
+    "title": "Joint Causal Inference from Multiple Contexts",
+    "volume": 21,
+    "year": 2020
+}

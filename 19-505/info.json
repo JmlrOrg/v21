@@ -1,0 +1,24 @@
+{
+    "abstract": "In supervised learning, we typically leverage a fully labeled dataset to design methods for function estimation or prediction. In many practical situations, we are able to obtain alternative feedback, possibly at a low cost. A broad goal is to understand the usefulness of, and to design algorithms to exploit, this alternative feedback. In this paper, we consider a semi-supervised regression setting, where we obtain additional ordinal (or comparison) information for the unlabeled samples. We consider ordinal feedback of varying qualities where we have either a perfect ordering of the samples, a noisy ordering of the samples or noisy pairwise comparisons between the samples. We provide a precise quantification of the usefulness of these types of ordinal feedback in both nonparametric and linear regression, showing that in many cases it is possible to accurately estimate an underlying function with a very small labeled set, effectively escaping the curse of dimensionality. We also present lower bounds, that establish fundamental limits for the task and show that our algorithms are optimal in a variety of settings. Finally, we present extensive experiments on new datasets that demonstrate the efficacy and practicality of our algorithms and investigate their robustness to various sources of noise and model misspecification.",
+    "authors": [
+        "Yichong Xu",
+        "Sivaraman Balakrishnan",
+        "Aarti Singh",
+        "Artur Dubrawski"
+    ],
+    "emails": [
+        "yichongx@cs.cmu.edu",
+        "siva@stat.cmu.edu",
+        "aarti@cs.cmu.edu",
+        "awd@cs.cmu.edu"
+    ],
+    "id": "19-505",
+    "issue": 162,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Regression with Comparisons: Escaping the Curse of Dimensionality with Ordinal Information",
+    "volume": 21,
+    "year": 2020
+}

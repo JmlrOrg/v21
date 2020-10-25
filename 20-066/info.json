@@ -1,0 +1,22 @@
+{
+    "abstract": "Precision medicine is an emerging medical approach that allows physicians to select the treatment options based on individual patient information. The goal of precision medicine is to identify the optimal treatment regime (OTR) that yields the most favorable clinical outcome. Prior to adopting any OTR in clinical practice, it is crucial to know the impact of implementing such a policy. Although considerable research has been devoted to estimating the OTR in the literature, less attention has been paid to statistical inference of the OTR. Challenges arise in the nonregular cases where the OTR is not uniquely defined. To deal with nonregularity, we develop a novel inference method for the mean outcome under an OTR (the optimal value function) based on subsample aggregating (subagging). The proposed method can be applied to multi-stage studies where treatments are sequentially assigned over time. Bootstrap aggregating (bagging) and subagging have been recognized as effective vari- ance reduction techniques to improve unstable estimators or classifiers (Buhlmann and Yu, 2002). However, it remains unknown whether these approaches can yield valid inference results. We show the proposed confidence interval (CI) for the optimal value function achieves nominal coverage. In addition, due to the variance reduction effect of subagging, our method enjoys certain statistical optimality. Specifically, we show that the mean squared error of the proposed value estimator is strictly smaller than that based on the simple sample-splitting estimator in the nonregular cases. Moreover, under certain conditions, the length of our proposed CI is shown to be on average shorter than CIs constructed based on the existing state-of-the-art method (Luedtke and van der Laan, 2016) and the 'oracle' method which works as well as if an OTR were known. Extensive numerical studies are conducted to back up our theoretical findings.",
+    "authors": [
+        "Chengchun Shi",
+        "Wenbin Lu",
+        "Rui Song"
+    ],
+    "emails": [
+        "c.shi7@lse.ac.uk",
+        "wlu4@ncsu.edu",
+        "rsong@ncsu.edu"
+    ],
+    "id": "20-066",
+    "issue": 176,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Breaking the Curse of Nonregularity with Subagging --- Inference of the Mean Outcome under Optimal Treatment Regimes",
+    "volume": 21,
+    "year": 2020
+}

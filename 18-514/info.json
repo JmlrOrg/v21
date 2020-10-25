@@ -1,0 +1,30 @@
+{
+    "abstract": "Structure learning of Gaussian graphical models typically involves careful tuning of penalty parameters, which balance the tradeoff between data fidelity and graph sparsity. Unfortunately, this tuning is often a ``black art'' requiring expert experience or brute-force search. It is therefore tempting to develop tuning-free algorithms that can determine the sparsity of the graph adaptively from the observed data in an automatic fashion. In this paper, we propose a novel approach, named BISN (Bayesian inference of Sparse Networks), for automatic Gaussian graphical model selection. Specifically, we regard the off-diagonal entries in the precision matrix as random variables and impose sparse-promoting horseshoe priors on them, resulting in automatic sparsity determination. With the help of stochastic gradients, an efficient variational Bayes algorithm is derived to learn the model. We further propose a decaying recursive stochastic gradient (DRSG) method to reduce the variance of the stochastic gradients and to accelerate the convergence. Our theoretical analysis shows that the time complexity of BISN scales only quadratically with the dimension, whereas the theoretical time complexity of the state-of-the-art methods for automatic graphical model selection is typically a third-order function of the dimension. Furthermore, numerical results show that BISN can achieve comparable or better performance than the state-of-the-art methods in terms of structure recovery, and yet its computational time is several orders of magnitude shorter, especially for large dimensions.",
+    "authors": [
+        "Hang Yu",
+        "Songwei Wu",
+        "Luyin Xin",
+        "Justin Dauwels"
+    ],
+    "emails": [
+        "hyu1@e.ntu.edu.sg",
+        "wuso0002@e.ntu.edu.sg",
+        "xinl0002@e.ntu.edu.sg",
+        "jdauwels@ntu.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/fhlyhv/BISN"
+        ]
+    ],
+    "id": "18-514",
+    "issue": 124,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Fast Bayesian Inference of Sparse Networks with Automatic Sparsity Determination",
+    "volume": 21,
+    "year": 2020
+}

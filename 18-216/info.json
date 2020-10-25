@@ -1,0 +1,28 @@
+{
+    "abstract": "Bayesian optimisation has been successfully applied to a variety of reinforcement learning problems. However, the traditional approach for learning optimal policies in simulators does not utilise the opportunity to improve learning by adjusting certain environment variables: state features that are unobservable and randomly determined by the environment in a physical setting but are controllable in a simulator. This article considers the problem of finding a robust policy while taking into account the impact of environment variables. We present Alternating Optimisation and Quadrature (ALOQ), which uses Bayesian optimisation and Bayesian quadrature to address such settings. We also present Transferable ALOQ (TALOQ), for settings where simulator inaccuracies lead to difficulty in transferring the learnt policy to the physical system. We show that our algorithms are robust to the presence of significant rare events, which may not be observable under random sampling but play a substantial role in determining the optimal policy. Experimental results across different domains show that our algorithms learn robust policies efficiently.",
+    "authors": [
+        "Supratik Paul",
+        "Konstantinos Chatzilygeroudis",
+        "Kamil Ciosek",
+        "Jean-Baptiste Mouret",
+        "Michael A. Osborne",
+        "Shimon Whiteson"
+    ],
+    "emails": [
+        "supratik.paul@cs.ox.ac.uk",
+        "konstantinos.chatzilygeroudis@inria.fr",
+        "kamil.ciosek@cs.ox.ac.uk",
+        "jean-baptiste.mouret@inria.fr",
+        "mosb@robots.ox.ac.uk",
+        "shimon.whiteson@cs.ox.ac.uk"
+    ],
+    "id": "18-216",
+    "issue": 151,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Robust Reinforcement Learning with Bayesian Optimisation and Quadrature",
+    "volume": 21,
+    "year": 2020
+}

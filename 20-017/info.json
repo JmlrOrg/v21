@@ -1,0 +1,28 @@
+{
+    "abstract": "There has recently been much work on the \"wide limit\" of neural networks, where Bayesian neural networks (BNNs) are shown to converge to a Gaussian process (GP) as all hidden layers are sent to infinite width. However, these results do not apply to architectures that require one or more of the hidden layers to remain narrow. In this paper, we consider the wide limit of BNNs where some hidden layers, called \"bottlenecks\", are held at finite width. The result is a composition of GPs that we term a \"bottleneck neural network Gaussian process\" (bottleneck NNGP). Although intuitive, the subtlety of the proof is in showing that the wide limit of a composition of networks is in fact the composition of the limiting GPs. We also analyze theoretically a single-bottleneck NNGP, finding  that the bottleneck induces dependence between the outputs of a multi-output network that persists through extreme post-bottleneck depths, and prevents the kernel of the network from losing discriminative power at extreme post-bottleneck depths.",
+    "authors": [
+        "Devanshu Agrawal",
+        "Theodore Papamarkou",
+        "Jacob Hinkle"
+    ],
+    "emails": [
+        "dagrawa2@vols.utk.edu",
+        "papamarkout@ornl.gov",
+        "hinklejd@ornl.gov"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://code.ornl.gov/d0a/bottleneck_nngp"
+        ]
+    ],
+    "id": "20-017",
+    "issue": 175,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Wide Neural Networks with Bottlenecks are Deep Gaussian Processes",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "In spite of its urgent importance in the era of big data, testing high-dimensional parameters in generalized linear models (GLMs) in the presence of high-dimensional nuisance parameters has been largely under-studied, especially with regard to constructing powerful tests for general (and unknown) alternatives. Most existing tests are powerful only against certain alternatives and may yield incorrect Type 1 error rates under high-dimensional nuisance parameter situations. In this paper, we propose the adaptive interaction sum of powered score (aiSPU) test in the framework of penalized regression with a non-convex penalty, called truncated Lasso penalty (TLP), which can maintain correct Type 1 error rates while yielding high statistical power across a wide range of alternatives. To calculate its p-values analytically, we derive its asymptotic null distribution. Via simulations, its superior finite-sample performance is demonstrated over several representative existing methods. In addition, we apply it and other representative tests to an Alzheimer's Disease Neuroimaging Initiative (ADNI) data set, detecting possible gene-gender interactions for Alzheimer's disease. We also put R package ``aispu'' implementing the proposed test on GitHub.",
+    "authors": [
+        "Chong Wu",
+        "Gongjun Xu",
+        "Xiaotong Shen",
+        "Wei Pan"
+    ],
+    "emails": [
+        "cwu3@fsu.edu",
+        "gongjun@umich.edu",
+        "xshen@umn.edu",
+        "panxx014@umn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ChongWu-Biostat/aispu"
+        ]
+    ],
+    "id": "18-807",
+    "issue": 128,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "A Regularization-Based Adaptive Test for High-Dimensional GLMs",
+    "volume": 21,
+    "year": 2020
+}

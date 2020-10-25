@@ -1,0 +1,30 @@
+{
+    "abstract": "Graphical models are commonly used to represent conditional dependence relationships between variables. There are multiple methods available for exploring them from high-dimensional data, but almost all of them rely on the assumption that the observations are independent and identically distributed.  At the same time, observations connected by a network are becoming increasingly common, and tend to violate these assumptions.  Here we develop a Gaussian graphical model for observations connected by a network with potentially different mean vectors, varying smoothly over the network. We propose an efficient estimation algorithm and demonstrate its effectiveness on both simulated and real data, obtaining meaningful and interpretable results on a statistics coauthorship network. We also prove that our method estimates both the inverse covariance matrix and the corresponding graph structure correctly under the assumption of network ``cohesion'', which refers to the empirically observed phenomenon of network neighbors sharing similar traits.",
+    "authors": [
+        "Tianxi Li",
+        "Cheng Qian",
+        "Elizaveta Levina",
+        "Ji Zhu"
+    ],
+    "emails": [
+        "tianxili@virginia.edu",
+        "qianc@seu.edu.cn",
+        "elevina@umich.edu",
+        "jizhu@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tianxili/GNC/tree/master"
+        ]
+    ],
+    "id": "19-563",
+    "issue": 74,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "High-dimensional Gaussian graphical models on network-linked data",
+    "volume": 21,
+    "year": 2020
+}

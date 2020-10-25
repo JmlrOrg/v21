@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider worker skill estimation for the single-coin Dawid-Skene crowdsourcing model. In practice, skill-estimation is challenging because worker assignments are sparse and irregular due to the arbitrary and uncontrolled availability of workers. We formulate skill estimation as a rank-one correlation-matrix completion problem, where the observed components correspond to observed label correlation between workers. We show that the correlation matrix can be successfully recovered and skills are identifiable if and only if the sampling matrix (observed components) does not have a bipartite connected component. We then propose a projected gradient descent scheme and show that skill estimates converge to the desired global optima for such sampling matrices. Our proof is original and the results are surprising in light of the fact that even the weighted rank-one matrix factorization problem is NP-hard in general. Next, we derive sample complexity bounds in terms of spectral properties of the  signless Laplacian of the sampling matrix. Our proposed scheme achieves state-of-art performance on a number of real-world datasets.",
+    "authors": [
+        "Yao Ma",
+        "Alex Olshevsky",
+        "Csaba Szepesvari",
+        "Venkatesh Saligrama"
+    ],
+    "emails": [
+        "yaoma@bu.edu",
+        "alexols@bu.edu",
+        "szepi@google.com",
+        "srv@bu.edu"
+    ],
+    "id": "19-359",
+    "issue": 133,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Gradient Descent for Sparse Rank-One Matrix Completion for Crowd-Sourced Aggregation of Sparsely Interacting Workers",
+    "volume": 21,
+    "year": 2020
+}

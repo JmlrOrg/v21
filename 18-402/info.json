@@ -1,0 +1,29 @@
+{
+    "abstract": "This paper describes AI-Toolbox, a C++ software library that contains reinforcement learning and planning algorithms, and supports both single and multi agent problems, as well as partial observability. It is designed for simplicity and clarity, and contains extensive documentation of its API and code. It supports Python to enable users not comfortable with C++ to take advantage of the library's speed and functionality. AI-Toolbox is free software, and is hosted online at https://github.com/Svalorzen/AI-Toolbox.",
+    "authors": [
+        "Eugenio Bargiacchi",
+        "Diederik M. Roijers",
+        "Ann Now\u00e9"
+    ],
+    "emails": [
+        "svalorzen@gmail.com",
+        "diederik.yamamoto-roijers@hu.nl",
+        "ann.nowe@ai.vub.ac.be"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Svalorzen/AI-Toolbox"
+        ]
+    ],
+    "id": "18-402",
+    "issue": 102,
+    "pages": [
+        1,
+        12
+    ],
+    "special_issue": "MLOSS",
+    "title": "AI-Toolbox: A C++ library for Reinforcement Learning and Planning (with Python Bindings)",
+    "volume": 21,
+    "year": 2020
+}

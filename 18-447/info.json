@@ -1,0 +1,22 @@
+{
+    "abstract": "We study nonconvex optimization problems, where the objective function is either an average of $n$ nonconvex functions or the expectation of some stochastic function. We propose a new stochastic gradient descent algorithm based on nested variance reduction, namely, Stochastic Nested Variance-Reduced Gradient descent ($\\text{SNVRG}$). Compared with conventional stochastic variance reduced gradient ($\\text{SVRG}$) algorithm that uses two reference points to construct a semi-stochastic gradient with diminishing variance in each iteration, our algorithm uses $K+1$ nested reference points to build a semi-stochastic gradient to further reduce its variance in each iteration. For smooth nonconvex functions, $\\text{SNVRG}$ converges to an $\\epsilon$-approximate first-order stationary point within $\\tilde O(n\\land\\epsilon^{-2}+\\epsilon^{-3}\\land n^{1/2}\\epsilon^{-2})$ number of stochastic gradient evaluations. This improves the best known gradient complexity of $\\text{SVRG}$ $O(n+n^{2/3}\\epsilon^{-2})$ and that of $\\text{SCSG}$ $O(n\\land \\epsilon^{-2}+\\epsilon^{-10/3}\\land n^{2/3}\\epsilon^{-2})$. For gradient dominated functions, $\\text{SNVRG}$ also achieves better gradient complexity than the state-of-the-art algorithms.  \r\n \r\n\r\nBased on $\\text{SNVRG}$, we further propose two algorithms that can find local minima faster than state-of-the-art algorithms in both finite-sum and general stochastic (online) nonconvex optimization. In particular, for finite-sum optimization problems, the proposed $\\text{SNVRG}+\\text{Neon2}^{\\text{finite}}$ algorithm achieves $\\tilde{O}(n^{1/2}\\epsilon^{-2}+n\\epsilon_H^{-3}+n^{3/4}\\epsilon_H^{-7/2})$ gradient complexity to converge to an $(\\epsilon, \\epsilon_H)$-second-order stationary point, which outperforms $\\text{SVRG}+\\text{Neon2}^{\\text{finite}}$ (Allen-Zhu and Li, 2018), the best existing algorithm, in a wide regime. For general stochastic optimization problems, the proposed $\\text{SNVRG}+\\text{Neon2}^{\\text{online}}$ achieves $\\tilde{O}(\\epsilon^{-3}+\\epsilon_H^{-5}+\\epsilon^{-2}\\epsilon_H^{-3})$ gradient complexity, which is better than both $\\text{SVRG}+\\text{Neon2}^{\\text{online}}$ (Allen-Zhu and Li, 2018) and $\\text{Natasha2}$ (Allen-Zhu, 2018a) in certain regimes. Thorough experimental results on different nonconvex optimization problems back up our theory.",
+    "authors": [
+        "Dongruo Zhou",
+        "Pan Xu",
+        "Quanquan Gu"
+    ],
+    "emails": [
+        "drzhou@cs.ucla.edu",
+        "panxu@cs.ucla.edu",
+        "qgu@cs.ucla.edu"
+    ],
+    "id": "18-447",
+    "issue": 103,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Stochastic Nested Variance Reduction for Nonconvex Optimization",
+    "volume": 21,
+    "year": 2020
+}

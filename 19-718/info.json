@@ -1,0 +1,26 @@
+{
+    "abstract": "When the data is distributed across multiple servers, lowering the communication cost between the servers (or workers) while solving the distributed learning problem is an important problem and is the focus of this paper. In particular, we propose a fast, and communication-efficient decentralized framework to solve the distributed machine learning (DML) problem. The proposed algorithm, Group Alternating Direction Method of Multipliers (GADMM) is based on the Alternating Direction Method of Multipliers (ADMM) framework. The key novelty in GADMM is that it solves the problem in a decentralized topology where at most half of the workers are competing for the limited communication resources at any given time. Moreover, each worker exchanges the locally trained model only with two neighboring workers, thereby training a global model with a lower amount of communication overhead in each exchange. We prove that GADMM converges to the optimal solution for convex loss functions, and numerically show that it converges faster and more communication-efficient than the state-of-the-art communication-efficient algorithms such as the Lazily Aggregated Gradient (LAG) and dual averaging, in linear and logistic regression tasks on synthetic and real datasets. Furthermore, we propose Dynamic GADMM (D-GADMM), a variant of GADMM, and prove its convergence under the time-varying network topology of the workers.",
+    "authors": [
+        "Anis Elgabli",
+        "Jihong Park",
+        "Amrit S. Bedi",
+        "Mehdi Bennis",
+        "Vaneet Aggarwal"
+    ],
+    "emails": [
+        "anis.elgabli@oulu.fi",
+        "jihong.park@oulu.fi",
+        "amritbd@iitk.ac.in",
+        "mehdi.bennis@oulu.fi",
+        "vaneet@purdue.edu"
+    ],
+    "id": "19-718",
+    "issue": 76,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "GADMM: Fast and Communication Efficient Framework for Distributed Machine Learning",
+    "volume": 21,
+    "year": 2020
+}

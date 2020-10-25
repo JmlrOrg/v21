@@ -1,0 +1,29 @@
+{
+    "abstract": "We present apricot, an open source Python package for selecting representative subsets from large data sets using submodular optimization. The package implements several efficient greedy selection algorithms that offer strong theoretical guarantees on the quality of the selected set. Additionally, several submodular set functions are implemented, including facility location, which is broadly applicable but requires memory quadratic in the number of examples in the data set, and a feature-based function that is less broadly applicable but can scale to millions of examples. Apricot is extremely efficient, using both algorithmic speedups such as the lazy greedy algorithm and memoization as well as code optimization using numba. We demonstrate the use of subset selection by training machine learning models to comparable accuracy using either the full data set or a representative subset thereof. This paper presents an explanation of submodular selection, an overview of the features in apricot, and applications to two data sets.",
+    "authors": [
+        "Jacob Schreiber",
+        "Jeffrey Bilmes",
+        "William Stafford Noble"
+    ],
+    "emails": [
+        "jmschreiber91@gmail.com",
+        "bilmes@uw.edu",
+        "william-noble@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jmschrei/apricot"
+        ]
+    ],
+    "id": "19-467",
+    "issue": 161,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "apricot: Submodular selection for data summarization in Python",
+    "volume": 21,
+    "year": 2020
+}

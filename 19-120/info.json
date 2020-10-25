@@ -1,0 +1,18 @@
+{
+    "abstract": "We develop an encompassing framework for matching, covariate balancing, and doubly-robust methods for causal inference from observational data called generalized optimal matching (GOM). The framework is given by generalizing a new functional-analytical formulation of optimal matching, giving rise to the class of GOM methods, for which we provide a single unified theory to analyze tractability and consistency. Many commonly used existing methods are included in GOM and, using their GOM interpretation, can be extended to optimally and automatically trade off balance for variance and outperform their standard counterparts. As a subclass, GOM gives rise to kernel optimal matching (KOM), which, as supported by new theoretical and empirical results, is notable for combining many of the positive properties of other methods in one. KOM, which is solved as a linearly-constrained convex-quadratic optimization problem, inherits both the interpretability and model-free consistency of matching but can also achieve the $\\sqrt{n}$-consistency of well-specified regression and the bias reduction and robustness of doubly robust methods. In settings of limited overlap, KOM enables a very transparent method for interval estimation for partial identification and robust coverage. We demonstrate this in examples with both synthetic and real data.",
+    "authors": [
+        "Nathan Kallus"
+    ],
+    "emails": [
+        "kallus@cornell.edu"
+    ],
+    "id": "19-120",
+    "issue": 62,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Generalized Optimal Matching Methods for Causal Inference",
+    "volume": 21,
+    "year": 2020
+}

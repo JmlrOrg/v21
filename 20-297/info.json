@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper studies distributed estimation and support recovery for high-dimensional linear regression model with heavy-tailed noise. To deal with heavy-tailed noise whose variance can be infinite, we adopt the quantile regression loss function instead of the commonly used squared loss. However, the non-smooth quantile loss  poses new challenges to high-dimensional distributed estimation in both computation and theoretical development. To address the challenge, we transform the response variable and establish a new connection between quantile regression and ordinary linear regression. Then, we provide a distributed estimator that is both computationally and communicationally efficient, where  only the gradient information is communicated at each iteration. Theoretically, we show that, after a constant number of iterations, the proposed estimator achieves a near-oracle convergence  rate without any restriction on the number of machines. Moreover, we establish the theoretical guarantee for the support recovery. The simulation analysis is provided to demonstrate the effectiveness of our method.",
+    "authors": [
+        "Xi Chen",
+        "Weidong Liu",
+        "Xiaojun Mao",
+        "Zhuoyi Yang"
+    ],
+    "emails": [
+        "xc13@stern.nyu.edu",
+        "weidongl@sjtu.edu.cn",
+        "maoxj@fudan.edu.cn",
+        "zyang@stern.nyu.edu"
+    ],
+    "id": "20-297",
+    "issue": 182,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Distributed High-dimensional  Regression Under a Quantile Loss Function",
+    "volume": 21,
+    "year": 2020
+}

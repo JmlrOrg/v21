@@ -1,0 +1,22 @@
+{
+    "abstract": "Minimum Error Entropy (MEE) principle is an important approach in Information Theoretical Learning (ITL). It is widely applied and studied in various fields for its robustness to noise. In this paper, we study a reproducing kernel-based distributed MEE algorithm, DMEE, which is designed to work with both fully supervised data and semi-supervised data. The divide-and-conquer approach is employed, so there is no inter-node communication overhead. Similar as other distributed algorithms, DMEE significantly reduces the computational complexity and memory requirement on single computing nodes. With fully supervised data, our proved learning rates equal the minimax optimal learning rates of the classical pointwise kernel-based regressions. Under the semi-supervised learning scenarios, we show that DMEE exploits unlabeled data effectively, in the sense that first, under the settings with weak regularity assumptions, additional unlabeled data significantly improves the learning rates of DMEE. Second, with sufficient unlabeled data, labeled data can be distributed to many more computing nodes, that each node takes only O(1) labels, without spoiling the learning rates in terms of the number of labels. This conclusion overcomes the saturation phenomenon in unlabeled data size. It parallels a recent results for regularized least squares (Lin and Zhou, 2018), and suggests that an inflation of unlabeled data is a solution to the MEE learning problems with decentralized data source for the concerns of privacy protection. Our work refers to pairwise learning and non-convex loss. The theoretical analysis is achieved by distributed U-statistics and error decomposition techniques in integral operators.",
+    "authors": [
+        "Xin Guo",
+        "Ting Hu",
+        "Qiang Wu"
+    ],
+    "emails": [
+        "xin.guo@uq.edu.au",
+        "tinghu@whu.edu.cn",
+        "qwu@mtsu.edu"
+    ],
+    "id": "18-696",
+    "issue": 126,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Distributed Minimum Error Entropy Algorithms",
+    "volume": 21,
+    "year": 2020
+}

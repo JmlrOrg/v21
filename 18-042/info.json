@@ -1,0 +1,20 @@
+{
+    "abstract": "One way to define the randomness of a fixed individual sequence is to ask how hard it is to predict relative to a given loss function.  A sequence is memoryless if, with respect to average loss, no continuous function can predict the next entry of the sequence from a finite window of previous entries better than a constant prediction.  For squared loss, memoryless sequences are known to have stochastic attributes analogous to those of truly random sequences.  In this paper, we address the question of how changing the loss function changes the set of memoryless sequences, and in particular, the stochastic attributes they possess.  For convex differentiable losses we establish that the statistic or property elicited by the loss determines the identity and stochastic attributes of the corresponding memoryless sequences.  We generalize these results to convex non-differentiable losses, under additional assumptions, and to non-convex Bregman divergences.  In particular, our results show that any Bregman divergence has the same set of memoryless sequences as squared loss.  We apply our results to price calibration in prediction markets.",
+    "authors": [
+        "Rafael Frongillo",
+        "Andrew Nobel"
+    ],
+    "emails": [
+        "raf@colorado.edu",
+        "nobel@email.unc.edu"
+    ],
+    "id": "18-042",
+    "issue": 80,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Memoryless Sequences for General Losses",
+    "volume": 21,
+    "year": 2020
+}

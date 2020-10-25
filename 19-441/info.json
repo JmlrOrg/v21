@@ -1,0 +1,24 @@
+{
+    "abstract": "Hamiltonian Monte Carlo (HMC) is a state-of-the-art Markov chain Monte Carlo sampling algorithm for drawing samples from smooth probability densities over continuous spaces. We study the variant most widely used in practice, Metropolized HMC with the Stormer-Verlet or leapfrog integrator, and make two primary contributions. First, we provide a non-asymptotic upper bound on the mixing time of the Metropolized HMC with explicit choices of step-size and number of leapfrog steps. This bound gives a precise quantification of the faster convergence of Metropolized HMC relative to simpler MCMC algorithms such as the Metropolized random walk, or Metropolized Langevin algorithm. Second, we provide a general framework for sharpening mixing time bounds of Markov chains initialized at a substantial distance from the target distribution over continuous spaces. We apply this sharpening device to the Metropolized random walk and Langevin algorithms, thereby obtaining improved mixing time bounds from a non-warm initial distribution.",
+    "authors": [
+        "Yuansi Chen",
+        "Raaz Dwivedi",
+        "Martin J. Wainwright",
+        "Bin Yu"
+    ],
+    "emails": [
+        "yuansi.chen@berkeley.edu",
+        "raaz.rsk@berkeley.edu",
+        "wainwrig@berkeley.edu",
+        "binyu@berkeley.edu"
+    ],
+    "id": "19-441",
+    "issue": 92,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "Fast mixing of Metropolized Hamiltonian Monte Carlo: Benefits of multi-step gradients",
+    "volume": 21,
+    "year": 2020
+}

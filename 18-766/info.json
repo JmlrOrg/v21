@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the problem of decomposing a higher-order tensor with binary entries. Such data problems arise frequently in applications such as neuroimaging, recommendation system, topic modeling, and sensor network localization. We propose a multilinear Bernoulli model, develop a rank-constrained likelihood-based estimation method, and obtain the theoretical accuracy guarantees. In contrast to continuous-valued problems, the binary tensor problem exhibits an interesting phase transition phenomenon according to the signal-to-noise ratio. The error bound for the parameter tensor estimation is established, and we show that the obtained rate is minimax optimal under the considered model. Furthermore, we develop an alternating optimization algorithm with convergence guarantees. The efficacy of our approach is demonstrated through both simulations and analyses of multiple data sets on the tasks of tensor completion and clustering.",
+    "authors": [
+        "Miaoyan Wang",
+        "Lexin Li"
+    ],
+    "emails": [
+        "miaoyan.wang@wisc.edu",
+        "lexinli@berkeley.edu"
+    ],
+    "id": "18-766",
+    "issue": 154,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Learning from Binary Multiway Data: Probabilistic Tensor Decomposition and its Statistical Optimality",
+    "volume": 21,
+    "year": 2020
+}

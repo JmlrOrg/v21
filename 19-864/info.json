@@ -1,0 +1,29 @@
+{
+    "abstract": "pyDML is an open-source python library that provides a wide range of distance metric learning algorithms. Distance metric learning can be useful to improve similarity learning algorithms, such as the nearest neighbors classifier, and also has other applications, like dimensionality reduction. The pyDML package currently provides more than 20 algorithms, which can be categorized, according to their purpose, in: dimensionality reduction algorithms, algorithms to improve nearest neighbors or nearest centroids classifiers, information theory based algorithms or kernel based algorithms, among others. In addition, the library also provides some utilities for the visualization of classifier regions, parameter tuning and a stats website with the performance of the implemented algorithms. The package relies on the scipy ecosystem, it is fully compatible with scikit-learn, and is distributed under GPLv3 license. Source code and documentation can be found at https://github.com/jlsuarezdiaz/pyDML.",
+    "authors": [
+        "Juan Luis Su\u00e1rez",
+        "Salvador Garc\u00eda",
+        "Francisco Herrera"
+    ],
+    "emails": [
+        "jlsuarezdiaz@ugr.es",
+        "salvagl@decsai.ugr.es",
+        "herrera@decsai.ugr.es"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jlsuarezdiaz/pyDML"
+        ]
+    ],
+    "id": "19-864",
+    "issue": 96,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "pyDML: A Python Library for Distance Metric Learning",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The individualized treatment recommendation (ITR) is an important analytic framework for precision medicine. The goal of ITR is to assign the best treatments to patients based on their individual characteristics. From the machine learning perspective, the solution to the ITR problem can be formulated as a weighted classification problem to maximize the mean benefit from the recommended treatments given patients' characteristics. Several ITR methods have been proposed in both the binary setting and the multicategory setting. In practice, one may prefer a more flexible recommendation that includes multiple treatment options. This motivates us to develop methods to obtain a set of near-optimal individualized treatment recommendations alternative to each other, called alternative individualized treatment recommendations (A-ITR). We propose two methods to estimate the optimal A-ITR within the outcome weighted learning (OWL) framework. Simulation studies and a real data analysis for Type 2 diabetic patients with injectable antidiabetic treatments are conducted to show the usefulness of the proposed A-ITR framework. We also show the consistency of these methods and obtain an upper bound for the risk between the theoretically optimal recommendation and the estimated one. An R package \"aitr\" has been developed, found at https://github.com/menghaomiao/aitr.",
+    "authors": [
+        "Haomiao Meng",
+        "Ying-Qi Zhao",
+        "Haoda Fu",
+        "Xingye Qiao"
+    ],
+    "emails": [
+        "meng@math.binghamton.edu",
+        "yqzhao@fredhutch.org",
+        "fu_haoda@lilly.com",
+        "qiao@math.binghamton.edu"
+    ],
+    "id": "20-334",
+    "issue": 183,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Near-optimal Individualized Treatment Recommendations",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Linear discriminant analysis (LDA) is a popular classifier that is built on the assumption of common population covariance matrix across classes. The performance of LDA depends heavily on the quality of estimating the mean vectors and the population covariance matrix. This issue becomes more challenging in high-dimensional settings where the number of features is of the same order as the number of training samples. Several techniques for estimating the covariance matrix can be found in the literature. One of the most popular approaches are estimators based on using a regularized sample covariance matrix, giving the name regularized LDA (R-LDA) to the corresponding classifier. These estimators are known to be more resilient to the sample noise than the traditional sample covariance matrix estimator. However, the main challenge of the regularization approach is the choice of the optimal regularization parameter, as an arbitrary choice could lead to severe degradation of the classifier performance. In this work, we propose an improved LDA classifier based on the assumption that the covariance matrix follows a spiked covariance model. The main principle of our proposed technique is the design of a parametrized inverse covariance matrix estimator, the parameters of which are shown to be easily optimized. Numerical simulations, using both real and synthetic data, show that the proposed classifier yields better classification performance than the classical R-LDA while requiring lower computational complexity.",
+    "authors": [
+        "Houssem Sifaou",
+        "Abla Kammoun",
+        "Mohamed-Slim Alouini"
+    ],
+    "emails": [
+        "houssem.sifaou@kaust.edu.sa",
+        "abla.kammoun@kaust.edu.sa",
+        "slim.alouini@kaust.edu.sa"
+    ],
+    "id": "19-428",
+    "issue": 112,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "High-dimensional Linear Discriminant Analysis Classifier for Spiked Covariance Model",
+    "volume": 21,
+    "year": 2020
+}

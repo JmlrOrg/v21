@@ -1,0 +1,26 @@
+{
+    "abstract": "Estimation of Distribution Algorithms (EDAs) are metaheuristics where learning a model and sampling new solutions replaces the variation operators recombination and mutation used in standard Genetic Algorithms. The choice of these models as well as the corresponding training processes are subject to the bias/variance tradeoff, also known as under- and overfitting: simple models cannot capture complex interactions between problem variables, whereas complex models are susceptible to modeling random noise. This paper suggests using Denoising Autoencoders (DAEs) as generative models within EDAs (DAE-EDA). The resulting DAE-EDA is able to model complex probability distributions. Furthermore, overfitting is less harmful, since DAEs overfit by learning the identity function. This overfitting behavior introduces unbiased random noise into the samples, which is no major problem for the EDA but just leads to higher population diversity. As a result, DAE-EDA runs for more generations before convergence and searches promising parts of the solution space more thoroughly. We study the performance of DAE-EDA on several combinatorial single-objective optimization problems. In comparison to the Bayesian Optimization Algorithm, DAE-EDA requires a similar number of evaluations of the objective function but is much faster and can be parallelized efficiently, making it the preferred choice especially for large and difficult optimization problems.",
+    "authors": [
+        "Malte Probst",
+        "Franz Rothlauf"
+    ],
+    "emails": [
+        "malte.probst@honda-ri.de",
+        "rothlauf@uni-mainz.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/wohnjayne/eda-suite"
+        ]
+    ],
+    "id": "16-543",
+    "issue": 78,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Harmless Overfitting: Using Denoising Autoencoders in Estimation of Distribution Algorithms",
+    "volume": 21,
+    "year": 2020
+}

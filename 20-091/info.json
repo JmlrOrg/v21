@@ -1,0 +1,45 @@
+{
+    "abstract": "tslearn is a general-purpose Python machine learning library for time series that offers tools for pre-processing and feature extraction as well as dedicated models for clustering, classification and regression. It follows scikit-learn's Application Programming Interface for transformers and estimators, allowing the use of standard pipelines and model selection tools on top of tslearn objects. It is distributed under the BSD-2-Clause license, and its source code is available at https://github.com/tslearn-team/tslearn.",
+    "authors": [
+        "Romain Tavenard",
+        "Johann Faouzi",
+        "Gilles Vandewiele",
+        "Felix Divo",
+        "Guillaume Androz",
+        "Chester Holtz",
+        "Marie Payne",
+        "Roman Yurchak",
+        "Marc Ru\u00dfwurm",
+        "Kushal Kolar",
+        "Eli Woods"
+    ],
+    "emails": [
+        "romain.tavenard@univ-rennes2.fr",
+        "johann.faouzi@icm-institute.org",
+        "gilles.vandewiele@ugent.be",
+        "felix.divo@stud.tu-darmstadt.de",
+        "guillaume.androz@icentia.com",
+        "chholtz@eng.ucsd.edu",
+        "marie.payne@mail.mcgill.ca",
+        "roman.yurchak@symerio.com",
+        "marc.russwurm@tum.de",
+        "kushalkolar@gmail.com",
+        "eli@eaze.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tslearn-team/tslearn"
+        ]
+    ],
+    "id": "20-091",
+    "issue": 118,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Tslearn, A Machine Learning Toolkit for Time Series Data",
+    "volume": 21,
+    "year": 2020
+}

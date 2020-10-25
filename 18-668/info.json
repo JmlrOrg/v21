@@ -1,0 +1,20 @@
+{
+    "abstract": "The accuracy of probability distributions inferred using machine-learning algorithms heavily depends on data availability and quality. In practical applications it is therefore fundamental to investigate the robustness of a statistical model to misspecification of some of its underlying probabilities. In the context of graphical models, investigations of robustness fall under the notion of sensitivity analyses. These analyses consist in varying some of the model's probabilities or parameters and then assessing how far apart the original and the varied distributions are.  However, for Gaussian graphical models, such variations usually make the original graph an incoherent  representation of the model's conditional independence structure. Here we develop an approach to sensitivity analysis which guarantees the original graph remains valid after any probability variation and we quantify the effect of such variations using different measures. To achieve this we take advantage of algebraic techniques to both concisely represent conditional independence and to provide a straightforward way of checking the validity of such relationships. Our methods are demonstrated to be robust and comparable to standard ones, which can break the conditional independence structure of the model, using an artificial example and a medical real-world application.",
+    "authors": [
+        "Christiane G\u00f6rgen",
+        "Manuele Leonelli"
+    ],
+    "emails": [
+        "christiane.goergen@mis.mpg.de",
+        "manuele.leonelli@ie.edu"
+    ],
+    "id": "18-668",
+    "issue": 84,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Model-Preserving Sensitivity Analysis for Families of Gaussian Distributions",
+    "volume": 21,
+    "year": 2020
+}

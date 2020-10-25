@@ -1,0 +1,26 @@
+{
+    "abstract": "Iterative Hard Thresholding (IHT) is a popular class of first-order greedy selection methods for loss minimization under cardinality constraint. The existing IHT-style algorithms, however, are proposed for minimizing the primal formulation. It is still an open issue to explore duality theory and algorithms for such a non-convex and NP-hard combinatorial optimization problem. To address this issue, we develop in this article a novel duality theory for $\\ell_2$-regularized empirical risk minimization under cardinality constraint, along with an IHT-style algorithm for dual optimization. Our sparse duality theory establishes a set of sufficient and/or necessary conditions under which the original non-convex problem can be equivalently or approximately solved in a concave dual formulation. In view of this theory, we propose the Dual IHT (DIHT) algorithm  as a super-gradient ascent method to solve the non-smooth dual problem with provable guarantees on primal-dual gap convergence and sparsity recovery. Numerical results confirm our theoretical predictions and demonstrate the superiority of DIHT to the state-of-the-art primal IHT-style algorithms in model estimation accuracy and computational efficiency.",
+    "authors": [
+        "Xiao-Tong Yuan",
+        "Bo Liu",
+        "Lezi Wang",
+        "Qingshan Liu",
+        "Dimitris N. Metaxas"
+    ],
+    "emails": [
+        "xtyuan@nuist.edu.cn",
+        "kfliubo@gmail.com",
+        "wanglezi.bupt@gmail.com",
+        "qsliu@nuist.edu.cn",
+        "dnm@cs.rutgers.edu"
+    ],
+    "id": "18-487",
+    "issue": 152,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Dual Iterative Hard Thresholding",
+    "volume": 21,
+    "year": 2020
+}

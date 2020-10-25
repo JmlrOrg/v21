@@ -1,0 +1,29 @@
+{
+    "abstract": "Cornac is an open-source Python framework for multimodal recommender systems. In addition to core utilities for accessing, building, evaluating, and comparing recommender models, Cornac is distinctive in putting emphasis on recommendation models that leverage auxiliary information in the form of a social network, item textual descriptions, product images, etc. Such multimodal auxiliary data supplement user-item interactions (e.g., ratings, clicks), which tend to be sparse in practice. To facilitate broad adoption and community contribution, Cornac is publicly available at https://github.com/PreferredAI/cornac, and it can be installed via Anaconda or the Python Package Index (pip). Not only is it well-covered by unit tests to ensure code quality, but it is also accompanied with a detailed documentation, tutorials, examples, and several built-in benchmarking data sets.",
+    "authors": [
+        "Aghiles Salah",
+        "Quoc-Tuan Truong",
+        "Hady W. Lauw"
+    ],
+    "emails": [
+        "asalah@smu.edu.sg",
+        "qttruong.2017@smu.edu.sg",
+        "hadywlauw@smu.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PreferredAI/cornac"
+        ]
+    ],
+    "id": "19-805",
+    "issue": 95,
+    "pages": [
+        1,
+        5
+    ],
+    "special_issue": "MLOSS",
+    "title": "Cornac: A Comparative Framework for Multimodal Recommender Systems",
+    "volume": 21,
+    "year": 2020
+}

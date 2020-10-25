@@ -1,0 +1,30 @@
+{
+    "abstract": "Latent variable models allow capturing the hidden structure underlying the data. In particular, feature allocation models represent each observation by a linear combination of latent variables. These models are often used to make predictions either for new observations or for missing information in the original data, as well as to perform exploratory data analysis. Although there is an extensive literature on latent feature allocation models for homogeneous datasets, where all the attributes that describe each object are of the same (continuous or discrete) type, there is no general framework for practical latent feature modeling for heterogeneous datasets. In this paper, we introduce a general Bayesian nonparametric latent feature allocation model suitable for heterogeneous datasets, where the attributes describing each object can be arbitrary combinations of real-valued, positive real-valued, categorical, ordinal and count variables. The proposed model presents several important properties. First, it is suitable for heterogeneous data while keeping the properties of conjugate models, which enables us to develop an inference algorithm that presents linear complexity with respect to the number of objects and attributes per MCMC iteration. Second, the Bayesian nonparametric component allows us to place a prior distribution on the number of features required to capture the latent structure in the data. Third, the latent features in the model are binary-valued, which facilitates the interpretability of the obtained latent features in exploratory data analysis. Finally, a software package, called GLFM toolbox, is made publicly available for other researchers to use and extend. It is available at https://ivaleram.github.io/GLFM/. We show the flexibility of the proposed model by solving both prediction and data analysis tasks on several real-world datasets.",
+    "authors": [
+        "Isabel Valera",
+        "Melanie F. Pradier",
+        "Maria Lomeli",
+        "Zoubin Ghahramani"
+    ],
+    "emails": [
+        "ivalera@cs.uni-saarland.de",
+        "melanie@seas.harvard.edu",
+        "maria.lomeli@eng.cam.ac.uk",
+        "zoubin@eng.cam.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://ivaleram.github.io/GLFM/"
+        ]
+    ],
+    "id": "17-328",
+    "issue": 100,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "General Latent Feature Models for Heterogeneous Datasets",
+    "volume": 21,
+    "year": 2020
+}

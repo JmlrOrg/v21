@@ -1,0 +1,49 @@
+{
+    "abstract": "We introduce the Gluon Time Series Toolkit (GluonTS), a Python library for deep learning based time series modeling for ubiquitous tasks, such as forecasting and anomaly detection. GluonTS simplifies the time series modeling pipeline by providing the necessary components and tools for quick model development, efficient experimentation and evaluation. In addition, it contains reference implementations of state-of-the-art time series models that enable simple benchmarking of new algorithms.",
+    "authors": [
+        "Alexander Alexandrov",
+        "Konstantinos Benidis",
+        "Michael Bohlke-Schneider",
+        "Valentin Flunkert",
+        "Jan Gasthaus",
+        "Tim Januschowski",
+        "Danielle C. Maddix",
+        "Syama Rangapuram",
+        "David Salinas",
+        "Jasper Schulz",
+        "Lorenzo Stella",
+        "Ali Caner T\u00fcrkmen",
+        "Yuyang Wang"
+    ],
+    "emails": [
+        "alxale@amazon.com",
+        "kbenidis@amazon.com",
+        "bohlkem@amazon.com",
+        "flunkert@amazon.com",
+        "gasthaus@amazon.com",
+        "tjnsch@amazon.com",
+        "dmmaddix@amazon.com",
+        "rangapur@amazon.com",
+        "dsalina@amazon.com",
+        "schjaspe@amazon.com",
+        "stellalo@amazon.com",
+        "atturkm@amazon.com",
+        "yuyawang@amazon.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/awslabs/gluon-ts"
+        ]
+    ],
+    "id": "19-820",
+    "issue": 116,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "GluonTS: Probabilistic and Neural Time Series Modeling in Python",
+    "volume": 21,
+    "year": 2020
+}

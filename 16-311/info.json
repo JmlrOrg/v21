@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider learning problems over training sets in which both, the number of training examples and the dimension of the feature vectors, are large. To solve these problems we propose the random parallel stochastic algorithm (RAPSA). We call the algorithm random parallel because it utilizes multiple parallel processors to operate on a randomly chosen subset of blocks of the feature vector. RAPSA is doubly stochastic since each processor utilizes a random set of functions to compute the stochastic gradient associated with a randomly chosen sets of variable coordinates. Algorithms that are parallel in either of these dimensions exist, but RAPSA is the first attempt at a methodology that is parallel in both the selection of blocks and the selection of elements of the training set. In RAPSA, processors utilize the randomly chosen functions to compute the stochastic gradient component associated with a randomly chosen block. The technical contribution of this paper is to show that this minimally coordinated algorithm converges to the optimal classifier when the training objective is strongly convex. Moreover, we present an accelerated version of RAPSA (ARAPSA) that incorporates the objective function curvature information by premultiplying the descent direction by a Hessian approximation matrix. We further extend the results for asynchronous settings and show that if the processors perform their updates without any coordination the algorithms are still convergent to the optimal argument. RAPSA and its extensions are then numerically evaluated on a linear estimation problem and a binary image classification task using the MNIST handwritten digit dataset.",
+    "authors": [
+        "Aryan Mokhtari",
+        "Alec Koppel",
+        "Martin Takac",
+        "Alejandro Ribeiro"
+    ],
+    "emails": [
+        "mokhtari@austin.utexas.edu",
+        "alec.e.koppel.civ@mail.mil",
+        "takac.mt@gmail.com",
+        "aribeiro@seas.upenn.edu"
+    ],
+    "id": "16-311",
+    "issue": 120,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "A Class of Parallel Doubly Stochastic Algorithms for Large-Scale Learning",
+    "volume": 21,
+    "year": 2020
+}

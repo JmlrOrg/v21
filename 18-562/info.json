@@ -1,0 +1,22 @@
+{
+    "abstract": "Despite the rich literature, the linear convergence of alternating direction method of multipliers (ADMM) has not been fully understood even for the convex case. For example, the linear convergence of ADMM can be empirically observed in a wide range of applications arising in statistics, machine learning, and related areas, while existing theoretical results seem to be too stringent to be satisfied or too ambiguous to be checked and thus why the ADMM performs linear convergence for these applications still seems to be unclear. In this paper, we systematically study the local linear convergence of ADMM in the context of convex optimization through the lens of variational analysis. We show that the local  linear convergence of ADMM can be guaranteed without the strong convexity of objective functions together with the full rank assumption of the coefficient matrices, or the full polyhedricity assumption of their subdifferential; and it is possible to discern the local linear convergence for various concrete applications, especially for some representative models arising in statistical learning. We use some variational analysis techniques sophisticatedly; and our analysis is conducted in the most general proximal version of ADMM with Fortin and Glowinski's larger step size so that all major variants of the ADMM known in the literature are covered.",
+    "authors": [
+        "Xiaoming Yuan",
+        "Shangzhi Zeng",
+        "Jin Zhang"
+    ],
+    "emails": [
+        "xmyuan@hku.hk",
+        "zengsz@connect.hku.hk",
+        "zhangj9@sustech.edu.cn"
+    ],
+    "id": "18-562",
+    "issue": 83,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Discerning the Linear Convergence of ADMM for Structured Convex Optimization through the Lens of Variational Analysis",
+    "volume": 21,
+    "year": 2020
+}

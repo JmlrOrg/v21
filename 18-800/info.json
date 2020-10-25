@@ -1,0 +1,43 @@
+{
+    "abstract": "Apache Mahout is a library for scalable machine learning (ML) on distributed dataflow systems, offering various implementations of classification, clustering, dimensionality reduction and recommendation algorithms. Mahout was a pioneer in large-scale machine learning in 2008, when it started  and targeted MapReduce, which was the predominant abstraction for scalable computing in industry at that time. Mahout has been widely used by leading web companies and is part of several commercial cloud offerings. In recent years, Mahout migrated to a general framework enabling a mix of dataflow programming and linear algebraic computations on backends such as Apache Spark and Apache Flink. This design allows users to execute data preprocessing and model training in a single, unified dataflow system, instead of requiring a complex integration of several specialized systems. Mahout is maintained as a community-driven open source project at the Apache Software Foundation, and is available under https://mahout.apache.org.",
+    "authors": [
+        "Robin Anil",
+        "Gokhan Capan",
+        "Isabel Drost-Fromm",
+        "Ted Dunning",
+        "Ellen Friedman",
+        "Trevor Grant",
+        "Shannon Quinn",
+        "Paritosh Ranjan",
+        "Sebastian Schelter",
+        "\u00d6zg\u00fcr Y\u0131lmazel"
+    ],
+    "emails": [
+        "robinanil@apache.org",
+        "gcapan@apache.org",
+        "isabel@apache.org",
+        "tdunning@apache.org",
+        "ellenf@apache.org",
+        "rawkintrevo@apache.org",
+        "squinn@apache.org",
+        "pranjan@apache.org",
+        "ssc@apache.org",
+        "oyilmazel@apache.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://mahout.apache.org"
+        ]
+    ],
+    "id": "18-800",
+    "issue": 127,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Apache Mahout: Machine Learning on Distributed Dataflow Systems",
+    "volume": 21,
+    "year": 2020
+}

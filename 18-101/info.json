@@ -1,0 +1,22 @@
+{
+    "abstract": "Gaussian belief propagation (GaBP) is a message-passing algorithm that can be used to perform approximate inference on a pairwise Markov graph (MG) constructed from a multivariate Gaussian distribution in canonical parameterization. The output of GaBP is a set of approximate univariate marginals for each variable in the pairwise MG. An extension of GaBP (labeled GaBP-m), allowing for the approximation of higher-dimensional marginal distributions, was explored by Kamper et al. (2019). The idea is to create an MG in which each node is allowed to receive more than one variable. As in the univariate case, the multivariate extension does not necessarily converge in loopy graphs and, even if convergence occurs, is not guaranteed to provide exact inference. To address the problem of convergence, we consider a multivariate extension of the principle of node regularization proposed by Kamper et al. (2018). We label this algorithm slow GaBP-m (sGaBP-m), where the term 'slow' relates to the damping effect of the regularization on the message passing. We prove that, given sufficient regularization, this algorithm will converge and provide the exact marginal means at convergence, regardless of the way variables are assigned to nodes. The selection of the degree of regularization is addressed through the use of a heuristic, which is based on a tree representation of sGaBP-m. As a further contribution, we extend other GaBP variants in the literature to allow for higher-dimensional marginalization. We show that our algorithm compares favorably with these variants, both in terms of convergence speed and inference quality.",
+    "authors": [
+        "Francois Kamper",
+        "Sarel J. Steel",
+        "Johan A. du Preez"
+    ],
+    "emails": [
+        "francoisk@sun.ac.za",
+        "sjst@sun.ac.za",
+        "dupreez@sun.ac.za"
+    ],
+    "id": "18-101",
+    "issue": 101,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Regularized Gaussian Belief Propagation with Nodes of Arbitrary Size",
+    "volume": 21,
+    "year": 2020
+}

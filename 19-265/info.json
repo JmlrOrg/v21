@@ -1,0 +1,22 @@
+{
+    "abstract": "Optimization plays a key role in machine learning. Recently, stochastic second-order methods have attracted considerable attention because of their low computational cost in each iteration. However, these methods might suffer from poor performance when the Hessian is hard to be approximate well in a computation-efficient way. To overcome this dilemma, we resort to Nesterov's acceleration to improve the convergence performance of these second-order methods and propose accelerated approximate Newton. We give the theoretical convergence analysis of accelerated approximate Newton and show that Nesterov's acceleration can improve the convergence rate. Accordingly, we propose an accelerated regularized sub-sampled Newton (ARSSN) which performs much better than the conventional regularized sub-sampled Newton  empirically and theoretically. Moreover, we show that ARSSN has better performance  than classical first-order methods empirically.",
+    "authors": [
+        "Haishan Ye",
+        "Luo Luo",
+        "Zhihua Zhang"
+    ],
+    "emails": [
+        "hsye_cs@outlook.com",
+        "luoluo@ust.hk",
+        "zhzhang@math.pku.edu.cn"
+    ],
+    "id": "19-265",
+    "issue": 142,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Nesterov's Acceleration for Approximate Newton",
+    "volume": 21,
+    "year": 2020
+}

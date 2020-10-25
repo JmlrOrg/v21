@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper considers stochastic optimization problems for a large class of objective functions, including convex and continuous submodular. Stochastic proximal gradient methods have been widely used to solve such problems; however, their applicability remains limited when the problem dimension is large and the projection onto a convex set is computationally costly. Instead, stochastic conditional gradient algorithms are proposed as an alternative solution which rely on (i) Approximating gradients via a simple averaging technique requiring a single stochastic gradient evaluation per iteration; (ii) Solving a linear program to compute the descent/ascent direction. The gradient averaging technique reduces the noise of gradient approximations as time progresses, and replacing projection step in proximal methods by a linear program lowers the computational complexity of each iteration. We show that under convexity and smoothness assumptions, our proposed stochastic conditional gradient method converges to the optimal objective function value at a sublinear rate of $\\mathcal{O}(1/t^{1/3})$. Further, for a monotone and continuous DR-submodular function and subject to a general convex body constraint, we prove that our proposed method achieves a $((1-1/e)\\text{OPT} -\\epsilon)$ guarantee (in expectation) with   $\\mathcal{O}{(1/\\epsilon^3)}$ stochastic gradient computations. This guarantee matches the known hardness results and closes the gap between deterministic and stochastic continuous submodular maximization. Additionally, we achieve $((1/e)\\text{OPT} -\\epsilon)$ guarantee after operating on $\\mathcal{O}{(1/\\epsilon^3)}$ stochastic gradients for the case that the objective function is continuous DR-submodular but non-monotone and the constraint set is a down-closed convex body. By using stochastic continuous optimization as an interface, we also provide the first $(1-1/e)$ tight approximation guarantee for maximizing  a monotone but stochastic submodular set function subject to a general matroid constraint and $(1/e)$ approximation guarantee for the non-monotone case.",
+    "authors": [
+        "Aryan Mokhtari",
+        "Hamed Hassani",
+        "Amin Karbasi"
+    ],
+    "emails": [
+        "mokhtari@austin.utexas.edu",
+        "hassani@seas.upenn.edu",
+        "amin.karbasi@yale.edu"
+    ],
+    "id": "18-764",
+    "issue": 105,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Stochastic Conditional Gradient Methods: From Convex Minimization to Submodular Maximization",
+    "volume": 21,
+    "year": 2020
+}

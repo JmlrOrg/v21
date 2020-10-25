@@ -1,0 +1,22 @@
+{
+    "abstract": "The goal of noisy high-dimensional phase retrieval is to estimate an $s$-sparse parameter $\\boldsymbol{\\beta}^*\\in \\mathbb{R}^d$ from $n$ realizations of the model $Y = (\\mathbf{X}^T \\boldsymbol{\\beta}^*)^2 + \\varepsilon$. Based on this model, we propose a significant semi-parametric generalization called  misspecified phase retrieval (MPR), in which $Y = f(\\mathbf{X}^T \\boldsymbol{\\beta}^*, \\varepsilon)$ with unknown $f$ and $\\operatorname{Cov}(Y, (\\mathbf{X}^T \\boldsymbol{\\beta}^*)^2) > 0$. For example, MPR encompasses $Y = h(|\\mathbf{X}^T \\boldsymbol{\\beta}^*|) + \\varepsilon$ with increasing $h$ as a special case. Despite the generality of the MPR model, it eludes the reach of most existing semi-parametric estimators. In this paper, we propose an estimation procedure, which consists of solving a cascade of two convex programs and provably recovers the direction of $\\boldsymbol{\\beta}^*$. Furthermore, we prove that our procedure is minimax optimal over the class of MPR models. Interestingly, our minimax analysis characterizes the statistical price of misspecifying the link function in phase retrieval models. Our theory is backed up by thorough numerical results.",
+    "authors": [
+        "Matey Neykov",
+        "Zhaoran Wang",
+        "Han Liu"
+    ],
+    "emails": [
+        "mneykov@gmail.com",
+        "zhaoranwang@gmail.com",
+        "hanliu@northwestern.edu"
+    ],
+    "id": "18-259",
+    "issue": 121,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Agnostic Estimation for Phase Retrieval",
+    "volume": 21,
+    "year": 2020
+}

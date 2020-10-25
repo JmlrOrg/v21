@@ -1,0 +1,29 @@
+{
+    "abstract": "We propose a novel methodology for representation learning on graph-structured data, in which a stack of Bayesian Networks learns different distributions of a vertex's neighbourhood. Through an incremental construction policy and layer-wise training, we can build deeper architectures with respect to typical graph convolutional neural networks, with benefits in terms of context spreading between vertices. First, the model learns from graphs via maximum likelihood estimation without using target labels. Then, a supervised readout is applied to the learned graph embeddings to deal with graph classification and vertex classification tasks, showing competitive results against neural models for graphs. The computational complexity is linear in the number of edges, facilitating learning on large scale data sets. By studying how depth affects the performances of our model, we discover that a broader context generally improves performances. In turn, this leads to a critical analysis of some benchmarks used in literature.",
+    "authors": [
+        "Davide Bacciu",
+        "Federico Errica",
+        "Alessio Micheli"
+    ],
+    "emails": [
+        "bacciu@di.unipi.it",
+        "federico.errica@phd.unipi.it",
+        "micheli@di.unipi.it"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/diningphil/CGMM"
+        ]
+    ],
+    "id": "19-470",
+    "issue": 134,
+    "pages": [
+        1,
+        39
+    ],
+    "special_issue": "MLOSS",
+    "title": "Probabilistic Learning on Graphs via Contextual Architectures",
+    "volume": 21,
+    "year": 2020
+}

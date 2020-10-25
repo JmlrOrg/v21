@@ -1,0 +1,59 @@
+{
+    "abstract": "The wavelet scattering transform is an invariant and stable signal representation suitable for many signal processing and machine learning applications. We present the Kymatio software package, an easy-to-use, high-performance Python implementation of the scattering transform in 1D, 2D, and 3D that is compatible with modern deep learning frameworks, including PyTorch and TensorFlow/Keras. The transforms are implemented on both CPUs and GPUs, the latter offering a significant speedup over the former. The package also has a small memory footprint. Source code, documentation, and examples are available under a BSD license at <a href='https://www.kymat.io'>https://www.kymat.io</a>.",
+    "authors": [
+        "Mathieu Andreux",
+        "Tom\u00e1s Angles",
+        "Georgios Exarchakis",
+        "Roberto Leonarduzzi",
+        "Gaspar Rochette",
+        "Louis Thiry",
+        "John Zarka",
+        "St\u00e9phane Mallat",
+        "Joakim And\u00e9n",
+        "Eugene Belilovsky",
+        "Joan Bruna",
+        "Vincent Lostanlen",
+        "Muawiz Chaudhary",
+        "Matthew J. Hirn",
+        "Edouard Oyallon",
+        "Sixin Zhang",
+        "Carmine Cella",
+        "Michael Eickenberg"
+    ],
+    "emails": [
+        "mathieu.andreux@owkin.com",
+        "tomas.angles@ens.fr",
+        "georgios.exarchakis@ens.fr",
+        "roberto.leonarduzzi@ens-lyon.fr",
+        "gaspar.rochette@ens.fr",
+        "louis.thiry@outlook.fr",
+        "johnzarka@gmail.com",
+        "stephane.mallat@ens.fr",
+        "janden@flatironinstitute.org",
+        "eugene.belilovsky@umontreal.ca",
+        "bruna@cims.nyu.edu",
+        "vl1019@nyu.edu",
+        "chaudhm@wwu.edu",
+        "mhirn@msu.edu",
+        "edouard.oyallon@lip6.fr",
+        "sixin.zhang@pku.edu.cn",
+        "carmine.cella@berkeley.edu",
+        "meickenberg@flatironinstitute.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/kymatio/kymatio"
+        ]
+    ],
+    "special_issue": "MLOSS",
+    "id": "19-047",
+    "issue": 60,
+    "pages": [
+        1,
+        6
+    ],
+    "title": "Kymatio: Scattering Transforms in Python",
+    "volume": 21,
+    "year": 2020
+}

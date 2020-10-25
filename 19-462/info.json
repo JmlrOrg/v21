@@ -1,0 +1,28 @@
+{
+    "abstract": "Robust covariance matrix estimation is a fundamental task in statistics. The recent discovery on the connection between robust estimation and generative adversarial nets (GANs) suggests that it is possible to compute depth-like robust estimators using similar techniques that optimize GANs. In this paper, we introduce a general learning via classification framework based on the notion of proper scoring rules. This framework allows us to understand both matrix depth function, a technique of rate-optimal robust estimation, and various  GANs through the lens of variational approximations of $f$-divergences induced by proper scoring rules. We then propose a new class of robust covariance matrix estimators in this framework by carefully constructing discriminators with appropriate neural network structures. These estimators are proved to achieve the minimax rate of covariance matrix estimation under Huber's contamination model. The results are also extended to robust scatter estimation for elliptical distributions. Our numerical results demonstrate the good performance of the proposed procedures under various settings against competitors in the literature.",
+    "authors": [
+        "Chao Gao",
+        "Yuan Yao",
+        "Weizhi Zhu"
+    ],
+    "emails": [
+        "chaogao@galton.uchicago.edu",
+        "yuany@ust.hk",
+        "wzhuai@ust.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/zhuwzh/Robust-GAN-Scatter"
+        ]
+    ],
+    "id": "19-462",
+    "issue": 160,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Generative Adversarial Nets for Robust Scatter Estimation: A Proper Scoring Rule Perspective",
+    "volume": 21,
+    "year": 2020
+}

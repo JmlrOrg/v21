@@ -1,0 +1,26 @@
+{
+    "abstract": "We derive generalization and excess risk bounds for neural networks using a family of complexity measures based on a multilevel relative entropy. The bounds are obtained by introducing the notion of generated hierarchical coverings of neural networks and by using the technique of chaining mutual information introduced by Asadi et al. '18. The resulting bounds are algorithm-dependent and multiscale: they exploit the multilevel structure of neural networks. This, in turn, leads to an empirical risk minimization problem with a multilevel entropic regularization. The minimization problem is resolved by introducing a multiscale extension of the celebrated Gibbs posterior distribution, proving that the derived distribution achieves the unique minimum. This leads to a new training procedure for neural networks with performance guarantees, which exploits the chain rule of relative entropy rather than the chain rule of derivatives (as in backpropagation), and which takes into account the interactions between different scales of the hypothesis sets of neural networks corresponding to different depths of the hidden layers. To obtain an efficient implementation of the latter, we further develop a multilevel Metropolis algorithm simulating the multiscale Gibbs distribution, with an experiment for a two-layer neural network on the MNIST data set.",
+    "authors": [
+        "Amir R. Asadi",
+        "Emmanuel Abbe"
+    ],
+    "emails": [
+        "aasadi@princeton.edu",
+        "emmanuel.abbe@epfl.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ARAsadi/Multilevel-Metropolis"
+        ]
+    ],
+    "id": "19-794",
+    "issue": 139,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Chaining Meets Chain Rule: Multilevel Entropic Regularization and Training of Neural Networks",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Kernel techniques are among the most widely-applied and influential tools in machine learning with applications at virtually all areas of the field. To combine this expressive power with computational efficiency numerous randomized schemes have been proposed in the literature, among which probably random Fourier features (RFF) are the simplest and most popular. While RFFs were originally designed for the approximation of kernel values, recently they have been adapted to kernel derivatives, and hence to the solution of large-scale tasks involving function derivatives. Unfortunately, the understanding of the RFF scheme for the approximation of higher-order kernel derivatives is quite limited due to the challenging polynomial growing nature of the underlying function class in the empirical process. To tackle this difficulty, we establish a finite-sample deviation bound for a general class of polynomial-growth functions under $\\alpha$-exponential Orlicz condition on the distribution of the sample. Instantiating this result for RFFs, our finite-sample uniform guarantee implies a.s. convergence with tight rate for arbitrary kernel with $\\alpha$-exponential Orlicz spectrum and any order of derivative.",
+    "authors": [
+        "Linda Chamakh",
+        "Emmanuel Gobet",
+        "Zoltán Szabó"
+    ],
+    "emails": [
+        "linda.chamakh@polytechnique.edu",
+        "emmanuel.gobet@polytechnique.edu",
+        "zoltan.szabo@polytechnique.edu"
+    ],
+    "id": "19-1031",
+    "issue": 145,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Orlicz Random Fourier Features",
+    "volume": 21,
+    "year": 2020
+}

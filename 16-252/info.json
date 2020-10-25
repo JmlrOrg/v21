@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper we introduce a statistical model, called additively faithful directed acyclic graph (AFDAG), for causal learning from observational data. Our approach is based on additive conditional independence (ACI), a recently proposed three-way statistical relation that shares many similarities with conditional independence but without resorting to multi-dimensional kernels. This distinct feature strikes a balance between a parametric model and a fully nonparametric model, which makes the proposed model attractive for handling large networks. We develop an estimator for AFDAG based on a linear operator that characterizes ACI, and establish the consistency and convergence rates of this estimator, as well as the uniform consistency of the estimated DAG. Moreover, we introduce a modified PC-algorithm to implement the estimating procedure efficiently, so that its complexity is determined by the level of sparseness rather than the dimension of the network. Through simulation studies we show that our method outperforms existing methods when commonly assumed conditions such as Gaussian or Gaussian copula distributions do not hold. Finally, the usefulness of AFDAG formulation is demonstrated through an application to a proteomics data set.",
+    "authors": [
+        "Kuang-Yao Lee",
+        "Tianqi Liu",
+        "Bing Li",
+        "Hongyu Zhao"
+    ],
+    "emails": [
+        "kuang-yao.lee@temple.edu",
+        "tianqi.terence.liu@gmail.com",
+        "bxl9@psu.edu",
+        "hongyu.zhao@yale.edu"
+    ],
+    "id": "16-252",
+    "issue": 51,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Learning Causal Networks via Additive Faithfulness",
+    "volume": 21,
+    "year": 2020
+}

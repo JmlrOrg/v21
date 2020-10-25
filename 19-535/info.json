@@ -1,0 +1,26 @@
+{
+    "abstract": "Predicting a new response from a covariate is a challenging task in regression, which raises new question since the era of high-dimensional data. In this paper, we are interested in the inverse regression method from a theoretical viewpoint. Theoretical results  for the well-known Gaussian linear model are well-known, but the curse of dimensionality has increased the interest of practitioners and theoreticians into generalization of those results for various estimators, calibrated for the high-dimension context. We propose to focus on  inverse regression. It is known to be  a reliable and efficient approach  when the number of features exceeds the number of observations. Indeed, under some conditions, dealing with the inverse regression problem associated to a forward regression problem drastically reduces the number of parameters to estimate, makes the problem tractable and allows to consider more general distributions, as elliptical distributions.   When both the responses and the covariates are multivariate, estimators constructed by the inverse regression are studied in this paper, the main result being explicit asymptotic prediction regions for the response. The performances of the proposed estimators and prediction regions are also analyzed through a simulation study and compared with usual estimators.",
+    "authors": [
+        "Emilie Devijver",
+        "Emeline Perthame"
+    ],
+    "emails": [
+        "emilie.devijver@univ-grenoble-alpes.fr",
+        "emeline.perthame@pasteur.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://c3bi.pasteur.fr/wp-content/uploads/2020/06/code4publication.html"
+        ]
+    ],
+    "id": "19-535",
+    "issue": 113,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Prediction regions through Inverse Regression",
+    "volume": 21,
+    "year": 2020
+}

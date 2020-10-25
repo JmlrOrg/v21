@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper focuses on generalization performance analysis for distributed algorithms in the framework of learning theory. Taking distributed kernel ridge regression (DKRR) for example, we succeed in deriving its optimal learning rates in expectation and providing theoretically optimal ranges of the number of local processors. Due to the gap between theory and experiments, we also deduce optimal learning rates for DKRR in probability to essentially reflect the generalization performance and limitations of DKRR. Furthermore, we propose a communication strategy to improve the learning performance of DKRR and demonstrate the power of communications in DKRR via both theoretical assessments and numerical experiments.",
+    "authors": [
+        "Shao-Bo Lin",
+        "Di Wang",
+        "Ding-Xuan Zhou"
+    ],
+    "emails": [
+        "sblin1983@gmail.com",
+        "wangdi@wzu.edu.cn",
+        "mazhou@cityu.edu.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/18357710774/DKRRCJMLR"
+        ]
+    ],
+    "id": "19-592",
+    "issue": 93,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Distributed Kernel Ridge Regression with Communications",
+    "volume": 21,
+    "year": 2020
+}

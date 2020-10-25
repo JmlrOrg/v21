@@ -1,0 +1,26 @@
+{
+    "abstract": "A factor-augmented vector autoregressive (FAVAR) model is defined by a VAR equation that captures lead-lag correlations amongst a set of observed variables $X$ and latent factors $F$, and a calibration equation that relates another set of observed variables $Y$ with $F$ and $X$. The latter equation is used to estimate the factors that are subsequently used in estimating the parameters of the VAR system. The FAVAR model has become popular in applied economic research, since it can summarize a large number of variables of interest as a few factors through the calibration equation and subsequently examine their influence on core variables of primary interest through the VAR equation. However, there is increasing need for examining lead-lag relationships between a large number of time series, while incorporating information from another high-dimensional set of variables. Hence, in this paper we investigate the FAVAR model under high-dimensional scaling. We introduce an  appropriate identification constraint for the model parameters, which when incorporated into the formulated optimization problem yields estimates with good statistical properties. Further, we address a number of technical challenges introduced by the fact that estimates of the VAR system model parameters are based on estimated rather than directly observed quantities. The performance of the proposed estimators is evaluated on synthetic data. Further, the model is applied to commodity prices and reveals interesting and interpretable relationships between the prices and the factors extracted from a set of global macroeconomic indicators.",
+    "authors": [
+        "Jiahe Lin",
+        "George Michailidis"
+    ],
+    "emails": [
+        "jiahelin@umich.edu",
+        "gmichail@ufl.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jhlinplus/High_dim_FAVAR_estimation"
+        ]
+    ],
+    "id": "19-874",
+    "issue": 117,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Regularized Estimation of High-dimensional Factor-Augmented Vector Autoregressive (FAVAR) Models",
+    "volume": 21,
+    "year": 2020
+}

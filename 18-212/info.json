@@ -1,0 +1,30 @@
+{
+    "abstract": "An ongoing aim of research in multiobjective Bayesian optimization is to extend its applicability to a large number of objectives.  While coping with a limited budget of evaluations, recovering the set of optimal compromise solutions generally requires numerous observations and is less interpretable since this set tends to grow larger with the number of objectives. We thus propose to focus on a specific solution originating from game theory, the Kalai-Smorodinsky solution, which possesses attractive properties. In particular, it ensures equal marginal gains over all objectives. We further make it insensitive to a monotonic transformation of the objectives by considering the objectives in the copula space.  A novel tailored algorithm is proposed to search for the solution, in the form of a Bayesian optimization algorithm: sequential sampling decisions are made based on acquisition functions that derive from an instrumental Gaussian process prior. Our approach is tested on four problems with respectively four, six, eight, and nine objectives. The method is available in the R package GPGame.",
+    "authors": [
+        "Mickael Binois",
+        "Victor Picheny",
+        "Patrick Taillandier",
+        "Abderrahmane Habbal"
+    ],
+    "emails": [
+        "mickael.binois@inria.fr",
+        "victor@prowler.io",
+        "patrick.taillandier@inra.fr",
+        "habbal@unice.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://cran.r-project.org/package=GPGame"
+        ]
+    ],
+    "id": "18-212",
+    "issue": 150,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "The Kalai-Smorodinsky solution for many-objective Bayesian optimization",
+    "volume": 21,
+    "year": 2020
+}

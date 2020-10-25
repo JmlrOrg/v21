@@ -1,0 +1,34 @@
+{
+    "abstract": "The computation of the distance to the true distribution is a key component of most state-of-the-art generative models. Inspired by prior works on the Sliced-Wasserstein Auto-Encoders (SWAE) and the Wasserstein Auto-Encoders with MMD-based penalty (WAE-MMD), we propose a new generative model - a Cramer-Wold Auto-Encoder (CWAE). A fundamental component of CWAE is the characteristic kernel, the construction of which is one of the goals of this paper, from here on referred to as the Cramer-Wold kernel. Its main distinguishing feature is that it has a closed-form of the kernel product of radial Gaussians. Consequently, CWAE model has a~closed-form for the distance between the posterior and the normal prior, which simplifies the optimization procedure by removing the need to sample in order to compute the loss function. At the same time, CWAE performance often improves upon WAE-MMD and SWAE on standard benchmarks.",
+    "authors": [
+        "Szymon Knop",
+        "Przemys\u0142aw Spurek",
+        "Jacek Tabor",
+        "Igor Podolak",
+        "Marcin Mazur",
+        "Stanis\u0142aw Jastrz\u0119bski"
+    ],
+    "emails": [
+        "szymonknop@gmail.com",
+        "przemyslaw.spurek@uj.edu.pl",
+        "jacek.tabor@uj.edu.pl",
+        "igor.podolak@uj.edu.pl",
+        "marcin.mazur@uj.edu.pl",
+        "staszek.jastrzebski@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/gmum/cwae"
+        ]
+    ],
+    "id": "19-560",
+    "issue": 164,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Cramer-Wold Auto-Encoder",
+    "volume": 21,
+    "year": 2020
+}

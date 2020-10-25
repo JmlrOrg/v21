@@ -1,0 +1,26 @@
+{
+    "abstract": "Commonly-used clustering algorithms usually find ellipsoidal, spherical or other regular-structured clusters, but are more challenged  when the underlying groups lack formal structure or definition. Syncytial clustering is the name that we introduce for methods that merge groups obtained from standard clustering algorithms in order to reveal complex group structure in the data. Here, we develop a distribution-free fully-automated syncytial clustering algorithm that can be used with $k$-means and other algorithms. Our approach estimates the cumulative distribution function of the normed residuals from an appropriately fit $k$-groups model and calculates  the estimated nonparametric overlap between each pair of clusters. Groups with high pairwise overlap are merged  as long as the estimated generalized overlap decreases. Our methodology is always a top performer in identifying groups with regular and irregular structures in several datasets and can be applied to datasets with scatter or incomplete records. The approach is also used to identify the distinct kinds of gamma ray bursts in the Burst and Transient Source Experiment 4Br catalog and the distinct kinds of activation in a functional Magnetic Resonance Imaging study.",
+    "authors": [
+        "Israel A. Almodo\u0301var-Rivera",
+        "Ranjan Maitra"
+    ],
+    "emails": [
+        "israel.almodovar@upr.edu",
+        "maitra@iastate.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ialmodovar/SynClustR"
+        ]
+    ],
+    "id": "18-435",
+    "issue": 122,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Kernel-estimated Nonparametric Overlap-Based Syncytial Clustering",
+    "volume": 21,
+    "year": 2020
+}

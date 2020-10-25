@@ -1,0 +1,30 @@
+{
+    "abstract": "We consider the problem of unveiling the implicit network structure of node interactions (such as user interactions in a social network), based only on high-frequency timestamps. Our inference is based on the minimization of the least-squares loss associated with a multivariate Hawkes model, penalized by $\\ell_1$ and trace norm of the interaction tensor. We provide a first theoretical analysis for this problem, that includes sparsity and low-rank inducing penalizations. This result involves a new data-driven concentration inequality for matrix martingales in continuous time with observable variance, which is a result of independent interest and a broad range of possible applications since it extends to matrix martingales former results restricted to the scalar case. A consequence of our analysis is the construction of sharply tuned $\\ell_1$ and trace-norm penalizations, that leads to a data-driven scaling of the variability of information available for each users. Numerical experiments illustrate the significant improvements achieved by the use of such data-driven penalizations.",
+    "authors": [
+        "Emmanuel Bacry",
+        "Martin Bompaire",
+        "St\u00e9phane Ga\u00efffas",
+        "Jean-Francois Muzy"
+    ],
+    "emails": [
+        "emmanuel.bacry@polytechnique.edu",
+        "m.bompaire@criteo.com",
+        "stephane.gaiffas@lpsm.paris",
+        "muzy@univ-corse.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/X-DataInitiative/tick"
+        ]
+    ],
+    "id": "15-114",
+    "issue": 50,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Sparse and low-rank multivariate Hawkes processes",
+    "volume": 21,
+    "year": 2020
+}

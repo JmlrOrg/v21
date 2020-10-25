@@ -1,0 +1,26 @@
+{
+    "abstract": "Tree data are ubiquitous because they model a large variety of situations, e.g., the architecture of plants, the secondary structure of RNA, or the hierarchy of XML files. Nevertheless, the analysis of these non-Euclidean data is difficult per se. In this paper, we focus on the subtree kernel that is a convolution kernel for tree data introduced by Vishwanathan and Smola in the early 2000's. More precisely, we investigate the influence of the weight function from a theoretical perspective and in real data applications. We establish on a 2-classes stochastic model that the performance of the subtree kernel is improved when the weight of leaves vanishes, which motivates the definition of a new weight function, learned from the data and not fixed by the user as usually done. To this end, we define a unified framework for computing the subtree kernel from ordered or unordered trees, that is particularly suitable for tuning parameters. We show through eight real data classification problems the great efficiency of our approach, in particular for small data sets, which also states the high importance of the weight function. Finally, a visualization tool of the significant features is derived.",
+    "authors": [
+        "Romain Aza\u00efs",
+        "Florian Ingels"
+    ],
+    "emails": [
+        "romain.azais@inria.fr",
+        "florian.ingels@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://gitlab.inria.fr/azais/treex"
+        ]
+    ],
+    "id": "19-290",
+    "issue": 67,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "The weight function in the subtree kernel is decisive",
+    "volume": 21,
+    "year": 2020
+}

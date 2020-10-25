@@ -1,0 +1,22 @@
+{
+    "abstract": "High dimensional piecewise stationary graphical models represent a versatile class for modelling time varying networks arising in diverse application areas, including biology, economics, and social sciences. There has been recent work in offline detection and estimation of regime changes in the topology of sparse graphical models. However, the online setting remains largely unexplored, despite its high relevance to applications in sensor networks and other engineering monitoring systems, as well as financial markets. To that end, this work introduces a novel scalable online algorithm for detecting an unknown number of abrupt changes in the inverse covariance matrix of sparse Gaussian graphical models with small delay. The proposed algorithm is based upon monitoring the conditional log-likelihood of all nodes in the network and can be extended to a large class of continuous and discrete graphical models. We also investigate asymptotic properties of our procedure under certain mild regularity conditions on the graph size, sparsity level, number of samples, and pre- and post-changes in the topology of the network. Numerical works on both synthetic and real data illustrate the good performance of the proposed methodology both in terms of computational and statistical efficiency across numerous experimental settings.",
+    "authors": [
+        "Hossein Keshavarz",
+        "George Michaildiis",
+        "Yves Atchade"
+    ],
+    "emails": [
+        "hkeshava@umn.edu",
+        "gmichail@ufl.edu",
+        "atchade@bu.edu"
+    ],
+    "id": "18-410",
+    "issue": 82,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Sequential change-point detection in high-dimensional Gaussian graphical models",
+    "volume": 21,
+    "year": 2020
+}

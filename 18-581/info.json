@@ -1,0 +1,22 @@
+{
+    "abstract": "Community detection in large social networks is affected by degree heterogeneity of nodes. The D-SCORE algorithm for directed networks was introduced to reduce this effect by taking the element-wise ratios of the singular vectors of the adjacency matrix before clustering. Meaningful results were obtained for the statistician citation network, but rigorous analysis on its performance was missing. First, this paper  establishes theoretical guarantee for this algorithm and its variants for the directed degree-corrected block model (Directed-DCBM). Second, this paper provides significant improvements for the original D-SCORE algorithms  by attaching the nodes outside of the community cores using the information of the original network instead of the singular vectors.",
+    "authors": [
+        "Zhe Wang",
+        "Yingbin Liang",
+        "Pengsheng Ji"
+    ],
+    "emails": [
+        "wang.10982@osu.edu",
+        "liang.889@osu.edu",
+        "psji@uga.edu"
+    ],
+    "id": "18-581",
+    "issue": 153,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Spectral Algorithms for Community Detection in Directed Networks",
+    "volume": 21,
+    "year": 2020
+}

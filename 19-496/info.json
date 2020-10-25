@@ -1,0 +1,28 @@
+{
+    "abstract": "We consider the problem of estimating the latent structure of a social network based on the observed information diffusion events, or cascades, where the observations for a given cascade consist of only the timestamps of infection for infected nodes but not the source of the infection. Most of the existing work on this problem has focused on estimating a diffusion matrix without any structural assumptions on it.  In this paper, we propose a novel model based on the intuition that an information is more likely to propagate among two nodes if they are interested in similar topics which are also prominent in the information content. In particular, our model endows each node with an influence vector (which measures how authoritative the node is on each topic) and a receptivity vector (which measures how susceptible the node is for each topic). We show how this node-topic structure can be estimated from the observed cascades, and prove the consistency of the estimator.  Experiments on synthetic and real data demonstrate the improved performance and better interpretability of our model compared to existing state-of-the-art methods.",
+    "authors": [
+        "Ming Yu",
+        "Varun Gupta",
+        "Mladen Kolar"
+    ],
+    "emails": [
+        "mingyu@chicagobooth.edu",
+        "varun.gupta@chicagobooth.edu",
+        "mladen.kolar@chicagobooth.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ming93/Influence_Receptivity_Network"
+        ]
+    ],
+    "id": "19-496",
+    "issue": 71,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Estimation of a Low-rank Topic-Based Model for Information Cascades",
+    "volume": 21,
+    "year": 2020
+}

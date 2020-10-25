@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the asymptotic consistency properties of $\\alpha$-R\u00e9nyi approximate posteriors, a class of variational Bayesian methods that approximate an intractable Bayesian posterior with a member of a tractable family of distributions, the member chosen to minimize the $\\alpha$-R\u00e9nyi divergence from the true posterior. Unique to our work is that we consider settings with $\\alpha > 1$, resulting in approximations that upperbound the log-likelihood, and consequently have wider spread than traditional variational approaches that minimize the Kullback-Liebler (KL) divergence from the posterior. Our primary result identifies sufficient conditions under which consistency holds, centering around the existence of a `good' sequence of distributions in the approximating family that possesses, among other properties, the right rate of convergence to a limit distribution. We further characterize the good sequence by demonstrating that a sequence of distributions that converges too quickly cannot be a good sequence. We also extend our analysis to the setting where $\\alpha$ equals one, corresponding to the minimizer of the reverse KL divergence, and to models with local latent variables. We also illustrate the existence of a good sequence with a number of examples. Our results complement a growing body of work focused on the frequentist properties of variational Bayesian methods.",
+    "authors": [
+        "Prateek Jaiswal",
+        "Vinayak Rao",
+        "Harsha Honnappa"
+    ],
+    "emails": [
+        "jaiswalp@purdue.edu",
+        "varao@purdue.edu",
+        "honnappa@purdue.edu"
+    ],
+    "id": "19-161",
+    "issue": 156,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Asymptotic Consistency of \u03b1-R\u00e9nyi-Approximate Posteriors",
+    "volume": 21,
+    "year": 2020
+}

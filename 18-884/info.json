@@ -1,0 +1,20 @@
+{
+    "abstract": "This work is concerned with the non-negative rank-1 robust principal component analysis (RPCA), where the goal is to recover the dominant non-negative principal components of a data matrix precisely, where a number of measurements could be grossly corrupted with sparse and arbitrary large noise. Most of the known techniques for solving the RPCA rely on convex relaxation methods by lifting the problem to a higher dimension, which significantly increase the number of variables. As an alternative, the well-known Burer-Monteiro approach can be used to cast the RPCA as a non-convex and non-smooth $\\ell_1$ optimization problem with a significantly smaller number of variables. In this work, we show that the low-dimensional formulation of the symmetric and asymmetric positive rank-1 RPCA based on the Burer-Monteiro approach has benign landscape, i.e., 1) it does not have any spurious local solution, 2) has a unique global solution, and 3) its unique global solution coincides with the true components. An implication of this result is that simple local search algorithms are guaranteed to achieve a zero global optimality gap when directly applied to the low-dimensional formulation. Furthermore, we provide strong deterministic and probabilistic guarantees for the exact recovery of the true principal components. In particular, it is shown that a constant fraction of the measurements could be grossly corrupted and yet they would not create any spurious local solution.",
+    "authors": [
+        "Salar Fattahi",
+        "Somayeh Sojoudi"
+    ],
+    "emails": [
+        "fattahi@berkeley.edu",
+        "sojoudi@berkeley.edu"
+    ],
+    "id": "18-884",
+    "issue": 59,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Exact Guarantees on the Absence of Spurious Local Minima for Non-negative Rank-1 Robust Principal Component Analysis",
+    "volume": 21,
+    "year": 2020
+}

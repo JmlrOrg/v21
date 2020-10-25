@@ -1,0 +1,30 @@
+{
+    "abstract": "Vector autoregression (VAR) is a fundamental tool for modeling multivariate time series.  However, as the number of component series is increased, the VAR model becomes overparameterized.  Several authors have addressed this issue by incorporating regularized approaches, such as the lasso in VAR estimation. Traditional approaches address overparameterization by selecting a low lag order, based on the assumption of short range dependence, assuming that a universal lag order applies to all components.  Such an approach constrains the relationship between the components and impedes forecast performance.  The lasso-based approaches perform much better in high-dimensional situations but do not incorporate the notion of lag order selection. We propose a new class of hierarchical lag structures (HLag) that embed the notion of lag selection into a convex regularizer. The key modeling tool is a group lasso with nested groups which guarantees that the sparsity pattern of lag coefficients honors the VAR's ordered structure.  The proposed HLag framework offers three basic structures, which allow for varying levels of flexibility, with many possible generalizations.  A simulation study demonstrates improved performance in forecasting and lag order selection over previous approaches, and macroeconomic, financial, and energy applications further highlight forecasting improvements as well as HLag's convenient, interpretable output.",
+    "authors": [
+        "William B. Nicholson",
+        "Ines Wilms",
+        "Jacob Bien",
+        "David S. Matteson"
+    ],
+    "emails": [
+        "wbn8@cornell.edu",
+        "i.wilms@maastrichtuniversity.nl",
+        "jbien@usc.edu",
+        "matteson@cornell.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/wbnicholson/HLAG"
+        ]
+    ],
+    "id": "19-777",
+    "issue": 166,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "High Dimensional Forecasting via Interpretable Vector Autoregression",
+    "volume": 21,
+    "year": 2020
+}
