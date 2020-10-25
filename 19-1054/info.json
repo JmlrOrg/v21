@@ -1,22 +1,22 @@
 {
-    "abstract": "In this paper, we study the dynamic assortment optimization problem over a finite selling season of length $T$. At each time period, the seller offers an arriving customer an assortment of substitutable products under a cardinality constraint, and the customer makes the purchase among offered products according to a discrete choice model. Most existing work associates each product with a real-valued fixed mean utility and assumes a multinomial logit choice (MNL) model. In many practical applications,  feature/contextual information of products is readily available. In this paper, we incorporate the feature information by assuming a linear relationship between the mean utility and the feature. In addition, we allow the feature information of products to change over time so that the underlying choice model can also be non-stationary. To solve the dynamic assortment optimization under this changing contextual MNL model, we need to simultaneously learn the underlying unknown coefficient and make the decision on the assortment. To this end, we develop an upper confidence bound (UCB) based  policy and establish the regret bound on the order of $\\tilde{O}(d\\sqrt{T})$, where $d$ is the dimension of the feature and $\\tilde{O}$ suppresses logarithmic dependence. We further establish a lower bound $\\Omega(d\\sqrt{T}/{K})$, where $K$ is the cardinality constraint of an offered assortment, which is usually small. When $K$ is a constant, our policy is optimal up to logarithmic factors. In the exploitation phase of the UCB algorithm, we need to solve a combinatorial optimization problem for assortment optimization based on the learned information.  We further develop an approximation algorithm and an efficient greedy heuristic. The effectiveness of the proposed policy is further demonstrated by our numerical studies.",
-    "authors": [
-        "Xi Chen",
-        "Yining Wang",
-        "Yuan Zhou"
-    ],
-    "emails": [
-        "xc13@stern.nyu.edu",
-        "yining.wang@warrington.ufl.edu",
-        "yuanz@illinois.edu"
-    ],
-    "id": "19-1054",
-    "issue": 198,
-    "pages": [
-        1,
-        44
-    ],
-    "title": "Dynamic Assortment Optimization with Changing Contextual Information",
-    "volume": 21,
-    "year": 2020
+  "abstract": "In this paper, we study the dynamic assortment optimization problem over a finite selling season of length $T$. At each time period, the seller offers an arriving customer an assortment of substitutable products under a cardinality constraint, and the customer makes the purchase among offered products according to a discrete choice model. Most existing work associates each product with a real-valued fixed mean utility and assumes a multinomial logit choice (MNL) model. In many practical applications,  feature/contextual information of products is readily available. In this paper, we incorporate the feature information by assuming a linear relationship between the mean utility and the feature. In addition, we allow the feature information of products to change over time so that the underlying choice model can also be non-stationary. To solve the dynamic assortment optimization under this changing contextual MNL model, we need to simultaneously learn the underlying unknown coefficient and make the decision on the assortment. To this end, we develop an upper confidence bound (UCB) based  policy and establish the regret bound on the order of $\\tilde{O}(d\\sqrt{T})$, where $d$ is the dimension of the feature and $\\tilde{O}$ suppresses logarithmic dependence. We further establish a lower bound $\\Omega(d\\sqrt{T}/{K})$, where $K$ is the cardinality constraint of an offered assortment, which is usually small. When $K$ is a constant, our policy is optimal up to logarithmic factors. In the exploitation phase of the UCB algorithm, we need to solve a combinatorial optimization problem for assortment optimization based on the learned information.  We further develop an approximation algorithm and an efficient greedy heuristic. The effectiveness of the proposed policy is further demonstrated by our numerical studies.",
+  "authors": [
+    "Xi Chen",
+    "Yining Wang",
+    "Yuan Zhou"
+  ],
+  "emails": [
+    "xc13@stern.nyu.edu",
+    "yining.wang@warrington.ufl.edu",
+    "yuanz@illinois.edu"
+  ],
+  "id": "19-1054",
+  "issue": 216,
+  "pages": [
+    1,
+    44
+  ],
+  "title": "Dynamic Assortment Optimization with Changing Contextual Information",
+  "volume": 21,
+  "year": 2020
 }
