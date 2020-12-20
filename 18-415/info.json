@@ -1,0 +1,18 @@
+{
+    "abstract": "We introduce in this paper a learning paradigm in which  training data is transformed by a diffeomorphic transformation before prediction. The learning algorithm minimizes a cost function evaluating the prediction error on the training set penalized by the distance between the diffeomorphism and the identity. The approach borrows ideas from shape analysis where diffeomorphisms are estimated for shape and image alignment, and brings them in a previously unexplored setting, estimating, in particular diffeomorphisms in much larger dimensions. After introducing the concept and describing a learning algorithm, we present diverse applications, mostly with synthetic examples, demonstrating the potential of the approach, as well as some insight on how it can be improved.",
+    "authors": [
+        "Laurent Younes"
+    ],
+    "emails": [
+        "laurent.younes@jhu.edu"
+    ],
+    "id": "18-415",
+    "issue": 220,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Diffeomorphic Learning",
+    "volume": 21,
+    "year": 2020
+}

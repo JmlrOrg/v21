@@ -1,0 +1,22 @@
+{
+    "abstract": "We analyze the practices of reservoir computing in the framework of statistical learning theory. In particular, we derive finite sample upper bounds for the generalization error committed by specific families of reservoir computing systems when processing discrete-time inputs under various hypotheses on their dependence structure. Non-asymptotic bounds are explicitly written down in terms of the multivariate Rademacher complexities of the reservoir systems and the weak dependence structure of the signals that are being handled. This allows, in particular, to determine the minimal number of observations needed in order to  guarantee a prescribed estimation accuracy with high probability for a given reservoir family. At the same time, the asymptotic behavior of the devised bounds guarantees the consistency of the empirical risk minimization procedure for various hypothesis classes of reservoir functionals.",
+    "authors": [
+        "Lukas Gonon",
+        "Lyudmila Grigoryeva",
+        "Juan-Pablo Ortega"
+    ],
+    "emails": [
+        "Gonon@math.lmu.de",
+        "Lyudmila.Grigoryeva@uni-konstanz.de",
+        "Juan-Pablo.Ortega@unisg.ch"
+    ],
+    "id": "19-902",
+    "issue": 240,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Risk Bounds for Reservoir Computing",
+    "volume": 21,
+    "year": 2020
+}

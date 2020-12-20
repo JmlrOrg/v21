@@ -1,0 +1,30 @@
+{
+    "abstract": "Generalized Linear Models (GLM) form a wide class of regression and classification models, where prediction is a function of a linear combination of the input variables. For statistical inference in high dimension, sparsity inducing regularizations have proven to be useful while offering statistical guarantees. However, solving the resulting optimization problems can be challenging: even for popular iterative algorithms such as coordinate descent, one needs to loop over a large number of variables. To mitigate this, techniques known as screening rules and working sets diminish the size of the optimization problem at hand, either by progressively removing variables, or by solving a growing sequence of smaller problems. For both techniques, significant variables are identified thanks to convex duality arguments. In this paper, we show that the dual iterates of a GLM exhibit a Vector AutoRegressive (VAR) behavior after sign identification, when the primal problem is solved with proximal gradient descent or cyclic coordinate descent. Exploiting this regularity, one can construct dual points that offer tighter certificates of optimality, enhancing the performance of screening rules and working set algorithms.",
+    "authors": [
+        "Mathurin Massias",
+        "Samuel Vaiter",
+        "Alexandre Gramfort",
+        "Joseph Salmon"
+    ],
+    "emails": [
+        "mathurin.massias@inria.fr",
+        "samuel.vaiter@u-bourgogne.fr",
+        "alexandre.gramfort@inria.fr",
+        "joseph.salmon@umontpellier.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mathurinm/celer"
+        ]
+    ],
+    "id": "19-587",
+    "issue": 234,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Dual Extrapolation for Sparse GLMs",
+    "volume": 21,
+    "year": 2020
+}

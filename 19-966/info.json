@@ -1,0 +1,26 @@
+{
+    "abstract": "Fairness of classification and regression has received much attention recently and various, partially non-compatible, criteria have been proposed. The fairness criteria can be enforced for a given classifier or, alternatively, the data can be adapted to ensure that every classifier trained on the data will adhere to desired fairness criteria. We present a practical data adaption method based on quantile preservation in causal structural equation models. The data adaptation is based on a presumed counterfactual model for the data. While the counterfactual model itself cannot be verified experimentally, we show that certain population notions of fairness are still guaranteed even if the counterfactual model is misspecified. The nature of the fulfilled observational non-causal fairness notion (such as demographic parity, separation or sufficiency) depends on the structure of the underlying causal model and the choice of resolving variables. We describe an implementation of the proposed data adaptation procedure based on Random Forests and demonstrate its practical use on simulated and real-world data.",
+    "authors": [
+        "Drago Ple\u010dko",
+        "Nicolai Meinshausen"
+    ],
+    "emails": [
+        "drago.plecko@stat.math.ethz.ch",
+        "meinshausen@stat.math.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dplecko/fairadapt"
+        ]
+    ],
+    "id": "19-966",
+    "issue": 242,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Fair Data Adaptation with Quantile Preservation",
+    "volume": 21,
+    "year": 2020
+}

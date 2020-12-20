@@ -1,0 +1,28 @@
+{
+    "abstract": "The Minimal Learning Machine (MLM) is a nonlinear, supervised approach based on learning linear mapping between distance matrices computed in input and output data spaces, where distances are calculated using a subset of points called reference points. Its simple formulation has attracted several recent works on extensions and applications. In this paper, we aim to address some open questions related to the MLM. First, we detail the theoretical aspects that assure the MLM's interpolation and universal approximation capabilities, which had previously only been empirically verified. Second, we identify the major importance of the task of selecting reference points for the MLM's generalization capability. Several clustering-based methods for reference point selection in regression scenarios are then proposed and analyzed. Based on an extensive empirical evaluation, we conclude that the evaluated methods are both scalable and useful. Specifically, for a small number of reference points, the clustering-based methods outperform the standard random selection of the original MLM formulation.",
+    "authors": [
+        "Joonas H\u00e4m\u00e4l\u00e4inen",
+        "Alisson S. C. Alencar",
+        "Tommi K\u00e4rkk\u00e4inen",
+        "C\u00e9sar L. C. Mattos",
+        "Amauri H. Souza J\u00fanior",
+        "Jo\u00e3o P. P. Gomes"
+    ],
+    "emails": [
+        "joonas.k.hamalainen@jyu.fi",
+        "alencar.alisson@lia.ufc.br",
+        "tommi.karkkainen@jyu.fi",
+        "cesarlincoln@dc.ufc.br",
+        "amauriholanda@ifce.edu.br",
+        "jpaulo@dc.ufc.br"
+    ],
+    "id": "19-786",
+    "issue": 239,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Minimal Learning Machine: Theoretical Results and Clustering-Based Reference Point Selection",
+    "volume": 21,
+    "year": 2020
+}

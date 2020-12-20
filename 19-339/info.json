@@ -1,0 +1,28 @@
+{
+    "abstract": "With the advent of GPU-assisted hardware and maturing high-efficiency software platforms such as TensorFlow and PyTorch, Bayesian posterior sampling for neural networks becomes plausible. In this article we discuss Bayesian parametrization in machine learning based on Markov Chain Monte Carlo methods, specifically discretized stochastic differential equations such as Langevin dynamics and extended system methods in which an ensemble of walkers is employed to enhance sampling. We provide a glimpse of the potential of the sampling-intensive approach by studying (and visualizing) the loss landscape of a neural network applied to the MNIST data set. Moreover, we investigate how the sampling efficiency itself can be significantly enhanced through an ensemble quasi-Newton preconditioning method. This article accompanies the release of a new TensorFlow software package, the Thermodynamic Analytics ToolkIt, which is used in the computational experiments.",
+    "authors": [
+        "Frederik Heber",
+        "\u017dofia Trst\u2019anov\u00e1",
+        "Benedict Leimkuhler"
+    ],
+    "emails": [
+        "frederik.heber@gmail.com",
+        "z.trstanova@criteo.com",
+        "b.leimkuhler@ed.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://pypi.org/project/tati/"
+        ]
+    ],
+    "id": "19-339",
+    "issue": 228,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Posterior sampling strategies based on discretized stochastic differential equations for machine learning applications",
+    "volume": 21,
+    "year": 2020
+}

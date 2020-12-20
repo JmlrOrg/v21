@@ -1,0 +1,20 @@
+{
+    "abstract": "We formulate the problem of matrix completion with and without side information as a non-convex optimization problem. We design fastImpute based on non-convex gradient descent and show it converges to a global minimum that is guaranteed to recover closely the underlying matrix while it scales to matrices of sizes beyond $10^5 \\times 10^5$. We report experiments on both synthetic and real-world datasets that show fastImpute is competitive in both the accuracy of the matrix recovered and the time needed across all cases. Furthermore, when a high number of entries are missing, fastImpute is over $75\\%$ lower in MAPE and $15$ times faster than current state-of-the-art matrix completion methods in both the case with side information and without.",
+    "authors": [
+        "Dimitris Bertsimas",
+        "Michael Lingzhi Li"
+    ],
+    "emails": [
+        "dbertsim@mit.edu",
+        "mlli@mit.edu"
+    ],
+    "id": "19-471",
+    "issue": 231,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Fast Exact Matrix Completion: A Unified Optimization Framework for Matrix Completion",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We establish risk bounds for Regularized Empirical Risk Minimizers (RERM) when the loss is Lipschitz and convex and the regularization function is a norm. In a first part, we obtain these results in the i.i.d. setup under subgaussian assumptions on the design. In a second part, a more general framework where the design might have heavier tails and data may be corrupted by outliers both in the design and the response variables is considered. In this situation, RERM performs poorly in general. We analyse an alternative procedure based on median-of-means principles and called ``minmax MOM''. We show optimal subgaussian deviation rates for these estimators in the relaxed setting. The main results are meta-theorems allowing a wide-range of applications to various problems in learning theory. To show a non-exhaustive sample of these potential applications, it is applied to classification problems with logistic loss functions regularized by LASSO and SLOPE, to regression problems with Huber loss regularized by Group LASSO and Total Variation. Another advantage of the minmax MOM formulation is that it suggests a systematic way to slightly modify descent based algorithms used in high-dimensional statistics to make them robust to outliers. We illustrate this principle in a Simulations section where a `` minmax MOM'' version of classical proximal descent algorithms are turned into  robust to outliers algorithms.",
+    "authors": [
+        "Chinot Geoffrey",
+        "Lecu\u00e9 Guillaume",
+        "Lerasle Matthieu"
+    ],
+    "emails": [
+        "geoffrey.chinot@stat.math.ethz.ch",
+        "guillaume.lecue@ensae.fr",
+        "matthieu.lerasle@ensae.fr"
+    ],
+    "id": "19-585",
+    "issue": 233,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Robust high dimensional learning for Lipschitz and convex losses",
+    "volume": 21,
+    "year": 2020
+}

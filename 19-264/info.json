@@ -1,0 +1,20 @@
+{
+    "abstract": "We develop a pivotal test to assess the statistical significance of the feature variables in a single-layer feed-forward neural network regression model. We propose a gradient-based test statistic and study its asymptotics using non-parametric techniques. Under technical conditions, the limiting distribution is given by a mixture of chi-square distributions. The tests enable one to discern the impact of individual variables on the prediction of a neural network. The test statistic can be used to rank variables according to their influence. Simulation results illustrate the computational efficiency and the performance of the test. An empirical application to house price valuation highlights the behavior of the test using actual data.",
+    "authors": [
+        "Enguerrand Horel",
+        "Kay Giesecke"
+    ],
+    "emails": [
+        "enguerrand.horel@gmail.com",
+        "giesecke@stanford.edu"
+    ],
+    "id": "19-264",
+    "issue": 227,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Significance Tests for Neural Networks",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we consider high-dimensional nonconvex square-root-loss regression problems and introduce a proximal majorization-minimization (PMM) algorithm for solving these problems. Our key idea for making the proposed PMM to be efficient is to develop a sparse semismooth Newton method to solve the corresponding subproblems. By using the Kurdyka- Lojasiewicz property exhibited in the underlining problems, we prove that the PMM algorithm converges to a d-stationary point. We also analyze the oracle property of the initial subproblem used in our algorithm. Extensive numerical experiments are presented to demonstrate the high efficiency of the proposed PMM algorithm.",
+    "authors": [
+        "Peipei Tang",
+        "Chengjing Wang",
+        "Defeng Sun",
+        "Kim-Chuan Toh"
+    ],
+    "emails": [
+        "tangpp@zucc.edu.cn",
+        "renascencewang@hotmail.com",
+        "defeng.sun@polyu.edu.hk",
+        "mattohkc@nus.edu.sg"
+    ],
+    "id": "19-247",
+    "issue": 226,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "A Sparse Semismooth Newton Based Proximal Majorization-Minimization Algorithm for Nonconvex Square-Root-Loss Regression Problems",
+    "volume": 21,
+    "year": 2020
+}

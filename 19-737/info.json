@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the problem of learning high-dimensional, nonparametric and structured (e.g., Gaussian) distributions in distributed networks, where each node in the network observes an independent sample from the underlying distribution and can use $k$ bits to communicate its sample to a central processor. We consider three different models for communication. Under the independent model, each node communicates its sample to a central processor by independently encoding it into $k$ bits. Under the more general sequential or blackboard communication models, nodes can  share information interactively but each node is restricted to write at most $k$ bits on the final transcript. We characterize the impact of the communication constraint $k$ on the minimax risk of estimating the underlying distribution under $\\ell^2$ loss. We develop minimax lower bounds that apply in a unified way to many common statistical models and reveal that the impact of the communication constraint can be qualitatively different depending on the tail behavior of the score function associated with each model. A key ingredient in our proofs is a geometric characterization of Fisher information from quantized samples.",
+    "authors": [
+        "Leighton Pate Barnes",
+        "Yanjun Han",
+        "Ayfer Ozgur"
+    ],
+    "emails": [
+        "lpb@stanford.edu",
+        "yjhan@stanford.edu",
+        "aozgur@stanford.edu"
+    ],
+    "id": "19-737",
+    "issue": 236,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Lower Bounds for Learning Distributions under Communication Constraints via Fisher Information",
+    "volume": 21,
+    "year": 2020
+}

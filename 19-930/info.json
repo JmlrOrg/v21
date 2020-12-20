@@ -1,0 +1,28 @@
+{
+    "abstract": "The expressive ability of classic Hawkes processes is limited due to the parametric assumption on the baseline intensity and triggering kernel. Therefore, it is desirable to perform inference in a data-driven, nonparametric approach. Many recent works have proposed nonparametric Hawkes process models based on Gaussian processes (GP). However, the likelihood is non-conjugate to the prior resulting in a complicated and time-consuming inference procedure. To address the problem, we present the sigmoid Gaussian Hawkes process model in this paper: the baseline intensity and triggering kernel are both modeled as the sigmoid transformation of random trajectories drawn from a GP. By introducing auxiliary latent random variables (branching structure, P\\'{o}lya-Gamma random variables and latent marked Poisson processes), the likelihood is converted to two decoupled components with a Gaussian form which allows for an efficient conjugate analytical inference. Using the augmented likelihood, we derive an efficient Gibbs sampling algorithm to sample from the posterior; an efficient expectation-maximization (EM) algorithm to obtain the maximum a posteriori (MAP) estimate and furthermore an efficient mean-field variational inference algorithm to approximate the posterior. To further accelerate the inference, a sparse GP approximation is introduced to reduce complexity. We demonstrate the performance of our three algorithms on both simulated and real data. The experiments show that our proposed inference algorithms can recover well the underlying prompting characteristics efficiently.",
+    "authors": [
+        "Feng Zhou",
+        "Zhidong Li",
+        "Xuhui Fan",
+        "Yang Wang",
+        "Arcot Sowmya",
+        "Fang Chen"
+    ],
+    "emails": [
+        "feng.zhou@data61.csiro.au",
+        "zhidong.li@uts.edu.au",
+        "xuhui.fan@unsw.edu.au",
+        "yang.wang@uts.edu.au",
+        "a.sowmya@unsw.edu.au",
+        "fang.chen@uts.edu.au"
+    ],
+    "id": "19-930",
+    "issue": 241,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Efficient Inference for Nonparametric Hawkes Processes Using Auxiliary Latent Variables",
+    "volume": 21,
+    "year": 2020
+}

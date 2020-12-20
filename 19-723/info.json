@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a formulation for nonlinear recurrent models that includes simple parametric models of recurrent neural networks as a special case. The proposed formulation leads to a natural estimator in the form of a convex program. We provide a sample complexity for this estimator in the case of stable dynamics, where the nonlinear recursion has a certain contraction property, and under certain regularity conditions on the input distribution. We evaluate the performance of the estimator by simulation on synthetic data. These numerical experiments also suggest the extent at which the imposed theoretical assumptions may be relaxed.",
+    "authors": [
+        "Sohail Bahmani",
+        "Justin Romberg"
+    ],
+    "emails": [
+        "sohail.bahmani@ece.gatech.edu",
+        "jrom@ece.gatech.edu"
+    ],
+    "id": "19-723",
+    "issue": 235,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "Convex Programming for Estimation in Nonlinear Recurrent Models",
+    "volume": 21,
+    "year": 2020
+}

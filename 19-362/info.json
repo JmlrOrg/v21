@@ -1,0 +1,26 @@
+{
+    "abstract": "Although multivariate count data are routinely collected in many application areas, there is surprisingly little work developing flexible models for characterizing their dependence structure. This is particularly true when interest focuses on inferring the conditional independence graph.  In this article, we propose a new class of pairwise Markov random field-type models for the joint distribution of a multivariate count vector.  By employing a novel type of transformation, we avoid restricting to non-negative dependence structures or inducing other restrictions through truncations. Taking a Bayesian approach to inference, we choose a Dirichlet process prior for the distribution of a random effect to induce great flexibility in the specification.  An efficient Markov chain Monte Carlo (MCMC) algorithm is developed for posterior computation. We prove various theoretical properties, including posterior consistency, and show that our COunt Nonparametric Graphical Analysis (CONGA) approach has good performance relative to competitors in simulation studies.  The methods are motivated by an application to neuron spike count data in mice.",
+    "authors": [
+        "Arkaprava Roy",
+        "David B Dunson"
+    ],
+    "emails": [
+        "ark007@ufl.edu",
+        "dunson@duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/royarkaprava/CONGA"
+        ]
+    ],
+    "id": "19-362",
+    "issue": 229,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Nonparametric graphical model for counts",
+    "volume": 21,
+    "year": 2020
+}

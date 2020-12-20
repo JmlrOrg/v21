@@ -1,0 +1,29 @@
+{
+    "abstract": "In this report we describe a tool for comparing the performance of graphical causal structure learning algorithms implemented in the TETRAD freeware suite of causal analysis methods. Currently the tool is available as package in the TETRAD source code (written in Java). Simulations can be done varying the number of runs, sample sizes, and data modalities. Performance on this simulated data can then be compared for a number of algorithms, with parameters varied and with performance statistics as selected, producing a publishable report. The package presented here may also be used to compare structure learning methods across platforms and programming languages, i.e., to compare algorithms implemented in TETRAD with those implemented in MATLAB, Python, or R.",
+    "authors": [
+        "Joseph D. Ramsey",
+        "Daniel Malinsky",
+        "Kevin V. Bui"
+    ],
+    "emails": [
+        "jdramsey@andrew.cmu.edu",
+        "dsm2128@cumc.columbia.edu",
+        "kvb2@pitt.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bd2kccd/causal-compare."
+        ]
+    ],
+    "id": "19-773",
+    "issue": 238,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "algcomparison: Comparing the Performance of Graphical Structure Learning Algorithms with TETRAD",
+    "volume": 21,
+    "year": 2020
+}

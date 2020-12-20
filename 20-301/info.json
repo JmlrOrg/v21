@@ -1,0 +1,26 @@
+{
+    "abstract": "We study the theoretical properties of image denoising via total variation penalized least-squares. We define the total vatiation in terms of the two-dimensional total discrete derivative of the image and show that it gives rise to denoised images that are piecewise constant on rectangular sets. We prove that, if the true image is piecewise constant on just a few rectangular sets, the denoised image converges to the true image at a parametric rate, up to a log factor. More generally, we show that the denoised image enjoys oracle properties, that is, it is almost as good as if some aspects of the true image were known. In other words, image denoising with total variation regularization leads to an adaptive reconstruction of the true image.",
+    "authors": [
+        "Francesco Ortelli",
+        "Sara van de Geer"
+    ],
+    "emails": [
+        "fortelli@ethz.ch",
+        "geer@ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://gitlab.math.ethz.ch/fortelli/adaptive-rates-for-total-variation-image-denoising"
+        ]
+    ],
+    "id": "20-301",
+    "issue": 247,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Adaptive Rates for Total Variation Image Denoising",
+    "volume": 21,
+    "year": 2020
+}

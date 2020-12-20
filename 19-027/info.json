@@ -1,0 +1,63 @@
+{
+    "abstract": "We introduce Geomstats, an open-source Python package for computations and statistics on nonlinear manifolds such as hyperbolic spaces, spaces of symmetric positive definite matrices, Lie groups of transformations, and many more. We provide object-oriented and extensively unit-tested implementations. Manifolds come equipped with families of Riemannian metrics with associated exponential and logarithmic maps, geodesics, and parallel transport. Statistics and learning algorithms provide methods for estimation, clustering, and dimension reduction on manifolds. All associated operations are vectorized for batch computation and provide support for different execution backends---namely NumPy, PyTorch, and TensorFlow. This paper presents the package, compares it with related libraries, and provides relevant code examples. We show that Geomstats provides reliable building blocks to both foster research in differential geometry and statistics and democratize the use of Riemannian geometry in machine learning applications. The source code is freely available under the MIT license at geomstats.ai.",
+    "authors": [
+        "Nina Miolane",
+        "Nicolas Guigui",
+        "Alice Le Brigant",
+        "Johan Mathe",
+        "Benjamin Hou",
+        "Yann Thanwerdas",
+        "Stefan Heyder",
+        "Olivier Peltre",
+        "Niklas Koep",
+        "Hadi Zaatiti",
+        "Hatem Hajri",
+        "Yann Cabanes",
+        "Thomas Gerald",
+        "Paul Chauchat",
+        "Christian Shewmake",
+        "Daniel Brooks",
+        "Bernhard Kainz",
+        "Claire Donnat",
+        "Susan Holmes",
+        "Xavier Pennec"
+    ],
+    "emails": [
+        "ninamiolane@ucsb.edu",
+        "nicolas.guigui@inria.fr",
+        "alice.le-brigant@univ-paris1.fr",
+        "johan@froglabs.ai",
+        "benjamin.hou11@imperial.ac.uk",
+        "yann.thanwerdas@inria.fr",
+        "stefan.heyder@tu-ilmenau.de",
+        "opeltre@gmail.com",
+        "niklas.koep@gmail.com",
+        "hadi.zaatiti@irt-systemx.fr",
+        "hatem.hajri@irt-systemx.fr",
+        "yann.cabanes@gmail.com",
+        "thomas.gerald@lip6.fr",
+        "pchauchat@gmail.com",
+        "cshewmake2@gmail.com",
+        "jimrivers75@gmail.com",
+        "b.kainz@imperial.ac.uk",
+        "cdonnat@stanford.edu",
+        "susan@stat.stanford.edu",
+        "xavier.pennec@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/geomstats/geomstats"
+        ]
+    ],
+    "id": "19-027",
+    "issue": 223,
+    "pages": [
+        1,
+        9
+    ],
+    "special_issue": "MLOSS",
+    "title": "Geomstats:  A Python Package for Riemannian Geometry inMachine Learning",
+    "volume": 21,
+    "year": 2020
+}

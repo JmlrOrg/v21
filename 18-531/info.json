@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the learnability of sums of independent integer random variables given a bound on the size of the union of their supports. For $\\mathcal{A} \\subset \\mathbb{Z}_{+}$, a {sum of independent random variables with collective support $\\mathcal{A}$} (called an $\\mathcal{A}$-sum in this paper) is a distribution $\\mathbf{S} = \\mathbf{X}_1 + \\cdots + \\mathbf{X}_N$ where the $\\mathbf{X}_i$'s are mutually independent (but not necessarily identically distributed) integer random variables with $\\cup_i \\mathrm{supp}(\\mathbf{X}_i) \\subseteq \\mathcal{A}.$ We give two main algorithmic results for learning such distributions. First, for the case $| \\mathcal{A} | = 3$, we give an algorithm for learning an unknown $\\mathcal{A}$-sum to accuracy $\\epsilon$ using $\\mathrm{poly}(1/\\epsilon)$ samples and running in time $\\mathrm{poly}(1/\\epsilon)$, independent of $N$ and of the elements of $\\mathcal{A}$. Second, for an arbitrary constant $k \\geq 4$, if $\\mathcal{A} = \\{ a_1,...,a_k\\}$ with $0 \\leq a_1 < ... < a_k$, we give an algorithm that uses $\\mathrm{poly}(1/\\epsilon) \\cdot \\log \\log a_k$ samples (independent of $N$) and runs in time $\\mathrm{poly}(1/\\epsilon, \\log a_k).$ We prove an essentially matching lower bound: if $|\\mathcal{A}| = 4$, then any algorithm must use \\[ \\Omega(\\log \\log a_4) \\] samples even for learning to constant accuracy. We also give similar-in-spirit (but quantitatively very different) algorithmic results, and essentially matching lower bounds, for the case in which $\\mathcal{A}$ is not known to the learner. Our algorithms and lower bounds together settle the question of how the sample complexity of learning sums of independent integer random variables scales with the elements in the union of their supports, both in the known-support and unknown-support settings. Finally, all our algorithms easily extend to the ``semi-agnostic'' learning model, in which training data is generated from a distribution that is only $c \\epsilon$-close to some $\\mathcal{A}$-sum for a constant $c>0$.",
+    "authors": [
+        "Anindya De",
+        "Philip M. Long",
+        "Rocco A. Servedio"
+    ],
+    "emails": [
+        "anindyad@cis.upenn.edu",
+        "plong@google.com",
+        "rocco@cs.columbia.edu"
+    ],
+    "id": "18-531",
+    "issue": 221,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "Learning Sums of Independent Random Variables with Sparse Collective Support",
+    "volume": 21,
+    "year": 2020
+}

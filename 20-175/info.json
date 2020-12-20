@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider estimation of a total causal effect from observational data via covariate adjustment. Ideally, adjustment sets are selected based on a given causal graph, reflecting knowledge of the underlying causal structure. Valid adjustment sets are, however, not unique. Recent research has introduced a graphical criterion for an 'optimal' valid adjustment set (O-set). For a given graph, adjustment by the O-set yields the smallest asymptotic variance compared to other adjustment sets in certain parametric and non-parametric models. In this paper, we provide three new results on the O-set. First, we give a novel, more intuitive graphical characterisation: We show that the O-set is the parent set of the outcome node(s) in a suitable latent projection graph, which we call the forbidden projection. An important property is that the forbidden projection preserves all information relevant to total causal effect estimation via covariate adjustment, making it a useful methodological tool in its own right. Second, we extend the existing IDA algorithm to use the O-set, and argue that the algorithm remains semi-local. This is implemented in the R-package pcalg. Third, we present assumptions under which the O-set can be viewed as the target set of popular non-graphical variable selection algorithms such as stepwise backward selection.",
+    "authors": [
+        "Janine Witte",
+        "Leonard Henckel",
+        "Marloes H. Maathuis",
+        "Vanessa Didelez"
+    ],
+    "emails": [
+        "witte@leibniz-bips.de",
+        "henckel@stat.math.ethz.ch",
+        "maathuis@stat.math.ethz.ch",
+        "didelez@leibniz-bips.de"
+    ],
+    "id": "20-175",
+    "issue": 246,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "On Efficient Adjustment in Causal Graphs",
+    "volume": 21,
+    "year": 2020
+}

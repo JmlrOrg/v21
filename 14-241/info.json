@@ -1,0 +1,28 @@
+{
+    "abstract": "Iterative methods for fitting a Gaussian Random Field (GRF) model via maximum likelihood (ML) estimation requires solving a nonconvex optimization problem. The problem is aggravated for anisotropic GRFs where the number of covariance function parameters increases with the dimension. Even evaluation of the likelihood function requires $O(n^3)$ floating point operations, where $n$ denotes the number of data locations. In this paper, we propose a new two-stage procedure to estimate the parameters of second-order stationary GRFs. First, a convex likelihood problem regularized with a weighted $\\ell_1$-norm, utilizing the available distance information between observation locations, is solved to fit a sparse precision (inverse covariance) matrix to the observed data. Second, the parameters of the covariance function are estimated by solving a least squares problem. Theoretical error bounds for the solutions of stage I and II problems are provided, and their tightness are investigated.",
+    "authors": [
+        "Sam Davanloo Tajbakhsh",
+        "Necdet Serhat Aybat",
+        "Enrique Del Castillo"
+    ],
+    "emails": [
+        "davanloo.1@osu.edu",
+        "nsa10@psu.edu",
+        "exd13@psu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/samdavanloo/SPS"
+        ]
+    ],
+    "id": "14-241",
+    "issue": 217,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "On the Theoretical Guarantees for Parameter Estimation of Gaussian Random Field Models: A Sparse Precision Matrix Approach",
+    "volume": 21,
+    "year": 2020
+}

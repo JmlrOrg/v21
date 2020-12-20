@@ -1,0 +1,26 @@
+{
+    "abstract": "Smooth functions on graphs have wide applications in manifold and semi-supervised learning. In this work, we study a bandit problem where the payoffs of arms are smooth on a graph. This framework is suitable for solving online learning problems that involve graphs, such as content-based recommendation. In this problem, each item we can recommend is a node of an undirected graph and its expected rating is similar to the one of its neighbors. The goal is to recommend items that have high expected ratings. We aim for the algorithms where the cumulative regret with respect to the optimal policy would not scale poorly with the number of nodes. In particular, we introduce the notion of an effective dimension, which is small in real-world graphs, and propose three algorithms for solving our problem that scale linearly and sublinearly in this dimension. Our experiments on content recommendation problem show that a good estimator of user preferences for thousands of items can be learned from just  tens of node evaluations.",
+    "authors": [
+        "Tom\u00e1\u0161 Koc\u00e1k",
+        "R\u00e9mi Munos",
+        "Branislav Kveton",
+        "Shipra Agrawal",
+        "Michal Valko"
+    ],
+    "emails": [
+        "tomas.kocak@gmail.com",
+        "munos@google.com",
+        "bkveton@google.com",
+        "sa3305@columbia.edu",
+        "valkom@deepmind.com"
+    ],
+    "id": "16-529",
+    "issue": 218,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Spectral bandits",
+    "volume": 21,
+    "year": 2020
+}

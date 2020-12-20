@@ -1,0 +1,20 @@
+{
+    "abstract": "Curriculum Learning is motivated by human cognition, where teaching often involves gradually exposing the learner to examples in a meaningful order, from easy to hard. Although methods based on this concept have been empirically shown to improve performance of several machine learning algorithms, no theoretical analysis has been provided even for simple cases. To address this shortfall, we start by formulating an ideal definition of difficulty score - the loss of the optimal hypothesis at a given datapoint. We analyze the possible contribution of curriculum learning based on this score in two convex problems - linear regression, and binary classification by hinge loss minimization. We show that in both cases, the convergence rate of SGD optimization decreases monotonically with the difficulty score, in accordance with earlier empirical results. We also prove that when the difficulty score is fixed, the convergence rate of SGD optimization is monotonically increasing with respect to the loss of the current hypothesis at each point. We discuss how these results settle some confusion in the literature where two apparently opposing heuristics are reported to improve performance: curriculum learning in which easier points are given priority, vs hard data mining where the more difficult points are sought out.",
+    "authors": [
+        "Daphna Weinshall",
+        "Dan Amir"
+    ],
+    "emails": [
+        "daphna@mail.huji.ac.il",
+        "dan.amir@mail.huji.ac.il"
+    ],
+    "id": "18-751",
+    "issue": 222,
+    "pages": [
+        1,
+        19
+    ],
+    "title": "Theory of Curriculum Learning, with Convex Loss Functions",
+    "volume": 21,
+    "year": 2020
+}

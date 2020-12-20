@@ -1,0 +1,18 @@
+{
+    "abstract": "Numerous researchers recently applied empirical spectral analysis to the study of modern deep learning classifiers. We identify and discuss an important formal class/cross-class structure and show how it lies at the origin of the many visually striking features observed in deep neural network spectra, some of which were reported in recent articles, others are unveiled here for the first time. These include spectral outliers, ``spikes'', and small but distinct continuous distributions, ``bumps'', often seen beyond the edge of a ``main bulk''.",
+    "authors": [
+        "Vardan Papyan"
+    ],
+    "emails": [
+        "papyan@stanford.edu"
+    ],
+    "id": "20-933",
+    "issue": 252,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Traces of Class/Cross-Class Structure Pervade Deep Learning Spectra",
+    "volume": 21,
+    "year": 2020
+}

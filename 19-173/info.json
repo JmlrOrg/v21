@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider a flexible semiparametric single-index quantile regression model where the number of covariates may be ultra-high dimensional, and the number of the relevant covariates is potentially diverging. The approach is particularly appealing to uncover the complex heterogeneity in high-dimensional data, incorporate nonlinearity and potential interaction, avoid the curse of dimensionality, and allow different variables to be included at different quantile levels. We estimate the unknown function via polynomial splines nonparametrically and adopt a nonconvex penalty function to identify the sparse variable set. We further extend it to partially linear single-index quantile model where both the single-index components in the nonparametric term and the partially linear components can be in ultra-high dimension. However, a number of major challenges arise in developing both theory and computation: (a) The model is highly nonlinear in single-index coefficients because the high-dimensional single-index covariates are embedded inside the unknown flexible function. (b) The data are ultra-high dimensional where the dimension of the single-index covariates ($p_n$) is diverging or even in the exponential order of sample size $n$.  (c) The objective function is non-smooth for quantile regression. (d) Nonconvex variable selection such as SCAD is adopted for regularization. (e) The extended partially linear single-index quantile models may include both ultra-high dimensional ($p_n$) single-index covariates and ultra-high dimensional ($q_n$) partially linear covariates. We develop a novel approach using empirical process techniques in establishing the theoretical properties of the nonconvex penalized estimators for partially linear single-index quantile models and show those estimators indeed possess the oracle property in ultra-high dimensional setting. We propose an efficient algorithm to circumvent the computational challenges. The results of Monte Carlo simulations and an application to gene expression data demonstrate the effectiveness of the proposed models and estimation method.",
+    "authors": [
+        "Yuankun Zhang",
+        "Heng Lian",
+        "Yan Yu"
+    ],
+    "emails": [
+        "zhangyk@mail.uc.edu",
+        "henglian@cityu.edu.hk",
+        "Yan.Yu@uc.edu"
+    ],
+    "id": "19-173",
+    "issue": 224,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Ultra-High Dimensional Single-Index Quantile Regression",
+    "volume": 21,
+    "year": 2020
+}

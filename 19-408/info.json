@@ -1,0 +1,20 @@
+{
+    "abstract": "We investigate and ultimately suggest remediation to the widely held belief that the best way to train regression models is via random assignment of our data to training and validation sets. In particular, we show that taking a robust optimization approach, and optimally selecting such training and validation sets, leads to models that not only perform significantly better than their randomly constructed counterparts in terms of prediction error, but more importantly, are considerably more stable in the sense that the standard deviation of the resulting predictions, as well as of the model coefficients, is greatly reduced. Moreover, we show that this optimization approach to training is far more effective at recovering the true support of a given data set, i.e., correctly identifying important features while simultaneously excluding spurious ones. We further compare the robust optimization approach to cross validation and find that optimization continues to have a performance edge albeit smaller. Finally, we show that this optimization approach to training is equivalent to building models that are robust to all subpopulations in the data, and thus in particular are robust to the hardest subpopulation, which leads to interesting domain specific interpretations through the use of optimal classification trees. The proposed robust optimization algorithm is efficient and scales training to essentially any desired size.",
+    "authors": [
+        "Dimitris Bertsimas",
+        "Ivan Paskov"
+    ],
+    "emails": [
+        "dbertsim@mit.edu",
+        "ipaskov@mit.edu"
+    ],
+    "id": "19-408",
+    "issue": 230,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Stable Regression: On the Power of Optimization over Randomization",
+    "volume": 21,
+    "year": 2020
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Sum-of-norms clustering is a method for assigning  $n$ points in $\\mathbf{R}^d$  to $K$ clusters,  $1\\le K\\le n$, using convex optimization.  Recently, Panahi (2017) proved that sum-of-norms clustering is guaranteed to recover a mixture of Gaussians under the restriction that the number of samples is not too large.  The purpose of this note is to lift this restriction, that is, show that sum-of-norms clustering can recover a mixture of Gaussians even as the number of samples tends to infinity.  Our proof relies on an interesting characterization of clusters computed by sum-of-norms clustering that was developed inside a proof of the agglomeration conjecture by Chiquet et al. (2017).  Because we believe this theorem has independent interest, we restate and reprove the Chiquet et al. (2017) result herein.",
+    "authors": [
+        "Tao Jiang",
+        "Stephen Vavasis",
+        "Chen Wen Zhai"
+    ],
+    "emails": [
+        "tj293@cornell.edu",
+        "vavasis@uwaterloo.ca",
+        "zhai@mit.edu"
+    ],
+    "id": "19-218",
+    "issue": 225,
+    "pages": [
+        1,
+        16
+    ],
+    "title": "Recovery of a Mixture of Gaussians by Sum-of-Norms Clustering",
+    "volume": 21,
+    "year": 2020
+}

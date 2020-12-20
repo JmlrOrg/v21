@@ -1,0 +1,28 @@
+{
+    "abstract": "Online Matrix Factorization (OMF) is a fundamental tool for dictionary learning problems, giving an approximate representation of complex data sets in terms of a reduced number of extracted features. Convergence guarantees for most of the OMF algorithms in the literature assume independence between data matrices, and the case of dependent data streams remains largely unexplored. In this paper, we show that a non-convex generalization of the well-known OMF algorithm for i.i.d. stream of data in Mairal et al. converges almost surely to the set of critical points of the expected loss function, even when the data matrices are functions of some underlying Markov chain satisfying a mild mixing condition. This allows one to extract features more efficiently from  dependent data streams, as there is no need to subsample the data sequence to approximately satisfy the independence assumption. As the main application, by combining online non-negative matrix factorization and a recent MCMC algorithm for sampling motifs from networks, we propose a novel framework of Network Dictionary Learning, which extracts ``network dictionary patches'' from a given network in an online manner that encodes main features of the network. We demonstrate this technique and its application to network denoising problems on real-world network data.",
+    "authors": [
+        "Hanbaek Lyu",
+        "Deanna Needell",
+        "Laura Balzano"
+    ],
+    "emails": [
+        "hlyu@math.ucla.edu",
+        "deanna@math.ucla.edu",
+        "girasole@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/HanbaekLyu/ONMF_ONTF_NDL"
+        ]
+    ],
+    "id": "20-444",
+    "issue": 251,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Online matrix factorization for Markovian data and applications to Network Dictionary Learning",
+    "volume": 21,
+    "year": 2020
+}

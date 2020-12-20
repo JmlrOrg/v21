@@ -1,0 +1,22 @@
+{
+    "abstract": "Latent structural learning has attracted more attention in recent years. But most related works only focuses on pure continuous or pure discrete data. In this paper, we consider mixed latent tree models for mixed data mining. We address the latent structural learning and parameter estimation for those mixed models. For structural learning, we propose a consistent bottom-up algorithm, and give a finite sample bound guarantee for the exact structural recovery. For parameter estimation, we suggest a moment estimator by exploiting matrix decomposition, and prove asymptotic normality of the estimator. Experiments on the simulated and real data support that our method is valid for mining the hierarchical structure and latent information.",
+    "authors": [
+        "Can Zhou",
+        "Xiaofei Wang",
+        "Jianhua Guo"
+    ],
+    "emails": [
+        "zhouc574@nenu.edu.cn",
+        "wangxf341@nenu.edu.cn",
+        "jhguo@nenu.edu.cn"
+    ],
+    "id": "20-365",
+    "issue": 249,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Learning Mixed Latent Tree Models",
+    "volume": 21,
+    "year": 2020
+}

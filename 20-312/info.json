@@ -1,0 +1,34 @@
+{
+    "abstract": "Accurate reporting of energy and carbon usage is essential for understanding the potential climate impacts of machine learning research. We introduce a framework that makes this easier by providing a simple interface for tracking realtime energy consumption and carbon emissions, as well as generating standardized online appendices. Utilizing this framework, we create a leaderboard for energy efficient reinforcement learning algorithms to incentivize responsible research in this area as an example for other areas of machine learning. Finally, based on case studies using our framework, we propose strategies for mitigation of carbon emissions and reduction of energy consumption. By making accounting easier, we hope to further the sustainable development of machine learning experiments and spur more research into energy efficient algorithms.",
+    "authors": [
+        "Peter Henderson",
+        "Jieru Hu",
+        "Joshua Romoff",
+        "Emma Brunskill",
+        "Dan Jurafsky",
+        "Joelle Pineau"
+    ],
+    "emails": [
+        "phend@cs.stanford.edu",
+        "jieru@fb.com",
+        "joshua.romoff@mail.mcgill.ca",
+        "ebrun@cs.stanford.edu",
+        "jurafsky@stanford.edu",
+        "jpineau@cs.mcgill.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Breakend/experiment-impact-tracker"
+        ]
+    ],
+    "id": "20-312",
+    "issue": 248,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Towards the Systematic Reporting of the Energy and Carbon Footprints of Machine Learning",
+    "volume": 21,
+    "year": 2020
+}

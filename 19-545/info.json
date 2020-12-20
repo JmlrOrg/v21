@@ -1,0 +1,22 @@
+{
+    "abstract": "Standard high-dimensional regression methods assume that the underlying coefficient vector is sparse. This might not be true in some cases, in particular in presence of hidden, confounding variables. Such hidden confounding can be represented as a high-dimensional linear model where the sparse coefficient vector is perturbed. For this model, we develop and investigate a class of methods that are based on running the Lasso on preprocessed data. The preprocessing step consists of applying certain spectral transformations that change the singular values of the design matrix. We show that, under some assumptions, one can achieve the usual Lasso $\\ell_1$-error rate for estimating the underlying sparse coefficient vector, despite the presence of confounding. Our theory also covers the Lava estimator (Chernozhukov et al., 2017) for a special model class. The performance of the methodology is illustrated on simulated data and a genomic dataset.",
+    "authors": [
+        "Domagoj \u0106evid",
+        "Peter B\u00fchlmann",
+        "Nicolai Meinshausen"
+    ],
+    "emails": [
+        "cevid@stat.math.ethz.ch",
+        "peter.buehlmann@stat.math.ethz.ch",
+        "meinshausen@stat.math.ethz.ch"
+    ],
+    "id": "19-545",
+    "issue": 232,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Spectral Deconfounding via Perturbed Linear Models",
+    "volume": 21,
+    "year": 2020
+}

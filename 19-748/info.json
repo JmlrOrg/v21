@@ -1,0 +1,20 @@
+{
+    "abstract": "We analyze (stochastic) gradient descent (SGD) with delayed updates on smooth quasi-convex and non-convex functions and derive concise, non-asymptotic, convergence rates. We show that the rate of convergence in all cases consists of two terms: (i) a stochastic term which is not affected by the delay, and (ii) a higher order deterministic term which is only linearly slowed down by the delay. Thus, in the presence of noise, the effects of the delay become negligible after a few iterations and the algorithm converges at the same optimal rate as standard SGD. This result extends a line of research that showed similar results in the asymptotic regime or for strongly-convex quadratic functions only. We further show similar results for SGD with more intricate form of delayed gradients---compressed gradients under error compensation and for local~SGD where multiple workers perform local steps before communicating with each other. In all of these settings, we improve upon the best known rates. These results show that SGD is robust to compressed and/or delayed stochastic gradient updates. This is in particular important for distributed parallel implementations, where asynchronous and communication efficient methods are the key to achieve linear speedups for optimization with multiple devices.",
+    "authors": [
+        "Sebastian U. Stich",
+        "Sai Praneeth Karimireddy"
+    ],
+    "emails": [
+        "sebastian.stich@epfl.ch",
+        "sai.karimireddy@epfl.ch"
+    ],
+    "id": "19-748",
+    "issue": 237,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "The Error-Feedback framework: SGD with Delayed Gradients",
+    "volume": 21,
+    "year": 2020
+}

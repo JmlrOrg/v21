@@ -1,0 +1,22 @@
+{
+    "abstract": "Quantile regression is an indispensable tool for statistical learning. Traditional  quantile regression methods consider vector-valued covariates and estimate the corresponding coefficient vector. Many modern applications involve data with a tensor structure. In this paper, we propose a quantile regression model which takes tensors as covariates, and present an estimation approach based on Tucker decomposition. It effectively reduces the number of parameters, leading to efficient estimation and feasible computation.  We also use a sparse Tucker decomposition, which is a popular approach in the literature, to further reduce the number of parameters when the dimension of the tensor is large. We propose an alternating update algorithm combined with alternating direction method of multipliers (ADMM). The asymptotic properties of the estimators are established under suitable conditions. The numerical performances are demonstrated via simulations and an application to a crowd density estimation problem.",
+    "authors": [
+        "Wenqi Lu",
+        "Zhongyi Zhu",
+        "Heng Lian"
+    ],
+    "emails": [
+        "wenqilu4-c@my.cityu.edu.hk",
+        "zhuzy@fudan.edu.cn",
+        "henglian@cityu.edu.hk"
+    ],
+    "id": "20-383",
+    "issue": 250,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "High-dimensional quantile tensor regression",
+    "volume": 21,
+    "year": 2020
+}
