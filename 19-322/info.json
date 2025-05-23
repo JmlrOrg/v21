@@ -2,7 +2,7 @@
     "abstract": "Treating neural network inputs and outputs as random variables, we characterize the structure of neural networks that can be used to model data that are invariant or equivariant under the action of a compact group. Much recent research has been devoted to encoding invariance under symmetry transformations into neural network architectures, in an effort to improve the performance of deep neural networks in data-scarce, non-i.i.d., or unsupervised settings. By considering group invariance from the perspective of probabilistic symmetry, we establish a link between functional and probabilistic symmetry, and obtain generative functional representations of probability distributions that are invariant or equivariant under the action of a compact group. Our representations completely characterize the structure of neural networks that can be used to model such distributions and yield a general program for constructing invariant stochastic or deterministic neural networks. We demonstrate that examples from the recent literature are special cases, and develop the details of the general program for exchangeable sequences and arrays.",
     "authors": [
         "Benjamin Bloem-Reddy",
-        "{ Yee Whye } Teh"
+        "Yee Whye Teh"
     ],
     "emails": [
         "benbr@stat.ubc.ca",
